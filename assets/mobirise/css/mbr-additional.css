@@ -682,6 +682,9 @@ body {
 a {
   transition: color 0.6s;
 }
+.cid-sDOOWBC8v4 {
+  background-image: url("../../../assets/images/background3.jpg");
+}
 .cid-sDKV7r9cxb {
   z-index: 1000;
   width: 100%;
@@ -1034,12 +1037,6 @@ a {
     left: -1rem;
   }
 }
-.cid-sDKVqs7Sk2 {
-  background-image: url("../../../assets/images/pexels-scott-webb-305821.jpg");
-}
-.cid-sDKVqs7Sk2 .mbr-section-title {
-  color: #353535;
-}
 .cid-sDLMT248nJ {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1144,7 +1141,7 @@ a {
 .cid-sDLSiQAVbn {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/background3.jpg");
 }
 .cid-sDLSiQAVbn .mbr-text,
 .cid-sDLSiQAVbn .mbr-section-btn {
@@ -1607,7 +1604,7 @@ a {
 }
 .cid-sDLD899O3L {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-sDL1SGMbnI {
@@ -2070,7 +2067,7 @@ a {
 }
 .cid-sDLLsdA3mu {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-sDLLV9HXFx {

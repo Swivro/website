@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Swivro",
-    "currentPage": "about.html",
+    "currentPage": "services.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -1268,7 +1268,7 @@
     },
     "services.html": {
       "settings": {
-        "title": "Services &amp;amp; Brands - Swivro",
+        "title": "Services and Brands - Swivro",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",

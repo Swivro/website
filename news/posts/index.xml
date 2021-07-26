@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Swivro</title>
-    <link>https://swivro.net/news/posts/</link>
+    <link>//swivro.net/news/posts/</link>
     <description>Recent content in Posts on Swivro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2015-2021, Swivro.</copyright>
-    <lastBuildDate>Mon, 26 Jul 2021 15:19:24 -0500</lastBuildDate><atom:link href="https://swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jul 2021 15:19:24 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://swivro.net/news/posts/hello-world/</link>
+      <link>//swivro.net/news/posts/hello-world/</link>
       <pubDate>Mon, 26 Jul 2021 15:19:24 -0500</pubDate>
       
-      <guid>https://swivro.net/news/posts/hello-world/</guid>
+      <guid>//swivro.net/news/posts/hello-world/</guid>
       <description>Hello world! This is first TEST post on Swivro News!</description>
     </item>
     

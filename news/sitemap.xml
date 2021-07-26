@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//swivro.net/news/posts/hello-world/</loc>
-    <lastmod>2021-07-26T15:19:24-05:00</lastmod>
+    <loc>//swivro.net/news/posts/nova-search/</loc>
+    <lastmod>2021-07-26T16:11:30-05:00</lastmod>
   </url><url>
     <loc>//swivro.net/news/posts/</loc>
-    <lastmod>2021-07-26T15:19:24-05:00</lastmod>
+    <lastmod>2021-07-26T16:11:30-05:00</lastmod>
   </url><url>
     <loc>//swivro.net/news/</loc>
+    <lastmod>2021-07-26T16:11:30-05:00</lastmod>
+  </url><url>
+    <loc>//swivro.net/news/posts/hello-world/</loc>
     <lastmod>2021-07-26T15:19:24-05:00</lastmod>
   </url><url>
     <loc>//swivro.net/news/categories/</loc>

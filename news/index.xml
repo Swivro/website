@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2015-2021, Swivro.</copyright>
-    <lastBuildDate>Mon, 26 Jul 2021 15:19:24 -0500</lastBuildDate><atom:link href="//swivro.net/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jul 2021 16:11:30 -0500</lastBuildDate><atom:link href="//swivro.net/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Nova Search</title>
+      <link>//swivro.net/news/posts/nova-search/</link>
+      <pubDate>Mon, 26 Jul 2021 16:11:30 -0500</pubDate>
+      
+      <guid>//swivro.net/news/posts/nova-search/</guid>
+      <description>We&amp;rsquo;re introducing Nova Search, an upcoming service managed by Swivro. Nova Search is a fast privacy-respecting online search engine. Nova Search is a completely anonymous search engine, it doesn&amp;rsquo;t track you and it doesn&amp;rsquo;t sell your data. It is scheduled to be released at the end of this monthy, being July, or early August. The code for Nova Search is ready but we are seeking a hosting provider for Nova Search, and right now our #1 option is Microsoft&amp;rsquo;s Azure Platform.</description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>//swivro.net/news/posts/hello-world/</link>

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Swivro",
-    "currentPage": "services.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -58,7 +58,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home - Swivro",
+        "title": "Swivro - Software, online services, and more.",
         "meta_descr": "Welcome to the homepage of Swivro, where you can learn what Swivro is, what we're doing, and the products we offer.",
         "header_custom": "",
         "footer_custom": "",

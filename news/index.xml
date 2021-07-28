@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2015-2021, Swivro.</copyright>
-    <lastBuildDate>Mon, 26 Jul 2021 16:11:30 -0500</lastBuildDate><atom:link href="//swivro.net/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jul 2021 13:01:43 -0500</lastBuildDate><atom:link href="//swivro.net/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bytefend&#39;s unacceptable behaviour</title>
+      <link>//swivro.net/news/posts/bytefends-unacceptable-behaviour/</link>
+      <pubDate>Wed, 28 Jul 2021 13:01:43 -0500</pubDate>
+      
+      <guid>//swivro.net/news/posts/bytefends-unacceptable-behaviour/</guid>
+      <description>Around 2 weeks ago, one of our brands/services which we currently do not publicly associate ourselves with, was experiencing major downtime due to a Protocol offensive (transport level) DDoS Attack, aka a Layer 4 DDoS Attack. We were seeking a DDoS Protection Service. We didn&amp;rsquo;t go with CloudFlare initially, so we were seeking alternatives. Our #1 option was Shovl.io but they are currently closed for new signups, so we later found Bytefend.</description>
+    </item>
+    
     <item>
       <title>Introducing Nova Search</title>
       <link>//swivro.net/news/posts/nova-search/</link>

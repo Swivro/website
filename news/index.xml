@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2015-2021, Swivro.</copyright>
-    <lastBuildDate>Wed, 28 Jul 2021 13:01:43 -0500</lastBuildDate><atom:link href="//swivro.net/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jul 2021 00:15:50 -0500</lastBuildDate><atom:link href="//swivro.net/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dark Theme Transition</title>
+      <link>//swivro.net/news/posts/dark-theme-transition/</link>
+      <pubDate>Sat, 31 Jul 2021 00:15:50 -0500</pubDate>
+      
+      <guid>//swivro.net/news/posts/dark-theme-transition/</guid>
+      <description>As most (all) of our services &amp;amp; brands use a light (bright/white) theme by default, we will soon begin transitioning all of them to a dark theme, so your corneas no longer burn. We will also do this to match the Swivro website, as we have changed the Swivro website to be dark themed (if you didn&amp;rsquo;t know, it was previously light themed). Dark theme is the better theme.</description>
+    </item>
+    
+    <item>
+      <title>What Is LTS?</title>
+      <link>//swivro.net/news/posts/what-is-lts/</link>
+      <pubDate>Fri, 30 Jul 2021 16:43:45 -0500</pubDate>
+      
+      <guid>//swivro.net/news/posts/what-is-lts/</guid>
+      <description>You may notice that on some of our brands, products, or services (on our Brands &amp;amp; Services page), have (LTS) marked next to them. LTS simply stands for Long Term Support. Brands/Services on our Brands &amp;amp; Services page which are marked as LTS mean they do not plan to be abandoned (without notice), are very stable &amp;amp; are production ready, and are good enough quality to have Long Term Support (LTS) by Swivro.</description>
+    </item>
+    
     <item>
       <title>Bytefend&#39;s unacceptable behaviour</title>
       <link>//swivro.net/news/posts/bytefends-unacceptable-behaviour/</link>

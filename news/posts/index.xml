@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2015-2021, Swivro.</copyright>
-    <lastBuildDate>Sat, 31 Jul 2021 00:15:50 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 22:27:07 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We&#39;re Hosting DraugerOS&#39;s New York Download Server!</title>
+      <link>//swivro.net/news/posts/ny-draugeros-download-mirror/</link>
+      <pubDate>Sun, 01 Aug 2021 22:27:07 -0500</pubDate>
+      
+      <guid>//swivro.net/news/posts/ny-draugeros-download-mirror/</guid>
+      <description>DraugerOS is a linux gaming OS, in fact, in our opinion, it is the best linux gaming OS. Learn more about DraugerOS at their website, accessible via DraugerOS.org. Moving on.. We&amp;rsquo;re now happily hosting a mirror of the DraugerOS Download Repository, accessible at draugeros-ny1.swivro.net/download.draugeros.org in your web browser. This will be (at least one of) DraugerOS&amp;rsquo;s New York Download Servers. This will, hopefully, drastically improve download speeds for DraugerOS users based in or near NYC.</description>
+    </item>
+    
     <item>
       <title>Dark Theme Transition</title>
       <link>//swivro.net/news/posts/dark-theme-transition/</link>

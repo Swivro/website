@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Swivro",
-    "currentPage": "services.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -1943,7 +1943,7 @@
     },
     "donate.html": {
       "settings": {
-        "title": "Donate",
+        "title": "Donate - Swivro",
         "meta_descr": "Feeling generous? We're accepting donations to help continue running our service.",
         "header_custom": "",
         "footer_custom": "",

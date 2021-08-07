@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2015-2021, Swivro.</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 22:27:07 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Aug 2021 00:08:26 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embracing the Elephant</title>
+      <link>//swivro.net/news/posts/elephant/</link>
+      <pubDate>Sat, 07 Aug 2021 00:08:26 -0500</pubDate>
+      
+      <guid>//swivro.net/news/posts/elephant/</guid>
+      <description>Our logo is now an Elephant (thanks to Flaticon). Why an Elephant? Elephant&amp;rsquo;s are cool animals.</description>
+    </item>
+    
     <item>
       <title>We&#39;re Hosting DraugerOS&#39;s New York Download Server!</title>
       <link>//swivro.net/news/posts/ny-draugeros-download-mirror/</link>

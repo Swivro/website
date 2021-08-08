@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2015-2021, Swivro.</copyright>
-    <lastBuildDate>Sat, 07 Aug 2021 00:08:26 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 17:36:47 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple&#39;s Privacy Invasion</title>
+      <link>//swivro.net/news/posts/apple-privacy-invasion/</link>
+      <pubDate>Sun, 08 Aug 2021 17:36:47 -0500</pubDate>
+      
+      <guid>//swivro.net/news/posts/apple-privacy-invasion/</guid>
+      <description>On August 5th, 2021, Apple Inc. announced new technological measures meant to apply across virtually all of its devices under the umbrella of “Expanded Protections for Children”. While child exploitation is a serious problem, and while efforts to combat it are almost unquestionably well-intentioned, Apple&amp;rsquo;s proposal introduces a backdoor that threatens to undermine fundamental privacy protections for all users of Apple products. Apple&amp;rsquo;s proposed technology works by continuously monitoring photos saved or shared on the user&amp;rsquo;s iPhone, iPad, or Mac.</description>
+    </item>
+    
     <item>
       <title>Embracing the Elephant</title>
       <link>//swivro.net/news/posts/elephant/</link>

@@ -1234,6 +1234,41 @@ a {
   background-color: #353535;
   overflow: hidden;
 }
+.cid-sG244B1Ubq {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-sG244B1Ubq .img-wrapper {
+  text-align: center;
+}
+.cid-sG244B1Ubq img {
+  margin: auto;
+  width: 140px;
+  padding-bottom: 2rem;
+}
+.cid-sG244B1Ubq .row {
+  align-items: flex-start;
+}
+.cid-sG244B1Ubq .card-wrapper {
+  border-radius: 4px;
+  background: #fafafa;
+}
+@media (max-width: 992px) {
+  .cid-sG244B1Ubq .card-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sG244B1Ubq .card-wrapper {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sG244B1Ubq .card-wrapper {
+    padding: 1rem;
+  }
+}
 .cid-sDLD899O3L {
   padding-top: 5rem;
   padding-bottom: 0rem;

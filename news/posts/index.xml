@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2015-2021, Swivro.</copyright>
-    <lastBuildDate>Sat, 14 Aug 2021 00:45:12 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Aug 2021 14:36:22 -0500</lastBuildDate><atom:link href="//swivro.net/news/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Server Migration</title>
+      <link>//swivro.net/news/posts/server-migration/</link>
+      <pubDate>Sat, 14 Aug 2021 14:36:22 -0500</pubDate>
+      
+      <guid>//swivro.net/news/posts/server-migration/</guid>
+      <description>To get away from CloudFlare&amp;rsquo;s nasty CloudFlare Pages service, we&amp;rsquo;ve purchased a server from OVH to host Swivro and it&amp;rsquo;s products on. Why OVH you ask? OVH&amp;rsquo;s DDoS protection is outstanding, the deals are great, the support is spot-on, and they have a Germany (EU) location, which is perfect for maximum privacy &amp;amp; anonymity to us and our users/visitors.
+If for some reason you want to see our OVH Server IP Address, whether it&amp;rsquo;s to ping it to see the latency or to do a WHOIS on it, here it is: 51.</description>
+    </item>
+    
     <item>
       <title>August 14th Website Changes</title>
       <link>//swivro.net/news/posts/august-14-changes/</link>

@@ -31,7 +31,7 @@
 </head>
 <body>
   
-  <style class="cid-HI9PMjBHh8" id="menu2-0" data-rv-view="654">
+  <style class="cid-HI9PMjBHh8" id="menu2-0" data-rv-view="1449">
 .nav-link {
 color:#ff6666;
 }
@@ -69,27 +69,36 @@ color:#ff6666;
     </nav>
 </section>
 
-<section class="header11 cid-sEcZiGXXaS" id="header11-12">
+<style class="cid-sGnmSpmeD6" id="content4-1x" data-rv-view="1446">
+.weight {
+  font-weight: 750;
+  box-shadow: 10px 10px #e45757;
+  padding:6px;
+  border-radius:14px;
+}
 
+e {
+
+}
+
+c {
+  text-decoration: underline;
+  color:#ff6666;
+}
+</style><section class="content4 cid-sGnmSpmeD6" id="content4-1x">
     
-
     
-
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-6 image-wrapper">
-                <img class="w-100" src="assets/images/new-project-46.png" alt="">
-            </div>
-            <div class="col-12 col-md">
-                <div class="text-wrapper text-center">
-                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Privacy First; no tracking</strong></h1>
-                    <p class="mbr-text mbr-fonts-style display-7">Swivro offers online products &amp; services which are privacy-first, with no unethical tracking involved whatsoever.<br></p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-7" href="services.html">Discover our Brands</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><hidemobile class="d-none d-lg-block"><strong>A Privacy-first <e class="weight"><a href="javascript:OpenModal('silent')">silent organization.</a></e></strong></hidemobile><strong><hidedesktop class="d-lg-none"><b>A Privacy-first <c class="underline"><a href="javascript:OpenModal('silent')">silent organization.</a></c></b></hidedesktop></strong></h3><strong>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">Swivro offers online privacy-focused products &amp; services, with no unethical tracking involved whatsoever.</h4>
+                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" href="services.html">Products &amp; Services</a>
+                    <a class="btn btn-primary-outline display-4" href="about.html">About Swivro</a></div>
+            </strong></div><strong>
+        </strong></div><strong>
+    </strong></div><strong>
+</strong></section>
 
 <section class="features1 cid-sDLMT248nJ" id="features1-t">
     
@@ -315,7 +324,7 @@ color:#ff6666;
     <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-1w" data-rv-view="23">
+<section class="mbr-section" id="witsec-modal-window-block-1w" data-rv-view="1279">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -331,6 +340,59 @@ color:#ff6666;
 	
 	
 	<div><div class="modal fade" id="speaklink" tabindex="-1" role="dialog" aria-labelledby="speaklinkLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="speaklinkLabel">What is Speaklink "v2"?</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="speaklink_body">Initially, Speaklink used the IRC Protocol for texting/chatting. Although IRC is great for lots of things, in v2 of Speaklink, we've switched over to the Matrix Protocol. It allows for more features, is more secure, and is fully end-to-end encrypted. Video calling, voice calling, and screen-sharing is now supported, along with a bunch of other features, powered by Element.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#speaklink").on("hidden.bs.modal", function () {    var html = $( "#speaklink_body" ).html();    $( "#speaklink_body" ).empty();    $( "#speaklink_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-1z" data-rv-view="1280">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="silent" tabindex="-1" role="dialog" aria-labelledby="silentLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="silentLabel">What is a "silent organization"?</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="silent_body">"Silent Organization" meaning our team members remain anonymous, including the Owner &amp; Founder of Swivro, we are not a registered nonprofit organization, and we do not actively seek or accept new team members.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#silent").on("hidden.bs.modal", function () {    var html = $( "#silent_body" ).html();    $( "#silent_body" ).empty();    $( "#silent_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {

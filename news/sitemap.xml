@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//swivro.net/news/posts/</loc>
-    <lastmod>2021-08-14T14:36:22-05:00</lastmod>
+    <loc>//swivro.net/news/posts/new-owner/</loc>
+    <lastmod>2021-08-18T14:12:52-04:00</lastmod>
   </url><url>
-    <loc>//swivro.net/news/posts/server-migration/</loc>
-    <lastmod>2021-08-14T14:36:22-05:00</lastmod>
+    <loc>//swivro.net/news/posts/</loc>
+    <lastmod>2021-08-18T14:12:52-04:00</lastmod>
   </url><url>
     <loc>//swivro.net/news/</loc>
+    <lastmod>2021-08-18T14:12:52-04:00</lastmod>
+  </url><url>
+    <loc>//swivro.net/news/posts/server-migration/</loc>
     <lastmod>2021-08-14T14:36:22-05:00</lastmod>
   </url><url>
     <loc>//swivro.net/news/posts/august-14-changes/</loc>

@@ -3,30 +3,27 @@
 		<loc>https://swivro.net/index.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/donate.html</loc>
-	</url>
-	<url>
-		<loc>https://swivro.net/contact.html</loc>
-	</url>
-	<url>
-		<loc>https://swivro.net/website-security.html</loc>
-	</url>
-	<url>
-		<loc>https://swivro.net/avoiding-cybercrime.html</loc>
-	</url>
-	<url>
-		<loc>https://swivro.net/staying-anonymous.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/about.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/privacypromo.html</loc>
+		<loc>https://swivro.net/donate.html</loc>
 	</url>
 	<url>
 		<loc>https://swivro.net/malicious-companies.html</loc>
 	</url>
 	<url>
+		<loc>https://swivro.net/avoiding-cybercrime.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/website-security.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/staying-anonymous.html</loc>
+	</url>
+	<url>
 		<loc>https://swivro.net/vpn.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/contact.html</loc>
 	</url>
 </urlset>

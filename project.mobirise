@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page9.html",
+    "currentPage": "privacy-guide.html",
     "theme": {
       "name": "softwarem4",
       "title": "SoftwareM4",
@@ -8858,7 +8858,7 @@
         }
       ]
     },
-    "page9.html": {
+    "privacy-guide.html": {
       "settings": {
         "title": "Privacy Guide - Swivro",
         "meta_descr": "Swivro is an organization focused on cybersecurity and internet privacy. We help you stay safe from cybercrime and unethical tracking.",

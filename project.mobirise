@@ -25,7 +25,7 @@
         "isRoundedButtons": false,
         "isGhostButtonBorder": true,
         "underlinedLinks": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
       "titlePreset": "Software App Demo",

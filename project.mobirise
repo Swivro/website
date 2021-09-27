@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "softwarem4",
       "title": "SoftwareM4",
@@ -12,15 +12,15 @@
         "warningColor": "#fe6d00",
         "dangerColor": "#1b2026",
         "mainFont": "DM Sans",
-        "display1Font": "Montserrat",
+        "display1Font": "Merriweather",
         "display1Size": 3.8,
-        "display2Font": "Montserrat",
+        "display2Font": "Merriweather",
         "display2Size": 3.1,
-        "display5Font": "Montserrat",
+        "display5Font": "Merriweather",
         "display5Size": 1.6,
-        "display7Font": "Montserrat",
+        "display7Font": "Merriweather",
         "display7Size": 1.1,
-        "display4Font": "Montserrat",
+        "display4Font": "Merriweather",
         "display4Size": 1,
         "isRoundedButtons": false,
         "isGhostButtonBorder": true,

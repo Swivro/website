@@ -1206,6 +1206,13 @@ a {
 .cid-st2ehtS7Pp .mbr-text,
 .cid-st2ehtS7Pp .mbr-section-btn {
   color: #efefef;
+  text-align: left;
+}
+.cid-st2ehtS7Pp .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-st2ehtS7Pp .mbr-section-title {
+  text-align: left;
 }
 .cid-st2NivSHPO {
   padding-top: 6rem;

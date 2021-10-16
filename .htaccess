@@ -1,0 +1,8 @@
+<Directory ~ “\cpanel”>
+Order allow,deny
+Deny from all
+</Directory>
+<Directory ~ “\whm”>
+Order allow,deny
+Deny from all
+</Directory>

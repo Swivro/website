@@ -3299,6 +3299,7 @@ a {
 .cid-sLd7lVEH0d .mbr-text,
 .cid-sLd7lVEH0d .mbr-section-btn {
   color: #777777;
+  text-align: left;
 }
 .cid-sLd7lVEH0d .mbr-section-subtitle {
   color: #777777;
@@ -3306,8 +3307,11 @@ a {
 .cid-sLd7lVEH0d .mbr-list {
   color: #777777;
 }
+.cid-sLd7lVEH0d .mbr-section-title {
+  text-align: left;
+}
 .cid-sJT4mI7TYL {
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -3350,6 +3354,9 @@ a {
 }
 .cid-sJT4mI7TYL .mbr-section-title {
   text-align: left;
+}
+.cid-sJT4mI7TYL input[type="text"] {
+  font-family: 'Montserrat';
 }
 .cid-sM1hAWgtJz {
   padding-top: 0rem;

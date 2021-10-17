@@ -97,7 +97,7 @@
             <div class="counter-container m-auto col-12 col-md-12 col-lg-12">
                 
                 <h2 class="mbr-section-title align-left mbr-fonts-style mb-3 display-5"><strong>What counts as a "malicious" company?</strong></h2>
-                <p class="mbr-text align-left mbr-fonts-style mb-4 display-7">Malicious companies listed on this page are companies that lack one of many qualities (seen below). These companies don't care about your privacy, have bad security, or are known to be awful in one or more ways.<br>A malicious company typically has one or more of the following traits:</p>
+                <p class="mbr-text align-left mbr-fonts-style mb-4 display-7">Malicious companies listed on this page are companies that lack one of many qualities (seen below). These companies don't care about your privacy, have bad security, or are known to be awful in one or more ways.<strong>&nbsp;</strong>A malicious company typically has one or more of the following traits:<br></p>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="mbr-list mbr-fonts-style display-7">
@@ -138,8 +138,51 @@
     <div class="container">
         <div class="row">
             <div class="title col-12">
-                <h5 class="mbr-section-title mbr-fonts-style mb-3 display-5">
-                    <strong>A list of malicious companies (CTRL + F to search):<br><br></strong></h5>
+                
+                <form id="f1" name="f1" action="javascript:void()" onsubmit="if(this.t1.value!=null &amp;&amp; this.t1.value!='')
+parent.findString(this.t1.value);return false;">
+<input type="text" class="mbr-fonts-style" id="t1" name="t1" value="Search Here" size="20" style="height:40px; padding:10px;">
+                    <button class="btn btn-sm btn-success display-4" style="display: inline-block" type="submit" name="b1">Search</button>
+</form><br>
+<script>
+var TRange=null;
+
+function findString (str) {
+ if (parseInt(navigator.appVersion)<4) return;
+ var strFound;
+ if (window.find) {
+
+  // CODE FOR BROWSERS THAT SUPPORT window.find
+
+  strFound=self.find(str);
+  if (!strFound) {
+   strFound=self.find(str,0,1);
+   while (self.find(str,0,1)) continue;
+  }
+ }
+ else if (navigator.appName.indexOf("Microsoft")!=-1) {
+
+  // EXPLORER-SPECIFIC CODE
+
+  if (TRange!=null) {
+   TRange.collapse(false);
+   strFound=TRange.findText(str);
+   if (strFound) TRange.select();
+  }
+  if (TRange==null || strFound==0) {
+   TRange=self.document.body.createTextRange();
+   strFound=TRange.findText(str);
+   if (strFound) TRange.select();
+  }
+ }
+ else if (navigator.appName=="Opera") {
+  alert ("Opera browsers not supported, sorry...")
+  return;
+ }
+ if (!strFound) alert (" '"+str+"' not found!")
+ return;
+}
+</script>
                 
             </div>
             <div class="card col-12 col-md-6">
@@ -484,7 +527,7 @@
 
                 <div class="col-lg-12 m-auto mbr-form" data-form-type="formoid">
                     <!--Formbuilder Form-->
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="FHd7/ylFCUqj05vRdrjnLDK0+YZ8aX7jHtdEFFx0QSZBzApOgFQQp8niFDTejqf0L71do5e+AsigDUNXOEyHbIllsEFPX9rbUtkmnjxC0p4qxbw374thLzP1anBd1x7h.GQyEW5s1wUuJS8UGqy6qkn4UxNgL22wL4aswgsYA3iETy1246/1S52hsPhEz+/XvobaIxkOi0M6x5rJ/2Y6zCZVknQjaJ77GAo5iUatLQn1SsQ3qBOvtWOODKdqS6ssO">
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="mcwmQcxxTyYNEcuFpJvUR9aNyftsBmSkadQL+UxqesptvvixMloDLYSFQGz+YZJbVXkGFMRLKD+txtwif2w73UMSLz2FPQU5hWXpYtvuYCHkA5oFldwe9gRaUAKUvwwQ.GDRxPdGnbijci5oBYKOvLaUJodRWxbjE1WZCfGqlIgboUvy5TwoDI9a9c5z6yh+jUZxy85rBQu2MbRQmHQFJSI4NUNpzLMAFVAmiyskNeolKOUlZ2QE99pwnbkVt5K0M">
                         <div class="form-row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some

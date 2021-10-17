@@ -144,7 +144,7 @@ parent.findString(this.t1.value);return false;">
 <input type="text" class="mbr-fonts-style" id="t1" name="t1" value="Search Here" size="20" style="height:40px; padding:10px;">
                     <button class="btn btn-sm btn-success display-4" style="display: inline-block" type="submit" name="b1">Search</button>
 </form>
-<p style="color:red; visibility:hidden;">Could not be found!</p>                
+<p style="color:red; display:none;" class="errorText">Could not be found!</p>                
 <br>
 <script>
 var TRange=null;
@@ -153,7 +153,7 @@ function findString (str) {
  if (parseInt(navigator.appVersion)<4) return;
  var strFound;
  if (window.find) {
-
+ document.getElementsByClassName("errorText")[0].style.display = "none";
   // CODE FOR BROWSERS THAT SUPPORT window.find
 
   strFound=self.find(str);
@@ -165,7 +165,7 @@ function findString (str) {
  else if (navigator.appName.indexOf("Microsoft")!=-1) {
 
   // EXPLORER-SPECIFIC CODE
-
+  
   if (TRange!=null) {
    TRange.collapse(false);
    strFound=TRange.findText(str);
@@ -181,7 +181,7 @@ function findString (str) {
   alert ("Opera browsers not supported, sorry...")
   return;
  }
- if (!strFound) document.getElementById('t1').value = 'Not found';
+ if (!strFound) document.getElementsByClassName("errorText")[0].style.display = "block";
  return;
 }
 </script>
@@ -529,7 +529,7 @@ function findString (str) {
 
                 <div class="col-lg-12 m-auto mbr-form" data-form-type="formoid">
                     <!--Formbuilder Form-->
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="0388fQrHg92dfGlRTCob5wyWTKQoPDx/9EhpYBxRvFPe/RPijzaUBQ1T2Wy2/hPjqeSZdvSllcJP6qU9GDsVOdTPW8zGJ5WYum7AIxZ57q3/RHnGmx9+giCuLUxG0GEd.3PgyNVHlkLfLl5RBVQz4tjuTg7GiH5Kqf2wZLavnQ6NoB+E8OkObELdl63srqW7yOfHE1YTNPD5mQJ1qGBTa75u8pt2KBBx2VEuLixMb358iZpYM9NgwwzZWPU7hI8Hx">
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="Jpn/rOt038Jvg7geaXquhigFlZvjK6gojQS96vsRsbyvLE0ULvRg8d014umleOka5rT4S2BvyqPITUEOc9NNoGGgyw/xhq4N5uRGfT/uhYpOdcKMbjQ2eRjYzYgp2eZz.p3xpARAuA/o8Xl+OnfWY5ugf5uci4VXww+hzPtup0W95sJcEIcfsC02LTRf9Rn4wgi+SvZXUBfKnhbwEMYDM/M7raUqSUg7bpItx+Yyp6v0bqHkPXOPuT71ux28C/PbS">
                         <div class="form-row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some

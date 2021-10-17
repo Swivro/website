@@ -143,7 +143,9 @@
 parent.findString(this.t1.value);return false;">
 <input type="text" class="mbr-fonts-style" id="t1" name="t1" value="Search Here" size="20" style="height:40px; padding:10px;">
                     <button class="btn btn-sm btn-success display-4" style="display: inline-block" type="submit" name="b1">Search</button>
-</form><br>
+</form>
+<p style="color:red; visibility:hidden;">Could not be found!</p>                
+<br>
 <script>
 var TRange=null;
 
@@ -179,7 +181,7 @@ function findString (str) {
   alert ("Opera browsers not supported, sorry...")
   return;
  }
- if (!strFound) alert (" '"+str+"' not found!")
+ if (!strFound) document.getElementById('t1').value = 'Not found';
  return;
 }
 </script>
@@ -527,7 +529,7 @@ function findString (str) {
 
                 <div class="col-lg-12 m-auto mbr-form" data-form-type="formoid">
                     <!--Formbuilder Form-->
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="buRKVtaQGxbXyKqK3+KSaZAsoyvjO3kaqTgxTYTZRDoC3iiTh3C9GRckDqOsBNQhf9/0UO//SKiRRaOG4GEYWGsTeWwH3bxvJ4J0CAm2uMYrsPvPGAi1zCIl74kIJKDD.cQvMSbZOkWPZh3Ia8vD1hoCTgdALiqivvgpB6Sr4y48zO/FCrF5fJaWJiVaF0IdXfxq2kQ/eNxkwn7QEGCyzxzt31rjrUQ5oaJj/Ig/AF4kfa+7GGtlld9nATpE719IV">
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="0388fQrHg92dfGlRTCob5wyWTKQoPDx/9EhpYBxRvFPe/RPijzaUBQ1T2Wy2/hPjqeSZdvSllcJP6qU9GDsVOdTPW8zGJ5WYum7AIxZ57q3/RHnGmx9+giCuLUxG0GEd.3PgyNVHlkLfLl5RBVQz4tjuTg7GiH5Kqf2wZLavnQ6NoB+E8OkObELdl63srqW7yOfHE1YTNPD5mQJ1qGBTa75u8pt2KBBx2VEuLixMb358iZpYM9NgwwzZWPU7hI8Hx">
                         <div class="form-row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some

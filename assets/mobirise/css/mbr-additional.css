@@ -2538,7 +2538,7 @@ a {
 }
 .cid-sM1hAWgtJz {
   padding-top: 0rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-sM1hAWgtJz .mbr-section-title,
@@ -2578,6 +2578,50 @@ a {
   color: #232323;
 }
 .cid-sM1hAWgtJz .mbr-section-title {
+  text-align: left;
+}
+.cid-sMqYc5VaQR {
+  padding-top: 0rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+.cid-sMqYc5VaQR .mbr-section-title,
+.cid-sMqYc5VaQR .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-sMqYc5VaQR .cost {
+  word-break: normal;
+}
+.cid-sMqYc5VaQR .card-wrapper {
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  background: #efefef;
+}
+.cid-sMqYc5VaQR .card-wrapper .top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .cid-sMqYc5VaQR .card-wrapper {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sMqYc5VaQR .card-wrapper {
+    padding: 1rem;
+  }
+}
+.cid-sMqYc5VaQR .mbr-section-subtitle {
+  color: #e5e5e5;
+}
+.cid-sMqYc5VaQR P {
+  color: #232323;
+}
+.cid-sMqYc5VaQR .card-title {
+  color: #232323;
+}
+.cid-sMqYc5VaQR .mbr-section-title {
   text-align: left;
 }
 .cid-sLoMw61pXD {

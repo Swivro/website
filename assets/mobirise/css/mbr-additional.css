@@ -5,7 +5,7 @@ body {
   font-family: DM Sans;
 }
 .display-1 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3.8rem;
   line-height: 1.1;
 }
@@ -13,7 +13,7 @@ body {
   font-size: 4.75rem;
 }
 .display-2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3.1rem;
   line-height: 1.1;
 }
@@ -21,7 +21,7 @@ body {
   font-size: 3.875rem;
 }
 .display-4 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -29,7 +29,7 @@ body {
   font-size: 1.25rem;
 }
 .display-5 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -37,7 +37,7 @@ body {
   font-size: 2rem;
 }
 .display-7 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -755,7 +755,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -769,7 +769,7 @@ a:hover {
   border-color: #1266f1 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -1206,7 +1206,7 @@ a {
 .cid-sLoRLJ3ixL {
   padding-top: 9rem;
   padding-bottom: 9rem;
-  background-image: url("../../../assets/images/new-project-52-1472x981.png");
+  background-image: url("../../../assets/images/background1-1.jpg");
 }
 .cid-sLoRLJ3ixL .mbr-text,
 .cid-sLoRLJ3ixL .mbr-section-btn {

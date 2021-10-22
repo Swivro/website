@@ -140,12 +140,6 @@ section .mbr-background-video-preview {
   text-align: right;
 }
 
-@media (max-width: 767px) {
-  .align-right, .align-left {
-    text-align: center;
-  }
-}
-
 /*! Font-weight  */
 .mbr-light {
   font-weight: 300;
@@ -880,12 +874,6 @@ blockquote {
 .mb-4 {
   margin-bottom: 2rem !important;
 }
-
-@media (max-width: 992px) {
-  .md-pb {
-      margin-bottom: 2rem;
-  }
-  }
 
 @media (min-width: 992px) {
   .container {

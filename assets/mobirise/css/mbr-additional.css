@@ -1581,19 +1581,32 @@ a {
   text-align: left;
   color: #cfcfcf;
 }
-.cid-sMwEbqWphx {
-  padding-top: 5rem;
-  padding-bottom: 3rem;
+.cid-sMApcLt64a {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
   background-color: #151414;
 }
-.cid-sMwEbqWphx .mbr-section-subtitle {
-  color: #cfcfcf;
+@media (max-width: 991px) {
+  .cid-sMApcLt64a .image-wrapper {
+    margin-bottom: 1rem;
+  }
 }
-.cid-sMwEbqWphx .mbr-text {
-  color: #cfcfcf;
+.cid-sMApcLt64a img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sMApcLt64a .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sMApcLt64a .mbr-section-title {
+  color: #bbbbbb;
+}
+.cid-sMApcLt64a .mbr-text {
+  color: #bbbbbb;
 }
 .cid-sMAfHfRIOj {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 6rem;
   background-color: #151414;
 }

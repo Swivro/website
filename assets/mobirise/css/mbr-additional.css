@@ -1115,6 +1115,32 @@ a {
 .cid-sMwuPpmW3n .mbr-section-btn {
   color: #cfcfcf;
 }
+.cid-sMO4MRH76O {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #151414;
+}
+.cid-sMO4MRH76O .mbr-iconfont {
+  display: block;
+  font-size: 4rem;
+  color: #e33838;
+  margin-bottom: 2rem;
+}
+.cid-sMO4MRH76O .card-wrapper {
+  min-height: 220px;
+  transition: all 0.3s;
+  border-radius: 4px;
+  padding: 1rem;
+  background: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.cid-sMO4MRH76O .card-title,
+.cid-sMO4MRH76O .card-box {
+  color: #cfcfcf;
+}
 .cid-sMwvZBf9rV {
   padding-top: 1rem;
   padding-bottom: 2rem;

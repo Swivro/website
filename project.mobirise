@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -26,7 +26,7 @@
         "isRoundedButtons": false,
         "isGhostButtonBorder": false,
         "underlinedLinks": false,
-        "isAnimatedOnScroll": false,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       },
       "additionalSetColors": [

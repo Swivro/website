@@ -1559,43 +1559,32 @@ a {
   text-align: left;
   color: #353535;
 }
-.cid-sMwGZrNEPd {
-  padding-top: 5rem;
-  padding-bottom: 1rem;
+.cid-sNfIV0V392 {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
   background-color: #f2f2f2;
-}
-.cid-sMwGZrNEPd .mbr-section-subtitle {
-  color: #353535;
-}
-.cid-sMwGZrNEPd .mbr-text {
-  color: #353535;
-}
-.cid-sMwHzofVdx {
-  padding-top: 0rem;
-  padding-bottom: 3rem;
-  background-color: #f2f2f2;
-}
-.cid-sMwHzofVdx .card-wrapper {
-  display: flex;
 }
 @media (max-width: 991px) {
-  .cid-sMwHzofVdx .card-wrapper {
-    margin-bottom: 2rem;
+  .cid-sNfIV0V392 .image-wrapper {
+    margin-bottom: 1rem;
   }
 }
-.cid-sMwHzofVdx .mbr-iconfont {
-  font-size: 2rem;
-  color: #1458d3;
-  padding-right: 1.5rem;
+.cid-sNfIV0V392 img {
+  width: 100%;
 }
-.cid-sMwHzofVdx .card-title {
+@media (min-width: 992px) {
+  .cid-sNfIV0V392 .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sNfIV0V392 .mbr-section-title {
   color: #353535;
 }
-.cid-sMwHzofVdx .card-text {
+.cid-sNfIV0V392 .mbr-text {
   color: #353535;
 }
 .cid-sMwKyTgZHT {
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-bottom: 0rem;
   background-color: #f2f2f2;
 }

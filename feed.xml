@@ -3,12 +3,69 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-01T12:13:04-04:00</updated>
+    <updated>2021-11-01T13:06:20-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
     <id>https://swivro.net</id>
 
+    <entry>
+        <title>What messenger should you be using?</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/what-messenger-should-you-be-using/"/>
+        <id>https://swivro.net/what-messenger-should-you-be-using/</id>
+
+        <updated>2021-11-01T13:06:20-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/41/telephone-586266_1920.jpg" alt="" />
+                    If you are currently using an Instant Messenger like Telegram, LINE, Viber, WhatsApp, or plain SMS on your mobile device,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/41/telephone-586266_1920.jpg" alt="" />
+                <p>If you are currently using an Instant Messenger like Telegram, LINE, Viber, WhatsApp, or plain SMS on your mobile device, we highly suggest picking an alternative, which is what this post is all about.</p>
+<p>We only recommend instant messengers that utilize end-to-end encryption (E2EE), as E2EE encrypts all messages, voice, video, etc, before they are sent from your device to the recipient. E2EE will also protect the confidentiality and authenticity of the transmission as it passes through any part of the network. Any instant messengers we recommend below and completely free and are open source. </p>
+<p><a href="https://signal.org" target="_blank" rel="noopener noreferrer">Signal</a> is a mobile and desktop app developed by Signal Messenger LLC, which is very similar to Telegram but features full E2EE. The app provides instant messaging, as well as voice and video calling. All communications through Signal are end-to-end encrypted unless you choose to send a message as SMS. The Signal Protocol was also <a href="https://eprint.iacr.org/2016/1013.pdf">independently audited</a>.</p>
+<p><strong>Signal Benefits:</strong></p>
+<ul>
+<li>Cross-platform, supporting Desktop and Mobile.</li>
+<li>New features and changes can be implemented more quickly.</li>
+<li>Easier to get started with and to find contacts.</li>
+<li>Recommended by Elon Musk :)</li>
+</ul>
+<p><strong>Signal Downsides:</strong></p>
+<ul>
+<li>Requires a phone number</li>
+<li>Poor/No documentation for 3rd party developers</li>
+<li>The ownership, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
+<li>Centralized services could be more susceptible to legislation requiring backdoor access.</li>
+</ul>
+<p> </p>
+<p><a href="https://element.io/" target="_blank" rel="noopener noreferrer">Element</a> is the reference client for the <a href="https://matrix.org/docs/guides/introduction" target="_blank" rel="noopener noreferrer">Matrix</a> network. The <a href="https://matrix.org/docs/spec" target="_blank" rel="noopener noreferrer">Matrix open standard</a> is an open-source standard for secure (<a href="https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last" target="_blank" rel="noopener noreferrer">audit</a>), federated, real-time communication. Element/Matrix utilizes end-to-end encryption, does not require a phone number, can be used in a web browser, and is completely free, having a similar feel to the popular Discord App. Federated (aka decentralized) messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network. If you're a high threat level, we suggest using Element over the Tor Network in conjunction with a VPN. We suggest to either using the Public Matrix Server on Element, or create your own for maximum privacy.</p>
+<p><strong>Element Benefits:</strong></p>
+<ul>
+<li>Allows for greater control over your own data when running your own server.</li>
+<li>Often allows for third party clients which can provide a more native, customized, simpler, or more accessible experience.</li>
+<li>Allows you to choose who to trust your data with by choosing between multiple "public" matrix servers. We highly suggest running your own private server.</li>
+<li>Generally a less juicy target for governments wanting backdoor access to everything as the trust is decentralized.</li>
+<li>Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (ex: a family member or friend)</li>
+<li>Third-party developers can contribute code and add new features, instead of waiting for a private development team to do so.</li>
+</ul>
+<p><strong>Element Downsides:</strong></p>
+<ul>
+<li>Adding new features is more complex, because these features need to be standardized and tested to ensure they work with all servers on the network.</li>
+<li>Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).</li>
+<li>Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is utilized.</li>
+<li>Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with users on those servers.</li>
+</ul>
+<p>You should choose which messenger you think is a better option for you. If you're not a high threat level, and you're just looking for a more private experience when talking your friends, colleagues, or family members (whether that is via messaging, voice, or video), we suggest giving Signal a try. If you're maybe a higher threat level, want maximum anonymity, or want to share as little information as possible, we suggest going with Element/Matrix. We hope this article helped you pick a privacy-focused messenger!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Why you should avoid US &amp; UK Services</title>
         <author>
@@ -375,36 +432,6 @@
             <![CDATA[
                     <img src="https://swivro.net/media/posts/32/Screenshot_63.png" alt="" />
                 <p>Hydrogen Aerospace is a startup France-based aerospace company. We truly like their vision, but when it comes to cybersecurity, they quite literally aren't the one. We contacted Hydrogen on October 24th, 2021, regarding critical security issues on their website. It has taken them over 24 hours to fix one of many security issues, and we have yet to receive any formal response via email. The one simple issue they have fixed involved simply modifying a file on their server that hosts their website, which, as mentioned, took them over a ridiculous 24 hours. After we sent Hydrogen an encrypted email (with the list of security issues), we heard from them on Twitter, saying "They saw your email and will take corrective actions even if a lot of what you mentioned is already done". That last part is stupidly incorrect, as we proved that the security issues were still present. They then replied to our reply on Twitter (where we asked if we can expect a response), and the reply said "The team saw your email, but will not give you update about it for security reason". This is obvious straight bullsh*t. There should be no reason as to why we cannot receive a formal response from the company stating that they received my email, they understand the severity of these security issues, they are working on fixing them, and they appreciate our report &amp; good intentions. Essentially ignoring our email (we are to assume it has been ignored or is not taken seriously seeing that we have not received a response) with a list of critical security issues that need to be solved is extremely rude and unprofessional. If they really can't give us an update via email due to "security issue", then this indicates they have another security issue affecting their email system. Hydrogen Aerospace needs to do better, act more professional, and learn to communicate properly when it comes to critical security issues that need to be solved; because so far we have only heard back from them via an unsecure privacy-violating social media platform (Twitter) where we were provided with a vague and irrational response.<br><br><strong>October 29th, 2021 Update: </strong>It's been over 6 days now and a security flaw that we reported has still yet to be fixed, and can be fixed in literally less than 5 minutes. We had to respond to the Owner (of hydrogen-aero.com) on Twitter over 5 times aggressively asking for a simple formal response (to our email) stating that they received it and that they are working on fixing the issues. All we got is a pointless delayed response saying "Thank you". Please, for your own online safety, stay away from this website with poor security.<br><br><strong>October 31st, 2021 Update: </strong>It's stupidly ridiculous how this company can't fix a very simple yet dangerous security issue. We don't promote hacking, but go ahead and exploit this issue that they refuse to fix. They are missing a DMARC record on their domain hydrogen-aero.com, so go ahead and send a forged email to whoever you want originating from <em>hi@hydrogen-aero.com</em> containing a (fake) virus link. Their website is also <strong>extremely</strong> vulnerable to the most simple DDoS attacks (HTTP Flood Attacks). OVH provides transport-level DDoS Protection, but not application-level, we're not sure if they know this or not because their website has no web application firewall (we were able to access the website via various types of bots including fake search engine bots). Hopefully this will force them to fix this issue.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Apple&#x27;s new concerning &quot;child-abuse scanning&quot; feature</title>
-        <author>
-            <name>Albert A.</name>
-        </author>
-        <link href="https://swivro.net/apples-new-concerning-child-abuse-scanning-feature/"/>
-        <id>https://swivro.net/apples-new-concerning-child-abuse-scanning-feature/</id>
-
-        <updated>2021-10-31T22:44:38-04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://swivro.net/media/posts/29/apple-banner-min_1588062300375.jpeg" alt="" />
-                    Apple is a technology company that designs and manufactures smartphones, personal computers, and more. Apple recently released a new feature&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://swivro.net/media/posts/29/apple-banner-min_1588062300375.jpeg" alt="" />
-                <section id="content5-3h" class="content5 cid-sMZq51sNnw">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-md-12 col-lg-12">
-<p class="mbr-text mbr-fonts-style display-7">Apple is a technology company that designs and manufactures smartphones, personal computers, and more. Apple recently released a new feature that applies to all Apple devices. This new feature monitors all saved photos on your device, and constantly automatically checks them for child-abuse related material. The Center for Democracy and Technology has said that it is “deeply concerned that Apple’s changes in fact create new risks to children and all users, and mark a significant departure from long-held privacy and security protocols”. The Electronic Frontier Foundation has said that “Apple is opening the door to broader abuses”. Dr. Carmela Troncoso, a leading research expert in Security &amp; Privacy and professor at EPFL in Lausanne, Switzerland, has said that while “Apple's new detector for child sexual abuse material (CSAM) is promoted under the umbrella of child protection and privacy, it is a firm step towards prevalent surveillance and control”. Apple doesn't understand what they've done, they are just focused on selling overpriced garbage. Sure, they sell the most powerful laptop, but it's still overpriced, and the power that the laptop has is just unnecessary. Once you buy an Apple product, you fall into the Apple Trap and tell everyone how good Apple is, and then buy all of their products. Apple, you can do better. Start caring about user privacy, and the quality/price of your products.</p>
-</div>
-</div>
-</div>
-</section>
             ]]>
         </content>
     </entry>

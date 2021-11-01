@@ -3,12 +3,41 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-01T00:00:00-04:00</updated>
+    <updated>2021-11-01T00:03:00-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
     <id>https://swivro.net</id>
 
+    <entry>
+        <title>How to mitigate DDoS Attacks</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/how-to-mitigate-ddos-attacks.html"/>
+        <id>https://swivro.net/how-to-mitigate-ddos-attacks.html</id>
+
+        <updated>2021-11-01T00:03:00-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/38/security-265130_1920.jpg" alt="" />
+                    A DDoS Attack (short for distributed denial of service) is a type of cyberattack which typically targets a website. During&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/38/security-265130_1920.jpg" alt="" />
+                <p>A DDoS Attack (short for distributed denial of service) is a type of cyberattack which typically targets a website. During a DDoS attack, a large amount of requests are sent to the target website, in an attempt to consume all of the server's resources (RAM, CPU, etc), therefore making the website inaccessible to the public. Below, we'll show you the most common types of DDoS Attacks, how they work, and how to mitigate them.</p>
+<h2><strong>Layer 7 DDoS</strong></h2>
+<p>A layer 7 DDoS is a type of DDoS attack that sends HTTP traffic to a website in order to consume resources and hamper a website's ability to deliver content to visitors. An HTTP flood attack utilizes what appear to be legitimate HTTP requests to attack a website. We will recommend three different services in order to mitigate such attacks, being DDoS-Guard, BotGuard, and Cloudflare. DDoS-Guard and Cloudflare Pro are most effective, but BotGuard will certainly mitigate medium sized attacks. Alternatively, if you wish to manually configure software on your hosting server (which is less limited compared to cloud services like Cloudflare), we recommend trying Fail2ban, Modsecurity, or Bunkerized Nginx Webserver (which includes Fail2ban and Modsecurity).</p>
+<p> </p>
+<h2><strong>Layer 3/4 DDoS</strong></h2>
+<p>A Layer 4 DDoS attack is often referred to as a SYN flood. A TCP connection is established in what is known as a 3-way handshake. The client sends a SYN packet to the target server, the server responds with a SYN ACK, and the client responds to that with an ACK. After the three-way handshake is complete, the TCP connection is considered established. Attackers can send SYN Floods in an attempt to stop one's network from functioning properly. Layer 3 attacks often utilize the ICMP protocol which can be stopped by disabling ICMP. Layer 4 attacks are often easy to mitigate as long as you choose the right server provider. OVH provides DDoS Protection with all of their servers and has a network capacity of over 11 TBPS.</p>
+<p> </p>
+<p>DDoS Attacks are extremely harmful to websites, and are of course illegal. We hope you learned something useful from this post!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Email Privacy; hide your email address</title>
         <author>

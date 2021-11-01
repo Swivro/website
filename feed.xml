@@ -3,7 +3,7 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-01T01:03:49-04:00</updated>
+    <updated>2021-11-01T01:16:00-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
@@ -17,17 +17,18 @@
         <link href="https://swivro.net/choosing-a-vpn-provider-for-privacy/"/>
         <id>https://swivro.net/choosing-a-vpn-provider-for-privacy/</id>
 
-        <updated>2021-11-01T01:03:49-04:00</updated>
+        <updated>2021-11-01T01:16:00-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://swivro.net/media/posts/39/New-Project-88.png" alt="" />
-                    Option 1: MullvadMullvad.net is a fast and inexpensive VPN starting at EUR €60/year with a serious focus on transparency and security.
+                    Most VPN providers simply could not care less about your privacy, log all of your data/traffic, and spy on what&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://swivro.net/media/posts/39/New-Project-88.png" alt="" />
-                <h2>Option 1: Mullvad</h2>
+                <p>Most VPN providers simply could not care less about your privacy, log all of your data/traffic, and spy on what you're doing 24/7 (<em>cough cough</em> HMA VPN <em>cough cough</em>). VPN's are very useful for a number of reasons such as; hiding your IP address from websites you visit, hide your web activity from your ISP, increase your online privacy &amp; anonymity. In this article, we'll list the two best VPN's inexpensive for privacy, anonymity, security, and flexibility.</p>
+<h2>Option 1: Mullvad</h2>
 <p><strong><a href="https://mullvad.net/">Mullvad.net</a> </strong>is a fast and inexpensive VPN starting at EUR €60/year with a serious focus on transparency and security. They have been in operation since <strong>2009</strong>. Mullvad is based in Sweden and does not have a free trial. Mullvad has <a href="https://mullvad.net/en/servers/" target="_blank" rel="noopener noreferrer">servers in 35 countries</a> at the time of writing this page. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination. We also think it's better for the security of the VPN provider's private keys if they use <a href="https://en.wikipedia.org/wiki/Dedicated_hosting_service" target="_blank" rel="noopener noreferrer">dedicated servers</a>, instead of cheaper shared solutions (with other customers) such as <a href="https://en.wikipedia.org/wiki/Virtual_private_server" target="_blank" rel="noopener noreferrer">virtual private servers</a>. Mullvad's VPN clients have been independently audited by Cure53 and Assured AB in a pentest report <a href="https://cure53.de/pentest-report_mullvad_v2.pdf" target="_blank" rel="noopener noreferrer">published at cure53.de</a>. The security researchers concluded:</p>
 <blockquote class="blockquote">
 <p class="mb-0">...Cure53 and Assured AB are happy with the results of the audit and the software leaves an overall positive impression. With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.</p>

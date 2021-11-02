@@ -3,12 +3,40 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-01T21:28:59-04:00</updated>
+    <updated>2021-11-02T16:48:24-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
     <id>https://swivro.net</id>
 
+    <entry>
+        <title>Discover File Encryption Tools</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/discover-file-encryption-tools/"/>
+        <id>https://swivro.net/discover-file-encryption-tools/</id>
+
+        <updated>2021-11-02T16:48:24-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/44/cyber-security-3400657_1920.jpg" alt="" />
+                    Here, you will discover free, open-source, and secure ways to encrypt your sensitive data to prevent your privacy from being&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/44/cyber-security-3400657_1920.jpg" alt="" />
+                <p>Here, you will discover free, open-source, and secure ways to encrypt your sensitive data to prevent your privacy from being compromised. If you are currently not using encryption software for your hard disk, emails, or file archives, you should pick an option here.</p>
+<p class="card-text"><strong>VeraCrypt</strong> is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. It was initially released on June 22, 2013. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed. <a href="https://veracrypt.fr/" target="_blank" rel="noopener noreferrer">Check out VeraCrypt</a>.</p>
+<p class="card-text"><strong>GnuPG</strong> is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems. GnuPG is a part of the Free Software Foundation's GNU software project, and has received major funding from the German government. <a href="https://gnupg.org/" target="_blank" rel="noopener noreferrer">Check out GnuPG</a>.</p>
+<p class="card-text"><strong>7-Zip</strong> is a free and open-source file archiver, a utility used to place groups of files within compressed containers. On Linux, MacOS etc. the command-line tool <a href="http://p7zip.sourceforge.net/" target="_blank" rel="noopener noreferrer"><strong>p7zip</strong></a> is used and integrates into various interfaces such as <a href="https://wiki.gnome.org/Apps/FileRoller" target="_blank" rel="noopener noreferrer">FileRoller</a>, <a href="https://github.com/ib/xarchiver" target="_blank" rel="noopener noreferrer">Xarchiver</a>, <a href="https://kde.org/applications/utilities/ark" target="_blank" rel="noopener noreferrer">Ark</a>. <a href="https://7-zip.org/" target="_blank" rel="noopener noreferrer">Check out 7-Zip</a>.</p>
+<div class="post__entry">
+<p>You should carefully review the descriptions provided of the 4 best file encryption services/software listed above, and use that info to determine which one you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Find a privacy-focused email provider; stop using Gmail!</title>
         <author>
@@ -367,78 +395,6 @@
 <h2><strong>3. Bromite</strong></h2>
 <p class="card-text">Bromite is a Chromium-based browser (for Android Devices) with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from the open source ungoogled-chromium project and other privacy-focused open source projects. If you like Google Chrome on Android, but want some more privacy, you will without a doubt love Bromite.</p>
 <p>We hope this quick article helped you choose a new privacy-focused web browser, so you can take your online privacy back. Have a nice day!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Staying Anonymous Online</title>
-        <author>
-            <name>Albert A.</name>
-        </author>
-        <link href="https://swivro.net/staying-anonymous-online/"/>
-        <id>https://swivro.net/staying-anonymous-online/</id>
-
-        <updated>2021-10-31T22:44:31-04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://swivro.net/media/posts/34/hacker-3342696_1920.jpg" alt="" />
-                    Whether you like it or not, your ISP is very likely spying on your every move on the internet. Most&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://swivro.net/media/posts/34/hacker-3342696_1920.jpg" alt="" />
-                <p>Whether you like it or not, your ISP is very likely spying on your every move on the internet. Most notably; Comcast, AT&amp;T, T-Mobile, and Verizon. We're going to help you stay anonymous and private, so your ISP won't be able to spy on you for any longer.</p>
-<p><strong>Option 1: </strong>Use the Tor Browser</p>
-<div class="card col-12">
-<div class="card-wrapper">
-<div class="bottom-line">
-<p class="mbr-text mbr-fonts-style display-7">Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your web traffic through three random servers (also known as Tor relays) in the Tor network. The last relay in the circuit (the “exit relay” or "exit node") then sends the traffic out onto the public internet. You can access websites via the Tor Network by downloading the Tor Browser. Your ISP will only be able to see that you hitting a Tor Node, and nothing else. A VPN in conjunction with Tor is recommended; we recommend trying ProtonVPN or Mullvad. If you use Tor without a VPN, your ISP will see that you're hitting a Tor Node. This can give them clues to something or can flag you as high risk.</p>
-</div>
-</div>
-</div>
-<div class="card col-12">
-<div class="card-wrapper">
-<div class="top-line row">
-<div class="col"> </div>
-<div> </div>
-<div><strong>Option 2: </strong>Use a standalone VPN</div>
-<div>
-<div class="card col-12">
-<div class="card-wrapper">
-<div class="bottom-line">
-<p class="mbr-text mbr-fonts-style display-7">If you do not want to use the Tor Browser, which relays your web traffic through multiple different servers (making you anonymous) which can slow down a website's load-time a bit, you may use a standalone VPN without Tor. Using a VPN with Tor most definitely makes you more anonymous, but if your goal is to only stop your ISP from seeing what you're doing, and to hide your home IP address from websites, a standalone VPN is indeed a good idea. We recommend trying <a href="https://protonvpn.com/" class="text-primary" target="_blank" rel="noopener">ProtonVPN</a> or <a href="https://mullvad.net/" class="text-primary" target="_blank" rel="noopener">Mullvad</a>. Please ensure that your DNS resolvers on your device are not set to your ISP's DNS resolvers. If they are, change them to AdGuard DNS, BlahDNS, or Quad9 DNS.</p>
-</div>
-</div>
-</div>
-<div class="card col-12">
-<div class="card-wrapper">
-<div class="top-line row">
-<div class="col"> </div>
-<div> </div>
-<div><strong>Option 3: </strong>Route all internet traffic through Tor</div>
-<div>
-<section id="features10-1l" class="features9 cid-sMDCqoOUkP">
-<div class="container">
-<div class="row mt-4">
-<div class="card col-12">
-<div class="card-wrapper">
-<div class="bottom-line">
-<p class="mbr-text mbr-fonts-style display-7">If you're a high threat level that is in need of all internet traffic to be routed through the Tor Network, we recommend using Tails OS. This OS is a Linux Distro, based off of Debian. It routes all traffic through the Tor Network, and blocks all traffic that does not go through Tor (both in/out). As you may have guessed, Tails OS is focused on privacy and anonymity. If you are using Microsoft Windows, and for some reason cannot switch to Linux, you can either try <a href="https://www.torifier.com/index.html" class="text-primary" target="_blank" rel="noopener">Torrifier</a> or <a href="https://github.com/basil00/TorWall/releases" class="text-primary" target="_blank" rel="noopener">Tallow</a> (which both route all traffic through Tor), or you can create a Virtual Machine on your machine via VirtualBox, install Tails OS on it, and use that VM for accessing the internet.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
             ]]>
         </content>
     </entry>

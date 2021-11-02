@@ -3,12 +3,176 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-02T16:49:17-04:00</updated>
+    <updated>2021-11-02T17:26:09-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
     <id>https://swivro.net</id>
 
+    <entry>
+        <title>What DNS resolvers should you be using?</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/what-dns-resolvers-should-you-be-using/"/>
+        <id>https://swivro.net/what-dns-resolvers-should-you-be-using/</id>
+
+        <updated>2021-11-02T17:26:09-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/45/business-5475661_1920.jpg" alt="" />
+                    Chances are, you're probably using your ISP's default DNS servers. That is, right after Google, the worst DNS resolver service&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/45/business-5475661_1920.jpg" alt="" />
+                <div class="alert alert-warning" role="alert">Chances are, you're probably using your ISP's default DNS servers. That is, right after Google, the worst DNS resolver service in the world in terms of privacy. DNS-over-HTTPS, DNS-over-TLS, and DNSCrypt resolvers will not make you anonymous. Using Anonymized DNSCrypt hides <i>only</i> your DNS traffic from your Internet Service Provider, so the DNS provider can still see what's going on. However, using any of these protocols will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</div>
+<h2 id="dns-table" class="table-responsive">AdGuard</h2>
+<div><a href="https://adguard.com/en/adguard-dns/overview.html" target="_blank" rel="noopener noreferrer">AdGuard</a> DNS is a foolproof way to block Internet ads that does not require installing any applications. It is easy to use, absolutely free, easily set up on any device, and provides you with minimal necessary functions to block ads, counters, malicious websites, and adult content.</div>
+<div> </div>
+<div>AdGuard Locations:</div>
+<ul>
+<li>Anycast (bsaed in Cyprus)</li>
+</ul>
+<p>AdGuard Logging Policy:</p>
+<ul>
+<li>They claim to have a <a href="https://kb.adguard.com/en/dns/overview#:~:text=We%20have%20strict%20no%20logging,Android%2C%20or%20iOS%20operated%20device." target="_blank" rel="noopener noreferrer">strict no logging policy</a>.</li>
+</ul>
+<p>AdGuard DNS Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+<li>DNSCrypt</li>
+</ul>
+<p>AdGuard Filtering:</p>
+<ul>
+<li>Blocks Ads</li>
+<li>Blocks Malicious Websites</li>
+<li>Blocks adult content</li>
+</ul>
+<h2 id="dns-table" class="table-responsive">BlahDNS</h2>
+<div>A hobby Adblock DNS project focused on online privacy, security, and anonymity, ran on pocket money and donations. For maximum privacy, none of their servers are based in the US, UK, or France, and they utilize various secure DNS Protocols.</div>
+<div> </div>
+<div>BlahDNS Locations:</div>
+<ul>
+<li>Switzerland</li>
+<li>Singapore</li>
+<li>Japan</li>
+<li>Germany</li>
+<li>Finland</li>
+</ul>
+<p>BlahDNS Logging Policy:</p>
+<ul>
+<li>The BlahDNS website says "no logs".</li>
+</ul>
+<p>BlahDNS Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over QUIC</li>
+</ul>
+<p>BlahDNS Filtering:</p>
+<ul>
+<li>Blocks Ads</li>
+<li>Blocks Malicious Websites</li>
+<li>Blocks trackers</li>
+</ul>
+<h2 id="dns-table" class="table-responsive">1.1.1.1 (Cloudflare DNS)</h2>
+<div>Cloudflare DNS is an enterprise-grade authoritative DNS service that offers the fastest response time, unparalleled redundancy, and advanced security with built-in DDoS mitigation and DNSSEC.</div>
+<div> </div>
+<div>1.1.1.1 Locations:</div>
+<ul>
+<li>Anycast (based in the USA)</li>
+</ul>
+<p>1.1.1.1 Logging Policy:</p>
+<ul>
+<li><a href="https://www.cloudflare.com/privacypolicy/#:~:text=Limited%20DNS%20query%20data%3A%20We,only%20stored%20for%2025%20hours." target="_blank" rel="noopener noreferrer">Cloudflare logs limited DNS query data.</a></li>
+</ul>
+<p>1.1.1.1 Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+</ul>
+<p>1.1.1.1 Filtering:</p>
+<ul>
+<li><a href="https://blog.cloudflare.com/introducing-1-1-1-1-for-families/" target="_blank" rel="noopener noreferrer">Based on server choice</a></li>
+</ul>
+<h2 id="dns-table" class="table-responsive">LibreDNS</h2>
+<div>Cloudflare DNS is an enterprise-grade authoritative DNS service that offers the fastest response time, unparalleled redundancy, and advanced security with built-in DDoS mitigation and DNSSEC.</div>
+<div> </div>
+<div>LibreDNS Locations:</div>
+<ul>
+<li>Germany</li>
+</ul>
+<p>LibreDNS Logging Policy:</p>
+<ul>
+<li>They claim that no logs are taken, and that logs are disabled for their DNS daemon.</li>
+</ul>
+<p>LibreDNS Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+</ul>
+<p>LibreDNS Filtering:</p>
+<ul>
+<li>Blocks ads</li>
+<li>Blocks trackers</li>
+</ul>
+<h2 id="dns-table" class="table-responsive">NextDNS</h2>
+<div>NextDNS protects you from all kinds of security threats, blocks ads and trackers on websites and in apps and provides a safe and supervised Internet for kids — on all devices and on all networks.</div>
+<div> </div>
+<div>NextDNS Locations:</div>
+<ul>
+<li>United States</li>
+<li>Areas in the European Union</li>
+<li>United Kingdom</li>
+<li>Switzerland</li>
+</ul>
+<p>NextDNS Logging Policy:</p>
+<ul>
+<li>You can choose how long you want your logs retained for, or you can disable logging.</li>
+</ul>
+<p>NextDNS Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+</ul>
+<p>NextDNS Filtering:</p>
+<ul>
+<li>Blocks piracy websites</li>
+<li>Blocks mature content</li>
+<li>You are also able to customize what you want blocked</li>
+</ul>
+<h2 id="dns-table" class="table-responsive">Quad9</h2>
+<div>Quad9 is a free service that replaces your default ISP or enterprise Domain Name Server (DNS) configuration. When your computer performs any Internet transaction that uses the DNS (and most transactions do), Quad9 blocks lookups of malicious host names from an up-to-the-minute list of threats.</div>
+<div> </div>
+<div>Quad9 Locations:</div>
+<ul>
+<li>Anycast (based in Switzerland)</li>
+</ul>
+<p>Quad9 Logging Policy:</p>
+<ul>
+<li>Quad9 claims to keep limited log data with no personal info retained.</li>
+</ul>
+<p>Quad9 Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+<li>DNSCrypt</li>
+</ul>
+<p>Quad9 Filtering:</p>
+<ul>
+<li>Quad9 blocks malicious domains.</li>
+</ul>
+<p> </p>
+<div class="post__entry">
+<div class="post__entry">
+<p>You should carefully review the descriptions provided of the 6 best DNS resolver services listed above, and use that info to determine which one you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Discover File Encryption Tools</title>
         <author>
@@ -17,7 +181,7 @@
         <link href="https://swivro.net/discover-file-encryption-tools/"/>
         <id>https://swivro.net/discover-file-encryption-tools/</id>
 
-        <updated>2021-11-02T16:49:17-04:00</updated>
+        <updated>2021-11-02T17:25:24-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://swivro.net/media/posts/44/cyber-security-3400657_1920.jpg" alt="" />
@@ -31,6 +195,7 @@
 <p class="card-text"><strong>VeraCrypt</strong> is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. It was initially released on June 22, 2013. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed. <a href="https://veracrypt.fr/" target="_blank" rel="noopener noreferrer">Check out VeraCrypt</a>.</p>
 <p class="card-text"><strong>GnuPG</strong> is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems. GnuPG is a part of the Free Software Foundation's GNU software project, and has received major funding from the German government. <a href="https://gnupg.org/" target="_blank" rel="noopener noreferrer">Check out GnuPG</a>.</p>
 <p class="card-text"><strong>7-Zip</strong> is a free and open-source file archiver, a utility used to place groups of files within compressed containers. On Linux, MacOS etc. the command-line tool <a href="http://p7zip.sourceforge.net/" target="_blank" rel="noopener noreferrer"><strong>p7zip</strong></a> is used and integrates into various interfaces such as <a href="https://wiki.gnome.org/Apps/FileRoller" target="_blank" rel="noopener noreferrer">FileRoller</a>, <a href="https://github.com/ib/xarchiver" target="_blank" rel="noopener noreferrer">Xarchiver</a>, <a href="https://kde.org/applications/utilities/ark" target="_blank" rel="noopener noreferrer">Ark</a>. <a href="https://7-zip.org/" target="_blank" rel="noopener noreferrer">Check out 7-Zip</a>.</p>
+<p> </p>
 <div class="post__entry">
 <p>You should carefully review the descriptions provided of the 4 best file encryption services/software listed above, and use that info to determine which one you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
 </div>
@@ -347,54 +512,6 @@
 <p>If you are willing to exchange with a company (you must provide your ID &amp; SSN), we highly recommend <a href="https://coinbase.com" target="_blank" rel="noopener noreferrer">Coinbase</a>. It is very user-friendly, fast, and simple. Binance is a very similar platform, but we have some slight concerns with their friendliness towards user privacy, which is why we will not be recommending Binance. If you would like to anonymously buy and sell Bitcoin (or other cryptocurrencies), we recommend trying out Bisq; no registration required, easy to use. Bisq is open source, and utilizes the Tor Network to give their users maximum anonymity. If you already have cryptocurrency, but would like to exchange it for a different cryptocurrency (say you have Bitcoin but want to exchange to get Ethereum), we recommend having a look at <a href="https://swapzone.io" target="_blank" rel="noopener noreferrer">Swapzone</a>. We recently used Swapzone to exchange our Litecoin for Monero, and the process was seamless. No user registration is required, simply type in what you want to exchange and the amount you want to exchange, enter your email address, and boom, you can exchange, no ID verification required. The users on Swapzone are very trustworthy, and scamming would only hurt their reputation.</p>
 <p>If you're looking for a central wallet for all of your cryptocurrencies, we suggest trying out Exodus. It's completely free and private, and is very user friendly. Exodus simplifies sending and receiving cryptocurrency. Exodus also has an exchange feature where you can exchange X cryptocurrency for Y cryptocurrency, but it does have high(er) fees and limits. If you're using Coinbase, then you likely don't need Exodus, as all of your cryptocurrency is already stored in your Coinbase account.</p>
 <p>Cryptocurrency is a very good thing for many reasons; including user privacy, anonymity, sending money internationally, and much more.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>What web browser should you be using?</title>
-        <author>
-            <name>Albert A.</name>
-        </author>
-        <link href="https://swivro.net/what-web-browser-should-you-be-using/"/>
-        <id>https://swivro.net/what-web-browser-should-you-be-using/</id>
-
-        <updated>2021-11-01T13:21:40-04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://swivro.net/media/posts/35/New-Project-84.png" alt="" />
-                    It's time to ditch Google Chrome, Opera, and Vivaldi. In this post, we're going to suggest some browsers that are&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://swivro.net/media/posts/35/New-Project-84.png" alt="" />
-                <p>It's time to ditch Google Chrome, Opera, and Vivaldi. In this post, we're going to suggest some browsers that are great for privacy, anonymity, and security.</p>
-<h2><strong>1.</strong> <strong>Firefox</strong></h2>
-<p>Firefox is fast, reliable, open-source, and is focused on user privacy. With the new modernized UI along with DNS over HTTPS, you just have to try Firefox! If you're a Chrome user and want some privacy, we think you'll like the feel of Firefox. Don't forget to adjust the settings according to our recommendations:</p>
-<h4>Disabling WebRTC in Firefox</h4>
-<p>TL;DR Set "media.peerconnection.enabled" to "false" in "about:config".</p>
-<p><strong>Explained:</strong></p>
-<ol class="long-string-list">
-<li>Enter "about:config" in the firefox address bar and press enter.</li>
-<li>Press the button "I'll be careful, I promise!"</li>
-<li>Search for "media.peerconnection.enabled"</li>
-<li>Double click the entry, the column "Value" should now be "false"</li>
-<li>Done. Do the <a href="https://ipleak.net/" target="_blank" rel="noopener noreferrer">WebRTC leak test</a>.</li>
-</ol>
-<p>If you want to make sure every single WebRTC-related setting is really disabled change these settings:</p>
-<ol class="long-string-list">
-<li>media.peerconnection.turn.disable = true</li>
-<li>media.peerconnection.use_document_iceservers = false</li>
-<li>media.peerconnection.video.enabled = false</li>
-<li>media.peerconnection.identity.timeout = 1</li>
-</ol>
-<p> </p>
-<h2><strong>2. Tor Browser</strong></h2>
-<p class="card-text">Tor Browser is a great choice if you need an extra layer of anonymity &amp; security. It's a modified version (fork) of Firefox, which comes with pre-installed privacy add-ons, encryption, and multiple proxy layers. The Tor Network is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your web traffic through three random servers (also known as Tor relays) in the Tor network. The last relay in the circuit (the “exit relay” or "exit node") then sends the traffic out onto the public internet. You can access websites via the Tor Network by downloading the Tor Browser. Your ISP will only be able to see that you are hitting a Tor Node, and nothing else. A VPN in conjunction with Tor is recommended; we recommend trying ProtonVPN or Mullvad. You're welcome to use Tor without a VPN, but then you risk the government/your ISP blocking you from accessing all safe Tor Exit Nodes, forcing you to use the government's exit node so they can inspect your traffic.</p>
-<p> </p>
-<h2><strong>3. Bromite</strong></h2>
-<p class="card-text">Bromite is a Chromium-based browser (for Android Devices) with privacy and security enhancements, built-in adblocking and DNS over HTTPS support; it includes patches from the open source ungoogled-chromium project and other privacy-focused open source projects. If you like Google Chrome on Android, but want some more privacy, you will without a doubt love Bromite.</p>
-<p>We hope this quick article helped you choose a new privacy-focused web browser, so you can take your online privacy back. Have a nice day!</p>
             ]]>
         </content>
     </entry>

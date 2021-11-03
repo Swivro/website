@@ -3,12 +3,40 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-02T22:02:31-04:00</updated>
+    <updated>2021-11-03T17:46:32-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
     <id>https://swivro.net</id>
 
+    <entry>
+        <title>How to store your online password securely</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/how-to-store-your-online-password-securely/"/>
+        <id>https://swivro.net/how-to-store-your-online-password-securely/</id>
+
+        <updated>2021-11-03T17:46:32-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/47/subscribe-3534409_1920.jpg" alt="" />
+                    We all use passwords for our online accounts. You shouldn't be using the same password for every service, nor should&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/47/subscribe-3534409_1920.jpg" alt="" />
+                <p>We all use passwords for our online accounts. You shouldn't be using the same password for every service, nor should you be able to remember your passwords, in other words, your password should be extremely complicated, and should be different for every online account you have. There are a plethora of password managers and generators that can do this job for you. If you are currently using a password manager like 1Password, LastPass, Roboform, or iCloud Keychain, we highly recommend to pick an alternative seen below.</p>
+<p class="card-text"><strong>KeePassXC</strong> is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager, used obviously to store your passwords. KeePass is a downloadable app and is not a web app. <a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
+<p class="card-text"><strong>Bitwarden</strong> is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server. <a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
+<p><strong>Master Password</strong> is a password manager based on an ingenious password-generation algorithm that guarantees your passwords can never be lost. Its passwords aren't stored anywhere: they are generated on-demand from your name, the site, and your master password. No syncing, backups, or internet access needed. It's super innovative, unique, and seamless. <a href="https://masterpassword.app/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
+<div class="post__entry">
+<p>You should carefully review the descriptions that we have provided of the 3 best password managers listed above, and use that info to determine which password manager you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Microsoft Windows is spying on you; it&#x27;s time to switch</title>
         <author>
@@ -559,35 +587,6 @@
 <p>A Layer 4 DDoS attack is often referred to as a SYN flood. A TCP connection is established in what is known as a 3-way handshake. The client sends a SYN packet to the target server, the server responds with a SYN ACK, and the client responds to that with an ACK. After the three-way handshake is complete, the TCP connection is considered established. Attackers can send SYN Floods in an attempt to stop one's network from functioning properly. Layer 3 attacks often utilize the ICMP protocol which can be stopped by disabling ICMP. Layer 4 attacks are often easy to mitigate as long as you choose the right server provider. OVH provides DDoS Protection with all of their servers and has a network capacity of over 11 TBPS.</p>
 <p> </p>
 <p>DDoS Attacks are extremely harmful to websites, and are of course illegal. We hope you learned something useful from this post!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Hide your real email address from the public</title>
-        <author>
-            <name>Albert A.</name>
-        </author>
-        <link href="https://swivro.net/email-privacy-hide-your-email-address/"/>
-        <id>https://swivro.net/email-privacy-hide-your-email-address/</id>
-
-        <updated>2021-11-01T20:41:23-04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://swivro.net/media/posts/37/email-3249062_1280.png" alt="" />
-                    Publicly disclosing your email address is dangerous for many reasons with the biggest reason being; by disclosing your email address,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://swivro.net/media/posts/37/email-3249062_1280.png" alt="" />
-                <p>Publicly disclosing your email address is dangerous for many reasons with the biggest reason being; by disclosing your email address, it shows what email provider you use. For example, if my Email is example@gmail.com, and I publicly disclose that email, a hacker can go to gmail.com and try to hack into my account by cracking my password or via social engineering. Your email can also end up in a bad place (ex: dangerous dark web forums), which can lead to bad things. Below, we'll be suggesting two services which allow you to create email aliases, so you can still receive emails on your email address, but your real email address won't be public.</p>
-<h2><strong>Option 1: AnonAddy</strong></h2>
-<div>AnonAddy lets you create your own email aliases to mask your real email address. If someone asks for your email address and you don't fully trust them, you can login to your AnonAddy account, and create a new email alias that forwards all mail sent to the email alias to your real email address. If my email alias is bob@anonaddy.me and my real email address is bobsmith@gmail.com, all mail sent to bob@anonaddy.me will be anonymously forwarded to bobsmith@gmail.com.</div>
-<div> </div>
-<div>TL;DR AnonAddy let's you receive emails without exposing your real email, by using email aliases. Get started for free at their website <a href="https://anonaddy.com" target="_blank" rel="noopener noreferrer">anonaddy.com</a></div>
-<div> </div>
-<h2><strong>Option 2: SimpleLogin</strong></h2>
-<p>As the name suggests, SimpleLogin is very simple. SimpleLogin essentially does the same thing as AnonAddy, but as mentioned, is more simple and straight to the point. SimpleLogin is 100% open source and uses PGP Encryption (as does AnonAddy). Lastly, SimpleLogin appears to have better pricing when compared to AnonAddy, but they are both good solutions, you'll just have to choose which one you like more.<br><br>TL;DR SimpleLogin does the same thing as AnonAddy but is simpler and has better pricing. Get started for free at their website <a href="https://simplelogin.io/" target="_blank" rel="noopener noreferrer">simplelogin.io</a></p>
             ]]>
         </content>
     </entry>

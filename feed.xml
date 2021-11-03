@@ -3,12 +3,111 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-02T17:26:09-04:00</updated>
+    <updated>2021-11-02T21:58:41-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
     <id>https://swivro.net</id>
 
+    <entry>
+        <title>Microsoft Windows is spying on you. It&#x27;s time to switch.</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/windows-10-and-11-are-spying-on-you/"/>
+        <id>https://swivro.net/windows-10-and-11-are-spying-on-you/</id>
+
+        <updated>2021-11-02T21:58:41-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/46/window-1231894_1920.jpg" alt="" />
+                    Though Windows 11 was recently publicly released by Microsoft, just the other month, most people still use Windows 10. Microsoft&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/46/window-1231894_1920.jpg" alt="" />
+                <p>Though Windows 11 was recently publicly released by Microsoft, just the other month, most people still use Windows 10. Microsoft introduced a lot of new features in Windows 10 such as Cortana. However, most of them are violating your privacy. Windows 11 isn't any better privacy-wise.</p>
+<ol>
+<li><strong>Data syncing is by default enabled.</strong>
+<ul>
+<li>Browsing history and open websites.</li>
+<li>Apps settings.</li>
+<li>WiFi hotspot names and passwords.</li>
+</ul>
+</li>
+<li><strong>Your device is by default tagged with a unique advertising ID.</strong>
+<ul>
+<li>Used to serve you with personalized advertisements by third-party advertisers and ad networks.</li>
+</ul>
+</li>
+<li><strong>Cortana can collect any of your data.</strong>
+<ul>
+<li>Your keystrokes, searches and mic input.</li>
+</ul>
+<ul>
+<li>Calendar data.</li>
+</ul>
+<ul>
+<li>Music you listen to.</li>
+</ul>
+<ul>
+<li>Credit Card information.</li>
+</ul>
+<ul>
+<li>Purchases.</li>
+</ul>
+</li>
+<li><strong>Microsoft can collect any personal data.</strong>
+<ul>
+<li>Your identity.</li>
+</ul>
+<ul>
+<li>Passwords.</li>
+</ul>
+<ul>
+<li>Demographics.</li>
+</ul>
+<ul>
+<li>Interests and habits.</li>
+</ul>
+<ul>
+<li>Usage data.</li>
+</ul>
+<ul>
+<li>Contacts and relationships.</li>
+</ul>
+<ul>
+<li>Location data.</li>
+</ul>
+<ul>
+<li>Content like emails, instant messages, caller list, audio and video recordings.</li>
+</ul>
+</li>
+<li><strong>Your data can be shared.</strong>
+<ul>
+<li>When downloading Windows 10, you are authorizing Microsoft to share any of above-mentioned data with any third-party, with or without your consent.</li>
+</ul>
+</li>
+</ol>
+<p>W10Privacy is a tool that attempts to disable all major tracking features in Windows 10 and 11. Check it out <a href="https://www.winprivacy.de/english-home/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Thehackernews.com reports that when a user left Microsoft Windows idle for about 8 hours, the computer had tried attempting well over 5,000 mysterious connections to 93 unique IP addresses, with almost 90% of those mysterious connections leading to IP addresses owned by Microsoft. Microsoft claims that all of this data sent is encrypted, and that no personal information is sent to them, so chances are, they are probably seeing what apps you're using, how much time you spend on them, etc. In Microsoft's official article stating that Windows 11 was being released on Oct. 5th, the word "privacy" did not appear once, and they did not even remotely mention anything user privacy related. Microsoft Windows is an OS that does not care one bit about user privacy and is solely focused on making Microsoft money.</p>
+<p>Linux is simply the best option. Don't even think of trying Apple's overpriced ugly garbage, because with the new child-abuse scanning feature your privacy is non-existent. There are thousands of Linux distros available on the internet, for you to use. To help you choose a Linux distro, we'll list some of the most popular, simple, and privacy-respecting ones below.</p>
+<figure class="post__image"><img loading="lazy"  src="https://swivro.net/media/posts/46/1024px-Desktop_Ubuntu_20.04.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://swivro.net/media/posts/46/responsive/1024px-Desktop_Ubuntu_20.04-xs.png 300w ,https://swivro.net/media/posts/46/responsive/1024px-Desktop_Ubuntu_20.04-sm.png 480w ,https://swivro.net/media/posts/46/responsive/1024px-Desktop_Ubuntu_20.04-md.png 768w"  alt="" width="1024" height="576"></figure>
+<h2>Ubuntu</h2>
+<p>Ubuntu is <strong>an open-source operating system (OS) based on the Debian GNU/Linux distribution</strong>. Ubuntu incorporates all the features of a Unix OS with an added customizable GUI, which makes it popular in universities and research organizations. Fun fact: Ubuntu is an African word that literally means "humanity to others." Ubuntu is incredibly easy to use, has an elegant interface, and is our favorite. I am currently typing these words on Ubuntu. At the time of writing, the latest LTS (long-term-support) version of Ubuntu is 20.04. <a href="https://ubuntu.com/download/desktop" target="_blank" rel="noopener noreferrer">Check out Ubuntu Desktop here</a>.</p>
+<p> </p>
+<figure class="post__image"><img loading="lazy"  src="https://swivro.net/media/posts/46/zorin-os-15.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://swivro.net/media/posts/46/responsive/zorin-os-15-xs.jpg 300w ,https://swivro.net/media/posts/46/responsive/zorin-os-15-sm.jpg 480w ,https://swivro.net/media/posts/46/responsive/zorin-os-15-md.jpg 768w"  alt="" width="1368" height="768"></figure>
+<h2>Zorin OS</h2>
+<p>Zorin OS is a personal computer operating system designed and promoted for users new to Linux-based computers. One of its built-in features lets users change the interface to resemble those of Microsoft Windows or macOS. In other words, if you're used to Windows, you can customize the Zorin OS layout to be more similar to the Windows layout (as seen in the screenshot above), or you can customize it to look more similar to the macOS layout. We like Ubuntu the best, but you may like Zorin OS better. Zorin OS is free, but offers a "Pro" version with more features. <a href="https://zorin.com/os/" target="_blank" rel="noopener noreferrer">Check out Zorin OS here</a>.</p>
+<p> </p>
+<figure class="post__image"><img loading="lazy"  src="https://swivro.net/media/posts/46/screenshot_03-24-2020_23-39-27-1024x576.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://swivro.net/media/posts/46/responsive/screenshot_03-24-2020_23-39-27-1024x576-xs.png 300w ,https://swivro.net/media/posts/46/responsive/screenshot_03-24-2020_23-39-27-1024x576-sm.png 480w ,https://swivro.net/media/posts/46/responsive/screenshot_03-24-2020_23-39-27-1024x576-md.png 768w"  alt="" width="1024" height="576"></figure>
+<h2>DraugerOS</h2>
+<p>Drauger OS is a Linux desktop gaming operating system. It aims to provide a platform for gamers to use where they can get great performance without sacrificing their security. Furthermore, it aims to make it easy for anyone to game, whether they use a keyboard and mouse, or some sort of controller. DraugerOS is based off of Ubuntu LTS releases and is stable, secure, and gets updates thanks to the Ubuntu repositories for 5 years (even if a given Drauger OS release is not supported for the full 5 years by Drauger OS Development itself). If you're a gamer, and you're currently using Microsoft Windows, but want some more privacy and better security, we think you'll enjoy DraugerOS. <a href="https://draugeros.org/go/download-old/" target="_blank" rel="noopener noreferrer">Check out DraugerOS here</a>.</p>
+<p>Each distro that we recommend above is unique in it's own way. Some lack features when compared to others, and some have more features. It all comes down to your personal preference. We suggest carefully reviewing the info provided above about each Linux distro, and from that, determine which distro you think would be best for you. You can also try each distro individually, and keep the one you like the most. Lastly, you can go to YouTube (or invidious if you're privacy-focused) and search for reviews on all of the distros listed above. Thanks for reading, and we hope this article helped you choose a Linux distro &amp; move away from Microsoft's nasty OS!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>What DNS resolvers should you be using?</title>
         <author>
@@ -487,31 +586,6 @@
 <div> </div>
 <h2><strong>Option 2: SimpleLogin</strong></h2>
 <p>As the name suggests, SimpleLogin is very simple. SimpleLogin essentially does the same thing as AnonAddy, but as mentioned, is more simple and straight to the point. SimpleLogin is 100% open source and uses PGP Encryption (as does AnonAddy). Lastly, SimpleLogin appears to have better pricing when compared to AnonAddy, but they are both good solutions, you'll just have to choose which one you like more.<br><br>TL;DR SimpleLogin does the same thing as AnonAddy but is simpler and has better pricing. Get started for free at their website <a href="https://simplelogin.io/" target="_blank" rel="noopener noreferrer">simplelogin.io</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>The best ways to purchase cryptocurrency</title>
-        <author>
-            <name>Albert A.</name>
-        </author>
-        <link href="https://swivro.net/the-best-ways-to-purchase-cryptocurrency/"/>
-        <id>https://swivro.net/the-best-ways-to-purchase-cryptocurrency/</id>
-
-        <updated>2021-10-31T21:54:45-04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://swivro.net/media/posts/36/cryptocurrency-6601591_1920-2.jpg" alt="" />
-                    Cryptocurrency is very popular these days. Now, the question is, how do you get cryptocurrency? Well, there are a few&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://swivro.net/media/posts/36/cryptocurrency-6601591_1920-2.jpg" alt="" />
-                <p>Cryptocurrency is very popular these days. Now, the question is, how do you get cryptocurrency? Well, there are a few options, and most of the popular options have a KYC (know your customer) policy, meaning you'll need to provide your ID and the last 4 digits of your Social Security Number. You can either exchange with a company (you pay with fiat currency/USD and you receive cryptocurrency), or you'll have to find someone to trade with on the internet that already has cryptocurrency, and trust that they wont scam you.</p>
-<p>If you are willing to exchange with a company (you must provide your ID &amp; SSN), we highly recommend <a href="https://coinbase.com" target="_blank" rel="noopener noreferrer">Coinbase</a>. It is very user-friendly, fast, and simple. Binance is a very similar platform, but we have some slight concerns with their friendliness towards user privacy, which is why we will not be recommending Binance. If you would like to anonymously buy and sell Bitcoin (or other cryptocurrencies), we recommend trying out Bisq; no registration required, easy to use. Bisq is open source, and utilizes the Tor Network to give their users maximum anonymity. If you already have cryptocurrency, but would like to exchange it for a different cryptocurrency (say you have Bitcoin but want to exchange to get Ethereum), we recommend having a look at <a href="https://swapzone.io" target="_blank" rel="noopener noreferrer">Swapzone</a>. We recently used Swapzone to exchange our Litecoin for Monero, and the process was seamless. No user registration is required, simply type in what you want to exchange and the amount you want to exchange, enter your email address, and boom, you can exchange, no ID verification required. The users on Swapzone are very trustworthy, and scamming would only hurt their reputation.</p>
-<p>If you're looking for a central wallet for all of your cryptocurrencies, we suggest trying out Exodus. It's completely free and private, and is very user friendly. Exodus simplifies sending and receiving cryptocurrency. Exodus also has an exchange feature where you can exchange X cryptocurrency for Y cryptocurrency, but it does have high(er) fees and limits. If you're using Coinbase, then you likely don't need Exodus, as all of your cryptocurrency is already stored in your Coinbase account.</p>
-<p>Cryptocurrency is a very good thing for many reasons; including user privacy, anonymity, sending money internationally, and much more.</p>
             ]]>
         </content>
     </entry>

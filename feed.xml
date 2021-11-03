@@ -3,12 +3,36 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-03T18:03:50-04:00</updated>
+    <updated>2021-11-03T19:50:21-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
     <id>https://swivro.net</id>
 
+    <entry>
+        <title>Comcast; a privacy-nightmare and horrible company.</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/comcast-a-privacy-nightmare-and-horrible-company/"/>
+        <id>https://swivro.net/comcast-a-privacy-nightmare-and-horrible-company/</id>
+
+        <updated>2021-11-03T19:50:21-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/48/New-Project-95.png" alt="" />
+                    Comcast is US-based popular internet service provider. Comcast does not notify you if the government is requesting data associated with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/48/New-Project-95.png" alt="" />
+                <p>Comcast is US-based popular internet service provider. Comcast does not notify you if the government is requesting data associated with you, likely even if a gag order is not present. They have also received a 1-star privacy rating from the Electronic Frontier Foundation, which obviously, is an extremely bad rating. Comcast also fought against Google Chrome &amp; Mozilla Firefox's new <strong>encrypted-DNS</strong> feature which encrypts DNS traffic from the browser, which makes it harder for Comcast to see what their customers are doing on the internet, but at the same time Comcast also claims that they don't spy on their users. Why would they fight against this privacy-enhancing feature if they don't spy on their users?</p>
+<p>Moreover, in the year 2015, a customer of Comcast named Lisa Brown has contacted Comcast's customer service via telephone, requesting for Comcast to downgrade her Comcast service in order to lower her monthly payment. Instead of Comcast doing so immediately, they offered her a service upgrade without extra charge. Lisa, clearly wanting to downgrade her service, refused the offer. Lisa noticed that on the next invoice/monthly bill sent to her, the customer service rep she had contacted had changed her name from Lisa Brown to "Asshole Brown". This is a truly horrible company. A similar situation occurred in the year of 2014, where a journalist named Ryan Block called up Comcast to cancel his service. Comcast straight up refused to cancel his service even after 20 minutes of arguing.</p>
+<p>Comcast is a company that solely cares about making money, doesn't care one bit about user privacy or service quality, and has god awful and extremely rude customer support. Please avoid this company at all costs.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to store your online passwords securely</title>
         <author>
@@ -558,35 +582,6 @@
 <p> </p>
 <h2>Conclusion</h2>
 <p>Though we have listed the two best VPN providers for privacy and anonymity above, you should carefully review our comments and determine which one would work out best for you. Both of these VPN providers are excellent, will help you take back your online privacy, and will prevent your ISP from snooping around seeing the sites you visit. If you are on an extremely tight budget, we recommend trying our 2nd recommendation above (ProtonVPN). You can even try their free plan, though we recommend using the free plan as a free trial, and if you like it, you can upgrade to get access to their Secure Core feature and dozens of more servers with a much smaller load. We hope this article helped you choose a privacy-focused VPN provider!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to mitigate DDoS Attacks</title>
-        <author>
-            <name>Albert A.</name>
-        </author>
-        <link href="https://swivro.net/how-to-mitigate-ddos-attacks/"/>
-        <id>https://swivro.net/how-to-mitigate-ddos-attacks/</id>
-
-        <updated>2021-11-01T00:03:00-04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://swivro.net/media/posts/38/security-265130_1920.jpg" alt="" />
-                    A DDoS Attack (short for distributed denial of service) is a type of cyberattack which typically targets a website. During&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://swivro.net/media/posts/38/security-265130_1920.jpg" alt="" />
-                <p>A DDoS Attack (short for distributed denial of service) is a type of cyberattack which typically targets a website. During a DDoS attack, a large amount of requests are sent to the target website, in an attempt to consume all of the server's resources (RAM, CPU, etc), therefore making the website inaccessible to the public. Below, we'll show you the most common types of DDoS Attacks, how they work, and how to mitigate them.</p>
-<h2><strong>Layer 7 DDoS</strong></h2>
-<p>A layer 7 DDoS is a type of DDoS attack that sends HTTP traffic to a website in order to consume resources and hamper a website's ability to deliver content to visitors. An HTTP flood attack utilizes what appear to be legitimate HTTP requests to attack a website. We will recommend three different services in order to mitigate such attacks, being DDoS-Guard, BotGuard, and Cloudflare. DDoS-Guard and Cloudflare Pro are most effective, but BotGuard will certainly mitigate medium sized attacks. Alternatively, if you wish to manually configure software on your hosting server (which is less limited compared to cloud services like Cloudflare), we recommend trying Fail2ban, Modsecurity, or Bunkerized Nginx Webserver (which includes Fail2ban and Modsecurity).</p>
-<p> </p>
-<h2><strong>Layer 3/4 DDoS</strong></h2>
-<p>A Layer 4 DDoS attack is often referred to as a SYN flood. A TCP connection is established in what is known as a 3-way handshake. The client sends a SYN packet to the target server, the server responds with a SYN ACK, and the client responds to that with an ACK. After the three-way handshake is complete, the TCP connection is considered established. Attackers can send SYN Floods in an attempt to stop one's network from functioning properly. Layer 3 attacks often utilize the ICMP protocol which can be stopped by disabling ICMP. Layer 4 attacks are often easy to mitigate as long as you choose the right server provider. OVH provides DDoS Protection with all of their servers and has a network capacity of over 11 TBPS.</p>
-<p> </p>
-<p>DDoS Attacks are extremely harmful to websites, and are of course illegal. We hope you learned something useful from this post!</p>
             ]]>
         </content>
     </entry>

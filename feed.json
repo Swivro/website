@@ -12,7 +12,7 @@
         {
             "id": "https://swivro.net/how-to-store-your-online-password-securely/",
             "url": "https://swivro.net/how-to-store-your-online-password-securely/",
-            "title": "How to store your online password securely",
+            "title": "How to store your online passwords securely",
             "summary": "We all use passwords for our online accounts. You shouldn't be using the same password for every service, nor should&hellip;",
             "content_html": "<p>We all use passwords for our online accounts. You shouldn't be using the same password for every service, nor should you be able to remember your passwords, in other words, your password should be extremely complicated, and should be different for every online account you have. There are a plethora of password managers and generators that can do this job for you. If you are currently using a password manager like 1Password, LastPass, Roboform, or iCloud Keychain, we highly recommend to pick an alternative seen below.</p>\n<p class=\"card-text\"><strong>KeePassXC</strong> is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager, used obviously to store your passwords. KeePass is a downloadable app and is not a web app. <a href=\"https://keepassxc.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Check it out here</a>.</p>\n<p class=\"card-text\"><strong>Bitwarden</strong> is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server. <a href=\"https://bitwarden.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Check it out here</a>.</p>\n<p><strong>Master Password</strong> is a password manager based on an ingenious password-generation algorithm that guarantees your passwords can never be lost. Its passwords aren't stored anywhere: they are generated on-demand from your name, the site, and your master password. No syncing, backups, or internet access needed. It's super innovative, unique, and seamless. <a href=\"https://masterpassword.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Check it out here</a>.</p>\n<div class=\"post__entry\">\n<p>You should carefully review the descriptions that we have provided of the 3 best password managers listed above, and use that info to determine which password manager you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>\n</div>",
             "image": "https://swivro.net/media/posts/47/subscribe-3534409_1920.jpg",
@@ -22,7 +22,7 @@
             "tags": [
             ],
             "date_published": "2021-11-03T17:46:32-04:00",
-            "date_modified": "2021-11-03T17:46:32-04:00"
+            "date_modified": "2021-11-03T18:03:50-04:00"
         },
         {
             "id": "https://swivro.net/windows-10-and-11-are-spying-on-you/",

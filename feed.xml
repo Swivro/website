@@ -3,7 +3,7 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-03T20:21:59-04:00</updated>
+    <updated>2021-11-03T20:49:23-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
@@ -41,7 +41,7 @@
         <link href="https://swivro.net/how-to-store-your-online-password-securely/"/>
         <id>https://swivro.net/how-to-store-your-online-password-securely/</id>
 
-        <updated>2021-11-03T18:03:50-04:00</updated>
+        <updated>2021-11-03T20:49:23-04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://swivro.net/media/posts/47/subscribe-3534409_1920.jpg" alt="" />
@@ -55,6 +55,7 @@
 <p class="card-text"><strong>KeePassXC</strong> is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager, used obviously to store your passwords. KeePass is a downloadable app and is not a web app. <a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
 <p class="card-text"><strong>Bitwarden</strong> is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server. <a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
 <p><strong>Master Password</strong> is a password manager based on an ingenious password-generation algorithm that guarantees your passwords can never be lost. Its passwords aren't stored anywhere: they are generated on-demand from your name, the site, and your master password. No syncing, backups, or internet access needed. It's super innovative, unique, and seamless. <a href="https://masterpassword.app/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
+<p> </p>
 <div class="post__entry">
 <p>You should carefully review the descriptions that we have provided of the 3 best password managers listed above, and use that info to determine which password manager you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
 </div>

@@ -3,7 +3,7 @@
     <title>Swivro</title>
     <link href="https://swivro.net/feed.xml" rel="self" />
     <link href="https://swivro.net" />
-    <updated>2021-11-06T11:46:37-04:00</updated>
+    <updated>2021-11-06T15:29:03-04:00</updated>
     <author>
         <name>Albert A.</name>
     </author>
@@ -17,16 +17,16 @@
         <link href="https://swivro.net/how-does-tor-make-you-anonymous/"/>
         <id>https://swivro.net/how-does-tor-make-you-anonymous/</id>
 
-        <updated>2021-11-06T11:46:37-04:00</updated>
+        <updated>2021-11-06T15:29:03-04:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://swivro.net/media/posts/50/hacker-3342696_1920-1.jpg" alt="" />
+                        <img src="https://swivro.net/media/posts/50/anonymous-2755365_1920.jpg" alt="" />
                     Tor, short for The Onion Router, is an anonymity network powered by the Tor Project and thousands of volunteers across&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://swivro.net/media/posts/50/hacker-3342696_1920-1.jpg" alt="" />
+                    <img src="https://swivro.net/media/posts/50/anonymous-2755365_1920.jpg" alt="" />
                 <p>Tor, short for The Onion Router, is an anonymity network powered by the Tor Project and thousands of volunteers across the universe. The Tor Network does not make you completely anonymous, but definitely boosts your anonymity. The easiest way to access websites via the Tor Network is to use the official Tor Browser from torproject.org. The way Tor works is, once you go to a normal website via the Tor Browser, your connection is passed to a Tor Guard Node, which is the first server your traffic goes to. It is then passed to one or more relay servers, where your traffic is relayed from one server to another, and then is passed to the final Exit Node, which is the node that reaches out to the internet. The exit node fetches your requested content, then passes it back through the relay of servers to your machine. Tor Nodes (exit/relay/guard nodes) are mostly ran by volunteers and <strong><span class="has-inline-color has-vivid-red-color">the government</span></strong>.</p>
 <h2><strong>Simplified Explanation:</strong></h2>
 <p><strong>Guard Node</strong>: The first server/node that your Tor Browser connects to.</p>
@@ -423,7 +423,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://swivro.net/media/posts/42/internet-search-engine-1433323_1920.jpg" alt="" />
-                    It's time to finally stop using Google, Bing, and Ecosia, because they all unethically track you and store sensitive information&hellip;
+                     It's time to finally stop using Google, Bing, and Ecosia, because they all unethically track you and store sensitive&hellip;
                 ]]>
             </summary>
         <content type="html">

@@ -45,9 +45,6 @@
 		<loc>https://swivro.net/company-transparency.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/is-tor-really-anonymous.html.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/dns-servers.html</loc>
 	</url>
 	<url>
@@ -67,5 +64,8 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/internet-problems.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/is-tor-really-anonymous.html</loc>
 	</url>
 </urlset>

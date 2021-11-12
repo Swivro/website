@@ -10,7 +10,7 @@
   <meta name="description" content="Swivro is an organization focused on online privacy, cybersecurity, and free speech.">
   
   
-  <title>Safe Hosting Providers - Swivro</title>
+  <title>How Tor Browser makes you anonymous - Swivro</title>
   <link rel="stylesheet" href="assets/font-awesome-solid/../css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/font-awesome-solid/css/solid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -61,7 +61,7 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header5 cid-sMInfQtXZI" id="header5-22">
+<section data-bs-version="5.1" class="header5 cid-sO1A5kgUkF" id="header5-5c">
 
     
 
@@ -70,16 +70,16 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-7">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-2">Safe Web Hosting</h1>
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-2">The Tor Network</h1>
                 
-                <p class="mbr-text mbr-fonts-style mbr-white display-7">Most hosting providers are not privacy-respecting, and are willing to take down your website due to them being anti-free-speech.<br></p>
+                <p class="mbr-text mbr-fonts-style mbr-white display-7">Tor is the most popular anonymity network in the world. We'll explain how it works, why people use it, and how to stay secure.</p>
                 
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="image1 cid-sMInfRmSNq" id="image1-23">
+<section data-bs-version="5.1" class="image1 cid-sOjeGqsTXO" id="image1-73">
     
 
     
@@ -88,95 +88,77 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
-                    <img src="assets/images/image-7-1076x717.png" alt="">
+                    <img src="assets/images/image-12-1076x717.png" alt="">
                     <p class="mbr-description mbr-fonts-style pt-2 align-center display-4"></p>
                 </div>
             </div>
             <div class="col-12 col-lg">
                 <div class="text-wrapper">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">Looking for a secure hosting provider?</h3>
-                    <p class="mbr-text mbr-fonts-style display-7">Chances are, you may be currently using a hosting provider that is anti-free-speech, does not respect your privacy, and is willing to give in to government requests instantly without thinking. We're here to recommend you some free-speech secure hosting providers that respect your privacy and won't&nbsp;brainlessly give in to government requests.</p>
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5">Is Tor truly safe? How does it make you anonymous? What are the risks?</h3>
+                    <p class="mbr-text mbr-fonts-style display-7">We're here to answer all of those questions. Below, we'll discuss what exactly the Tor Network is, how Tor Servers function properly, and how to stay safe while using the Tor Browser; with all sections being broken up into tabs below, which you can quickly navigate between.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="features9 cid-sMInfS51zt" id="features10-24">
-    <!---->
+<section data-bs-version="5.1" class="tabs content18 cid-sOjeVAc0wk" id="tabs1-74">
+
     
+
     
     <div class="container">
         
-        <div class="row mt-4">
-            <div class="card col-12">
-                <div class="card-wrapper">
-                    <div class="top-line row">
-                        <div class="col">
-                            <h4 class="card-title mbr-fonts-style display-5">Option 1: <a href="https://webdock.io/en" class="text-primary" target="_blank" style="">Webdock</a></h4>
-                        </div>
-                        <div class="col-auto">
-                            <p class="price mbr-fonts-style display-5"></p>
+        <div class="row justify-content-center mt-4">
+            <div class="col-12 col-md-12">
+                <ul class="nav nav-tabs mb-4" role="tablist">
+                    <li class="nav-item first mbr-fonts-style"><a class="nav-link mbr-fonts-style show active display-7" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs1-74_tab0" aria-selected="true"><strong>What is Tor?</strong></a></li>
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs1-74_tab1" aria-selected="true"><strong>Explaining Tor Nodes</strong></a></li>
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs1-74_tab2" aria-selected="true"><strong>Staying Safe on Tor</strong></a></li>
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" data-bs-toggle="tab" href="#tabs1-74_tab3" aria-selected="true"><strong>Conclusion</strong></a></li>
+                    
+                    
+                </ul>
+                <div class="tab-content">
+                    <div id="tab1" class="tab-pane in active" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="mbr-text mbr-fonts-style display-7">
+                                    Tor, short for The Onion Router, is an anonymity network powered by the Tor Project and thousands of volunteers across the universe. The Tor Network does not make you 100% anonymous, as that is an impossibility, but it definitely boosts your anonymity. The easiest and most safe way to access websites via the Tor Network is to use the official Tor Browser from torproject.org. The Tor Browser should only be downloaded from the official website (torproject.org). The way Tor works is, once you go to a normal website via the Tor Browser, your connection is passed to a Tor Guard Node, which is the first server your traffic goes to. It is then passed to one or more relay servers, where your traffic is relayed from one server to another, and then is finally passed to the Exit Node, which is the node that reaches out to the internet. The exit node fetches your requested content, then passes it back through the relay of servers, to finally reach your machine. Tor Nodes (exit/relay/guard nodes) are mostly ran by volunteers, and sadly the government. Please see the next tab to see a simplified explanation of different types of Tor Nodes.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="bottom-line">
-                        <p class="mbr-text mbr-fonts-style display-7">To our knowledge, Webdock allows free-speech on websites hosted on their servers, and respects its users' privacy. Webdock provides excellent server hosting at a good price, while simplifying the whole server experience. As they say, ”It's Like Linode™️ and cPanel™️ Had A Beautiful Child" which from our experience is completely true. Webdock has various hosting awards from Hostadvice, is a Stripe Climate Partner, and offers servers for as low as a single euro per month. Additionally, Webdock is fully GDPR compliant and never retains any user information once the user deletes it. They also do not pull any log files from any of their customers' servers. Webdock is also where we host our website!</p>
+                    <div id="tab2" class="tab-pane" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="mbr-text mbr-fonts-style display-7"><strong>Simplified Tor Node Explanation:
+<br></strong>
+<br><strong>Guard Node</strong>: This is the first Tor Node that your Tor Browser connects to. This is the only Tor Node that you directly connect to and the only Tor Node that can actually see your home IP address.<br><br><strong>Bridge Node: </strong>By default, you do not use a Bridge Node when using Tor. If your ISP blocks Tor Guard Nodes, and you are unable to use a VPN, then requesting Bridge Node IP's from Tor to utilize would be a good idea. Bridge Node IP Addresses are not publicly listed in a directory anywhere, so ISP's cannot block every Tor Bridge node.<br>
+<br><strong>Relay Node</strong>: These type of Tor Nodes are nodes that receive and pass traffic to other relay nodes. They relay your web traffic from server to server. Relay Nodes cannot see your IP address, and just see the IP address of other relay nodes (or exit/guard nodes) that they are passing traffic to or are receiving traffic from.
+<br>
+<br><strong>Exit Node</strong>: The final Tor Node that your web traffic/request reaches. The exit node is the node that actually fetches your requested content from the clearnet, then passes it back through all of the relay nodes and the guard node, to your machine. Exit nodes are <strong>not</strong> used when visiting a Tor Hidden Service aka Onion Site.</p>
+                            </div>
+                        </div>
                     </div>
+                    <div id="tab3" class="tab-pane" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="mbr-text mbr-fonts-style display-7">The Tor Browser sets a certain screen size, and useragent, so that all people using the Tor Browser have a common fingerprint, and no Tor users can be uniquely identified. You should not change any of those default settings, because by doing so, you will be de-anonymized and can be uniquely identified. A large amount of ISP's block the Tor Network, and if this is the case with your ISP, you should request <a href="https://bridges.torproject.org" class="text-primary" target="_blank">Tor Bridges</a>. These type of Tor Nodes (Bridges) are essentially Guard Nodes that are not publicly listed in any online directory. You should NOT use a VPN while using the Tor Network, as a money trail is often attached. Using a VPN in conjunction with Tor in an attempt to not fall on the watchlist of your ISP or government would be almost pointless as Tor has almost 2 million daily users. A more serious issue is when your Tor Circuit is using a Malicious Exit Node. Exit Nodes are the only Tor Nodes that actually reach out to the internet (clearnet) to fetch your requested web content. If the operator of the Exit Node that you are using has bad intentions, they may be able to inspect some of the web traffic sent by you, going through that Exit Node, which could de-anonymize you if you are entering sensitive information into the website you are accessing. The best way to avoid this is to never visit sites through Tor that are on the clearnet (ones ending in .com, net, org, etc), and only visit Tor Hidden Services a.k.a Onion Sites (sites that end with .onion). This is because Tor Hidden Services do not utilize Exit Nodes, so it would be impossible for you to be de-anonymized due to a malicious Exit Node.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab4" class="tab-pane" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="mbr-text mbr-fonts-style display-7">
+                                    Great, so now you know what precautions to take when using the Tor Network. Essentially; only use the Tor Browser (do not route your internet traffic through Tor), make sure you only download Tor Browser from torproject.org, and try to only access Tor Hidden Services a.k.a Onion Sites rather than sites hosted on the clearnet. This gives you a great amount of anonymity and online privacy, and ensures that the government or any other malicious Tor Nodes cannot see or who you are or what you're doing. As long as you take the necessary precautions which we just talked about, you will be <em>nearly</em> fully anonymous while using Tor Browser!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
-            <div class="card col-12">
-                <div class="card-wrapper">
-                    <div class="top-line row">
-                        <div class="col">
-                            <h4 class="card-title mbr-fonts-style display-5">Option 2: <a href="https://njal.la" class="text-primary" target="_blank" style="">Njalla</a></h4>
-                        </div>
-                        <div class="col-auto">
-                            <p class="price mbr-fonts-style display-5"></p>
-                        </div>
-                    </div>
-                    <div class="bottom-line">
-                        <p class="mbr-text mbr-fonts-style display-7">Njalla is most famous for their anonymous domain registration offering. As Njalla says, "When you buy a domain in our system, we're actually purchasing it for ourselves. We will be the actual owners of the domain, however, you will still have the full control over the domain name. You can either use our information, our nameservers or you can go with your own. If you ever want to move the domain from our system, we'll of course give you the domain without any additional costs". Their goal is to minimize your visibility (personal details) to the public. As for VPS/Server Hosting, they provide secure servers at a low cost, but we recommend checking out Webdock too.<br></p>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12">
-                <div class="card-wrapper">
-                    <div class="top-line row">
-                        <div class="col">
-                            <h4 class="card-title mbr-fonts-style display-5">Option 3: <a href="https://www.1984hosting.com/" class="text-primary" target="_blank" style="">1984 Hosting</a></h4>
-                        </div>
-                        <div class="col-auto">
-                            <p class="price mbr-fonts-style display-5"></p>
-                        </div>
-                    </div>
-                    <div class="bottom-line">
-                        <p class="mbr-text mbr-fonts-style display-7">1984 Hosting is mostly popular for their friendliness towards privacy with their preconfigured OpenVPN server offering. When you get a server from 1984 hosting with preconfigured OpenVPN, any VPN logs constantly &amp; immediately go to /dev/null. The VPN Server also uses itself for DNS (a truly private VPN). As 1984 Hosting says, the only true non-logging fully private VPN is the one you have full control over. While they do offer VPS's, they also offer Shared Web Hosting and domain names, but we still recommend njalla for domain names, as they seem to be more focused on privacy-first domain registration.<br></p>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12">
-                <div class="card-wrapper">
-                    <div class="top-line row">
-                        <div class="col">
-                            <h4 class="card-title mbr-fonts-style display-5">Option 4: <a href="https://bahnhof.net" class="text-primary" target="_blank" style="">Bahnhof</a></h4>
-                        </div>
-                        <div class="col-auto">
-                            <p class="price mbr-fonts-style display-5"></p>
-                        </div>
-                    </div>
-                    <div class="bottom-line">
-                        <p class="mbr-text mbr-fonts-style display-7">Based in Sweden, Bahnhof provides low-cost virtual private servers. Bahnhof is privacy-focused, free-speech, and accepts various cryptocurrencies. Like njalla, they don't give into government requests easily, and they are not based in the USA. Server providers based solely in the USA are likely never good for privacy or free-speech, and will give in to government requests in an instant, as we saw with HMA VPN (see more info about HMA VPN's willingness to deface their customers on our malicious company directory page).<br></p>
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            
-            
-            
-            
-            
         </div>
     </div>
 </section>
@@ -225,7 +207,7 @@
             </div>
         </div>
     </div>
-</section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/mbr-tabs/mbr-tabs.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
 </body>

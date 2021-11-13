@@ -54,9 +54,6 @@
 		<loc>https://swivro.net/anonymity.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/lack-of-security.html.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/cybersecurity.html</loc>
 	</url>
 	<url>
@@ -79,5 +76,8 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/choosing-a-vpn-provider.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/lack-of-security.html</loc>
 	</url>
 </urlset>

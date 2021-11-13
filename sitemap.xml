@@ -27,9 +27,6 @@
 		<loc>https://swivro.net/send-payments-anonymously.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/email-privacy.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/apple.html</loc>
 	</url>
 	<url>
@@ -67,5 +64,8 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/is-tor-really-anonymous.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/securing-online-accounts.html</loc>
 	</url>
 </urlset>

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "donate.html",
+    "currentPage": "privacy-guide.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -14853,7 +14853,7 @@
         }
       ]
     },
-    "privacyguide.html": {
+    "privacy-guide.html": {
       "settings": {
         "title": "Privacy Guide - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",

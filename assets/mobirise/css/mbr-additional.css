@@ -1238,7 +1238,7 @@ a {
 }
 .cid-sOoKLfInYJ {
   padding-top: 0rem;
-  padding-bottom: 1rem;
+  padding-bottom: 6rem;
   background-color: #f2f2f2;
 }
 .cid-sOoKLfInYJ .card-wrapper {
@@ -1279,51 +1279,6 @@ a {
   width: 100%;
 }
 .cid-sOoKLfInYJ .btn {
-  width: 100%;
-}
-.cid-sOIpuffVpt {
-  padding-top: 0rem;
-  padding-bottom: 6rem;
-  background-color: #f2f2f2;
-}
-.cid-sOIpuffVpt .card-wrapper {
-  padding: 4rem;
-  background-color: #ffffff;
-  border-radius: 4px;
-}
-.cid-sOIpuffVpt .row {
-  align-items: flex-start;
-}
-@media (max-width: 992px) {
-  .cid-sOIpuffVpt .card {
-    margin-bottom: 2rem !important;
-  }
-}
-@media (max-width: 767px) {
-  .cid-sOIpuffVpt .card-wrapper {
-    padding: 1rem;
-  }
-}
-.cid-sOIpuffVpt ul {
-  list-style: none;
-}
-.cid-sOIpuffVpt li {
-  position: relative;
-}
-.cid-sOIpuffVpt li:before {
-  position: absolute;
-  left: -30px;
-  top: 50%;
-  transform: translateY(-50%);
-  content: "\e908";
-  font-family: 'Moririse2' !important;
-  color: #123d6a;
-  font-size: 0.8rem;
-}
-.cid-sOIpuffVpt .mbr-section-btn {
-  width: 100%;
-}
-.cid-sOIpuffVpt .btn {
   width: 100%;
 }
 .cid-sOoWZeYPPe {

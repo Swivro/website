@@ -117,7 +117,7 @@
       },
       "components": [
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -165,8 +165,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -1113,7 +1114,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -1161,8 +1162,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -1737,7 +1739,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -1785,8 +1787,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -2282,7 +2285,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -2330,8 +2333,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -2913,7 +2917,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -2961,8 +2965,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -3544,7 +3549,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -3592,8 +3597,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -4270,7 +4276,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -4318,8 +4324,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -4901,7 +4908,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -4949,8 +4956,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -5532,7 +5540,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -5580,8 +5588,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -6077,7 +6086,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -6125,8 +6134,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -6622,7 +6632,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -6670,8 +6680,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -7255,7 +7266,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -7303,8 +7314,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -7888,7 +7900,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -7936,8 +7948,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -8521,7 +8534,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -8569,8 +8582,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -9062,7 +9076,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -9110,8 +9124,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -9651,7 +9666,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -9699,8 +9714,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -10290,7 +10306,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -10338,8 +10354,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -11007,7 +11024,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -11055,8 +11072,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -11659,7 +11677,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -11707,8 +11725,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -12376,7 +12395,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -12424,8 +12443,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -13008,7 +13028,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -13056,8 +13076,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -13639,7 +13660,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -13687,8 +13708,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -14249,7 +14271,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -14297,8 +14319,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -14911,7 +14934,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -14959,8 +14982,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -15451,7 +15475,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -15499,8 +15523,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -15991,7 +16016,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -16039,8 +16064,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -16624,7 +16650,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -16672,8 +16698,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -17168,7 +17195,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -17216,8 +17243,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -17707,7 +17735,7 @@
           "_params": {}
         },
         {
-          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
+          "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I-sOI03wvq1I",
           "_sourceTheme": "mobirise5",
           "_styles": {
             "& when not (@sticky)": {
@@ -17755,8 +17783,9 @@
             },
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
+              "background": "@primaryColor",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2d379b !important",
                 "color": "white !important"
               },
               "&:first-child": {
@@ -18734,7 +18763,7 @@
               }
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#800080\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav style=\"padding-top: 0px; margin: 0px;\" class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"../\">\n                        <img src=\"@PROJECT_PATH@/assets/images/new-project-2021-11-10t172253.513-80x80.png\" alt=\"[LOGO HERE]\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Swivro</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"../\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fas fa-fw fa-home mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-fingerprint mbr-iconfont mbr-iconfont-btn\"></span>Online Safety</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-undefined\"><a class=\"text-white show text-primary dropdown-item\" href=\"anonymity.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-user-secret mbr-iconfont mbr-iconfont-btn\"></span>Internet Anonymity</a><a class=\"text-white show text-primary dropdown-item\" href=\"cybersecurity.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-shield-alt mbr-iconfont mbr-iconfont-btn\"></span>Online Cybersecurity</a><a class=\"text-white show text-primary dropdown-item\" href=\"internet-problems.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-cogs mbr-iconfont mbr-iconfont-btn\"></span>Global Internet Issues</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary show\" href=\"changelog.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-book mbr-iconfont mbr-iconfont-btn\"></span>Changelog</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary show\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-info-circle mbr-iconfont mbr-iconfont-btn\"></span>About</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white show text-primary\" href=\"donate.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-donate mbr-iconfont mbr-iconfont-btn\"></span>Donate</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#800080\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav style=\"padding-top: 0px; margin: 0px;\" class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"../\">\n                        <img src=\"@PROJECT_PATH@/assets/images/new-project-2021-11-10t172253.513-80x80.png\" alt=\"[LOGO HERE]\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Swivro</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"../\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fas fa-fw fa-home mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle show\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-fingerprint mbr-iconfont mbr-iconfont-btn\"></span>Online Safety</a><div class=\"dropdown-menu show\" aria-labelledby=\"dropdown-undefined\" data-bs-popper=\"none\"><a class=\"text-white show text-primary dropdown-item\" href=\"anonymity.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-user-secret mbr-iconfont mbr-iconfont-btn\"></span>Internet Anonymity</a><a class=\"text-white show text-primary dropdown-item\" href=\"cybersecurity.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-shield-alt mbr-iconfont mbr-iconfont-btn\"></span>Online Cybersecurity</a><a class=\"text-white show text-primary dropdown-item\" href=\"internet-problems.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-cogs mbr-iconfont mbr-iconfont-btn\"></span>Global Internet Issues</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary show\" href=\"changelog.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-book mbr-iconfont mbr-iconfont-btn\"></span>Changelog</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary show\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-info-circle mbr-iconfont mbr-iconfont-btn\"></span>About</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white show text-primary\" href=\"donate.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-donate mbr-iconfont mbr-iconfont-btn\"></span>Donate</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
@@ -18853,11 +18882,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1277.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Share files anonymously</h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Discover how anonymously share files with anyone on the internet, without prying eyes or privacy-violating features.<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">DDoS Mitigation</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Malicious Websites</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sOSGQMfSHK",
+          "_anchor": "header5-b0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header5-b0"
+          "_params": {}
         },
         {
           "alias": false,
@@ -18902,11 +18931,11 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f2f2\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/image-25-1256x810.png\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style pt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\"></p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Do you need to share files through the internet anonymously and securely?</h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Sharing files anonymously, and securely can be difficult at times. Though sending files through secure messengers like Session is considered to be secure, there are more private &amp; anonymous ways to do such a thing. Below, we'll list some ways to anonymously share files.<br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_cid": "sOSGQMFsv9",
+          "_anchor": "image1-b1",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image1-b1"
+          "_params": {}
         },
         {
           "alias": false,
@@ -18962,11 +18991,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"features9\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitleCard\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <select title=\"Amount\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\">11</option>\n            <option value=\"12\">12</option>\n        </select>\n        <input type=\"color\" title=\"Background\" name=\"cardsBg\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f2f2\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#bed3f9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">Software for anonymity</h3>\n            <h4 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle mbr-fonts-style mb-0 mt-2\" mbr-theme-style=\"display-7\">DDoS attacks are annoying, and we're guessing you're experiencing one judging by the fact that you are reading this. We're here to help you mitigate them. With each layer (7/4/3) comes a different approach in regards to mitigation.</h4>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"card col-12\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">1. <a href=\"https://onionshare.org/\" class=\"text-primary\" target=\"_blank\">OnionShare</a></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\"></p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">OnionShare is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server locally, on your machine, accessible as a Tor Hidden (onion) Service, with a complicated unguessable URL that you can share with the recipients to download or send files. OnionShare also allows you to set up a dropbox for anyone to send <i>you</i> files anonymously. Luckily, no potentially government-ran Tor Exit Nodes are involved, since files are downloaded through a Tor Hidden Service, and not through the clearnet (Exit Nodes are only utilized on Tor when connecting to a website hosted on the clearnet).<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">2. <a href=\"https://magic-wormhole.readthedocs.io/\" class=\"text-primary\" target=\"_blank\">Magic Wormhole</a></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\"></p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Magic Wormhole is a <b>linux</b> package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another without prying eyes or privacy-violating features. Their motto: \"Get things from one computer to another, safely\". Though Magic Wormhole may be secure and privacy-oriented, OnionShare is much more easy to understand, is far more user-friendly, is better for anonymity, and supports more systems, making OnionShare an overall better solution for machines with a graphical user interface.<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">3. <a href=\"https://threema.ch/\" class=\"text-primary\" target=\"_blank\">Threema</a></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\"></p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Threema is an open-source end-to-end encrypted instant messaging app for iOS and Android. The software claims to be privacy-respecting, as it does not require a phone number. Though Threema is considered privacy-respecting and secure (it has been independently audited in October, 2020), it's not the best option if you're looking to communicate <b>anonymously </b>on the internet, with the main reason being, to use Threema, you must make a one-time payment to them via MasterCard, Visa Card, PayPal, and Bitcoin. None of these payment methods are truly anonymous (even Bitcoin), meaning Threema may be able to easily trace back the identity of the user. If they accepted Monero, perhaps it would be a different story.<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\">Option 4: <a href=\"https://bahnhof.net\" class=\"text-primary\" target=\"_blank\" style>Bahnhof</a></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\"></p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Based in Sweden, Bahnhof provides low-cost virtual private servers. Bahnhof is privacy-focused, free-speech, and accepts various cryptocurrencies. Like njalla, they don't give into government requests easily, and they are not based in the USA. Server providers based solely in the USA are likely never good for privacy or free-speech, and will give in to government requests in an instant, as we saw with HMA VPN (see more info about HMA VPN's willingness to deface their customers on our malicious company directory page).<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><b>Special Issue</b></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">\n                                $39</p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><b>Special Issue</b></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">\n                                $39</p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><b>Special Issue</b></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">\n                                $39</p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>7\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><b>Special Issue</b></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">\n                                $39</p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>8\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><b>Special Issue</b></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">\n                                $39</p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>9\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><b>Special Issue</b></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">\n                                $39</p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>10\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><b>Special Issue</b></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">\n                                $39</p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12\" mbr-if=\"cardsAmount>11\">\n                <div class=\"card-wrapper\">\n                    <div class=\"top-line row\" mbr-if=\"showTitleCard\">\n                        <div class=\"col\">\n                            <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\"><b>Special Issue</b></h4>\n                        </div>\n                        <div class=\"col-auto\">\n                            <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">\n                                $39</p>\n                        </div>\n                    </div>\n                    <div class=\"bottom-line\">\n                        <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Themes in the Mobirise website builder offer multiple blocks: intros, sliders, galleries,\n                            forms, articles, and so on. Start a project and click on the red plus buttons to see the\n                            blocks available for your theme.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sOSGQN4YT7",
+          "_anchor": "features10-b2",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features10-b2"
+          "_params": {}
         },
         {
           "_name": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2",
@@ -19365,16 +19394,16 @@
               }
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#800080\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav style=\"padding-top: 0px; margin: 0px;\" class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"../\">\n                        <img src=\"@PROJECT_PATH@/assets/images/new-project-2021-11-10t172253.513-80x80.png\" alt=\"[LOGO HERE]\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Swivro</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"../\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fas fa-fw fa-home mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-fingerprint mbr-iconfont mbr-iconfont-btn\"></span>Online Safety</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-undefined\"><a class=\"text-white show text-primary dropdown-item\" href=\"anonymity.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-user-secret mbr-iconfont mbr-iconfont-btn\"></span>Internet Anonymity</a><a class=\"text-white show text-primary dropdown-item\" href=\"cybersecurity.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-shield-alt mbr-iconfont mbr-iconfont-btn\"></span>Online Cybersecurity</a><a class=\"text-white show text-primary dropdown-item\" href=\"internet-problems.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-cogs mbr-iconfont mbr-iconfont-btn\"></span>Global Internet Issues</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary show\" href=\"changelog.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-book mbr-iconfont mbr-iconfont-btn\"></span>Changelog</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary show\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-info-circle mbr-iconfont mbr-iconfont-btn\"></span>About</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white show text-primary\" href=\"donate.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-donate mbr-iconfont mbr-iconfont-btn\"></span>Donate</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#800080\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <nav style=\"padding-top: 0px; margin: 0px;\" class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"../\">\n                        <img src=\"@PROJECT_PATH@/assets/images/new-project-2021-11-10t172253.513-80x80.png\" alt=\"[LOGO HERE]\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Swivro</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"../\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fas fa-fw fa-home mbr-iconfont mbr-iconfont-btn\"></span>Home</a></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle show\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-fingerprint mbr-iconfont mbr-iconfont-btn\"></span>Online Safety</a><div class=\"dropdown-menu show\" aria-labelledby=\"dropdown-undefined\" data-bs-popper=\"none\"><a class=\"text-white show text-primary dropdown-item\" href=\"anonymity.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-user-secret mbr-iconfont mbr-iconfont-btn\"></span>Internet Anonymity</a><a class=\"text-white show text-primary dropdown-item\" href=\"cybersecurity.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-shield-alt mbr-iconfont mbr-iconfont-btn\"></span>Online Cybersecurity</a><a class=\"text-white show text-primary dropdown-item\" href=\"internet-problems.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-cogs mbr-iconfont mbr-iconfont-btn\"></span>Global Internet Issues</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary show\" href=\"changelog.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-book mbr-iconfont mbr-iconfont-btn\"></span>Changelog</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary show\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-bs-auto-close=\"outside\"><span class=\"fas fa-fw fa-info-circle mbr-iconfont mbr-iconfont-btn\"></span>About</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white show text-primary\" href=\"donate.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"fas fa-fw fa-donate mbr-iconfont mbr-iconfont-btn\"></span>Donate</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "sOSGQNTvrp",
+          "_anchor": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-b3",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-sO1GG1g6xX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-sO5BszqHgX-hQiNt8rBR8-mlpBIpe6od-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-sOp2OOvCS2-b3"
+          "_params": {}
         },
         {
           "_name": "footer1-sOpMpnOYd4-sOR1GhUL5w",
@@ -19440,11 +19469,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "sOSGQODpcc",
+          "_anchor": "footer1-sOpMpnOYd4-sOR1GhUL5w-b4",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer1-sOpMpnOYd4-sOR1GhUL5w-b4"
+          "_params": {}
         }
       ]
     }

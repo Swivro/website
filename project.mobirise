@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "is-tor-really-anonymous.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -19,9 +19,9 @@
         "display2Size": "3.5",
         "display5Font": "Bagnard",
         "display5Size": 2,
-        "display7Font": "Montserrat",
+        "display7Font": "Montserrat-Regular",
         "display7Size": 1.2,
-        "display4Font": "Montserrat",
+        "display4Font": "Montserrat-Medium",
         "display4Size": 1.1,
         "isRoundedButtons": true,
         "isGhostButtonBorder": true,
@@ -48,45 +48,34 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       },
       {
-        "css": "'Merriweather', serif",
-        "name": "Merriweather",
-        "url": "https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i"
-      },
-      {
-        "css": "'Montserrat', sans-serif",
-        "name": "Montserrat",
-        "url": "https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-      },
-      {
-        "css": "'Quicksand', sans-serif",
-        "name": "Quicksand",
-        "url": "https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700"
-      },
-      {
-        "css": "'Playfair Display', serif",
-        "name": "Playfair Display",
-        "url": "https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i"
-      },
-      {
-        "css": "'Arvo', serif",
-        "name": "Arvo",
-        "url": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
-      },
-      {
-        "css": "'Dosis', sans-serif",
-        "name": "Dosis",
-        "url": "https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800"
-      },
-      {
-        "css": "'Open Sans', sans-serif",
-        "name": "Open Sans",
-        "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i"
-      },
-      {
         "css": "'Bagnard'",
         "name": "Bagnard",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/Bagnard/font.otf"
+      },
+      {
+        "css": "'Montserrat-Thin'",
+        "name": "Montserrat-Thin",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/Montserrat-Thin/font.ttf"
+      },
+      {
+        "css": "'Montserrat-Light'",
+        "name": "Montserrat-Light",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/Montserrat-Light/font.ttf"
+      },
+      {
+        "css": "'Montserrat-Regular'",
+        "name": "Montserrat-Regular",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/Montserrat-Regular/font.ttf"
+      },
+      {
+        "css": "'Montserrat-Medium'",
+        "name": "Montserrat-Medium",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/Montserrat-Medium/font.ttf"
       }
     ],
     "imageResize": true,

@@ -36,9 +36,6 @@
 		<loc>https://swivro.net/free-speech.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/online-privacy.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/company-transparency.html</loc>
 	</url>
 	<url>
@@ -49,9 +46,6 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/mass-surveillance.html</loc>
-	</url>
-	<url>
-		<loc>https://swivro.net/anonymity.html</loc>
 	</url>
 	<url>
 		<loc>https://swivro.net/cybersecurity.html</loc>
@@ -94,5 +88,11 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/anonymous-search-engines.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/lack-of-online-privacy.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/anonymity.html</loc>
 	</url>
 </urlset>

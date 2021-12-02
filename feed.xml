@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Swivro</title>
+    <link href="https://swivro.net/feed.xml" rel="self" />
+    <link href="https://swivro.net" />
+    <updated>2021-11-06T15:29:03-04:00</updated>
+    <author>
+        <name>Albert A.</name>
+    </author>
+    <id>https://swivro.net</id>
+
+    <entry>
+        <title>How does Tor make you anonymous?</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/how-does-tor-make-you-anonymous/"/>
+        <id>https://swivro.net/how-does-tor-make-you-anonymous/</id>
+
+        <updated>2021-11-06T15:29:03-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/50/anonymous-2755365_1920.jpg" alt="" />
+                    Tor, short for The Onion Router, is an anonymity network powered by the Tor Project and thousands of volunteers across&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/50/anonymous-2755365_1920.jpg" alt="" />
+                <p>Tor, short for The Onion Router, is an anonymity network powered by the Tor Project and thousands of volunteers across the universe. The Tor Network does not make you completely anonymous, but definitely boosts your anonymity. The easiest way to access websites via the Tor Network is to use the official Tor Browser from torproject.org. The way Tor works is, once you go to a normal website via the Tor Browser, your connection is passed to a Tor Guard Node, which is the first server your traffic goes to. It is then passed to one or more relay servers, where your traffic is relayed from one server to another, and then is passed to the final Exit Node, which is the node that reaches out to the internet. The exit node fetches your requested content, then passes it back through the relay of servers to your machine. Tor Nodes (exit/relay/guard nodes) are mostly ran by volunteers and <strong><span class="has-inline-color has-vivid-red-color">the government</span></strong>.</p>
+<h2><strong>Simplified Explanation:</strong></h2>
+<p><strong>Guard Node</strong>: The first server/node that your Tor Browser connects to.</p>
+<p><strong>Relay Node</strong>: These type of Tor Nodes are nodes that receive and pass traffic to other relay nodes. They relay your web traffic through Tor.</p>
+<p><strong>Exit Node</strong>: The final Tor Node that your traffic reaches. The exit node is the node that actually fetches your requested content from the internet, then passes it back through all of the relay nodes and the guard node, to your machine.</p>
+<p>Even if when you are using Tor, one of the relay nodes you are using is ran by the government, that malicious (government-ran) relay node should not be able to see what’s going on, as all traffic passed to it is encrypted, then passed to another relay node. The Tor Browser also sets a certain screen size (which is why you may see a border), and useragent, so that all people using the Tor Browser have a common fingerprint, and no users can be uniquely identified. When you visit a .onion site through Tor, there is no exit node at all, because exit nodes are gateways to the normal internet (clearnet), your traffic is passed through more relays (around 6) for increased anonymity. Tor is a very good thing, and you can even route all of your internet traffic through Tor by using Torifier, Tallow, or some other programs. The dangerous part of Tor is when you are using an exit or guard node controlled by the government. This is because, if you are connected to a Guard node that is controlled by the government, then the government will be able to see your real IP address. Most people do not recommend using Tor in conjunction with a VPN, but we do, because if the government contacts your ISP and tells them to prevent you from accessing any Tor Guard Nodes besides ones owned by the government, then the government will be able to see your IP address and the fact that you’re using Tor. With the right VPN provider (we recommend ProtonVPN or Mullvad), they will not allow the government to do such a thing, and if you happen to connect to a government-operated guard node, the government will see the VPN IP address and not your actual home IP address.</p>
+<p>Great, so now you have a VPN on, and you’re practically safe from any malicious government-operated guard nodes, but now exit nodes are the dangerous part, because if the government is operating an exit node and your traffic goes through that exit node, then the government will be able to see what sites you are visiting, as the exit node is the only node to reach out to the internet (clearnet). To eliminate this issue, you should only be accessing onionsites, which are sites that end with .onion. You should not access any sites that use the clearnet (sites that end with .com .net .org .info etc). This is because, as we mentioned, exit nodes do not exist when connecting to onionsites, as exit nodes are the gateway to sites on the clearnet. If the exit node doesn’t exist, then absolutely no one can see what website you’re visiting besides yourself. Not even the guard node. Essentially; only use the Tor Browser (do not route your internet traffic through Tor then use Chrome), make sure you only download Tor Browser from torproject.org, use a VPN (we suggest ProtonVPN or Mullvad), and only access onionsites. This gives you a great amount of anonymity and ensures the government or any other malicious Tor Nodes cannot see what you’re doing or who you are. Thanks for reading!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Comcast; a privacy-nightmare and horrible company.</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/comcast-a-privacy-nightmare-and-horrible-company/"/>
+        <id>https://swivro.net/comcast-a-privacy-nightmare-and-horrible-company/</id>
+
+        <updated>2021-11-04T07:55:44-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/48/New-Project-95.png" alt="" />
+                    Comcast is US-based popular internet service provider. Comcast does not notify you if the government is requesting data associated with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/48/New-Project-95.png" alt="" />
+                <p>Comcast is US-based popular internet service provider. Comcast does not notify you if the government is requesting data associated with you, likely even if a gag order is not present. They have also received a 1-star privacy rating from the Electronic Frontier Foundation, which obviously, is an extremely bad rating. Comcast also fought against Google Chrome &amp; Mozilla Firefox's new <strong>encrypted-DNS</strong> feature which encrypts DNS traffic that leaves the browser, which makes it harder for Comcast to see what their customers are doing on the internet, but at the same time Comcast also claims that they don't spy on their users. Why would they fight against this privacy-enhancing feature if they don't spy on their users?</p>
+<p>Moreover, in the year 2015, a customer of Comcast named Lisa Brown has contacted Comcast's customer service via telephone, requesting for Comcast to downgrade her Comcast service in order to lower her monthly payment. Instead of Comcast doing so immediately, they offered her a service upgrade without extra charge. Lisa, clearly wanting to downgrade her service, refused the offer. Lisa noticed that on the next invoice/monthly bill sent to her, the customer service rep she had contacted had changed her name in the Comcast system from Lisa Brown to "Asshole Brown". This is a truly horrible company. A similar situation occurred in the year of 2014, where a journalist named Ryan Block called up Comcast to cancel his service. Comcast straight up refused to cancel his service even after 20 minutes of arguing.</p>
+<p>Comcast is a company that solely cares about making money, doesn't care one bit about user privacy or service quality, and has god awful and extremely rude customer support. Please avoid this company at all costs.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to store your online passwords securely</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/how-to-store-your-online-password-securely/"/>
+        <id>https://swivro.net/how-to-store-your-online-password-securely/</id>
+
+        <updated>2021-11-03T20:49:23-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/47/subscribe-3534409_1920.jpg" alt="" />
+                    We all use passwords for our online accounts. You shouldn't be using the same password for every service, nor should&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/47/subscribe-3534409_1920.jpg" alt="" />
+                <p>We all use passwords for our online accounts. You shouldn't be using the same password for every service, nor should you be able to remember your passwords, in other words, your password should be extremely complicated, and should be different for every online account you have. There are a plethora of password managers and generators that can do this job for you. If you are currently using a password manager like 1Password, LastPass, Roboform, or iCloud Keychain, we highly recommend to pick an alternative seen below.</p>
+<p class="card-text"><strong>KeePassXC</strong> is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager, used obviously to store your passwords. KeePass is a downloadable app and is not a web app. <a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
+<p class="card-text"><strong>Bitwarden</strong> is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server. <a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
+<p><strong>Master Password</strong> is a password manager based on an ingenious password-generation algorithm that guarantees your passwords can never be lost. Its passwords aren't stored anywhere: they are generated on-demand from your name, the site, and your master password. No syncing, backups, or internet access needed. It's super innovative, unique, and seamless. <a href="https://masterpassword.app/" target="_blank" rel="noopener noreferrer">Check it out here</a>.</p>
+<p> </p>
+<div class="post__entry">
+<p>You should carefully review the descriptions that we have provided of the 3 best password managers listed above, and use that info to determine which password manager you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Microsoft Windows is spying on you; it&#x27;s time to switch</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/windows-10-and-11-are-spying-on-you/"/>
+        <id>https://swivro.net/windows-10-and-11-are-spying-on-you/</id>
+
+        <updated>2021-11-02T22:02:31-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/46/window-1231894_1920.jpg" alt="" />
+                    Though Windows 11 was recently publicly released by Microsoft, just the other month, most people still use Windows 10. Microsoft&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/46/window-1231894_1920.jpg" alt="" />
+                <p>Though Windows 11 was recently publicly released by Microsoft, just the other month, most people still use Windows 10. Microsoft introduced a lot of new features in Windows 10 such as Cortana. However, most of them are violating your privacy. Windows 11 isn't any better privacy-wise.</p>
+<ol>
+<li><strong>Data syncing is by default enabled.</strong>
+<ul>
+<li>Browsing history and open websites.</li>
+<li>Apps settings.</li>
+<li>WiFi hotspot names and passwords.</li>
+</ul>
+</li>
+<li><strong>Your device is by default tagged with a unique advertising ID.</strong>
+<ul>
+<li>Used to serve you with personalized advertisements by third-party advertisers and ad networks.</li>
+</ul>
+</li>
+<li><strong>Cortana can collect any of your data.</strong>
+<ul>
+<li>Your keystrokes, searches and mic input.</li>
+</ul>
+<ul>
+<li>Calendar data.</li>
+</ul>
+<ul>
+<li>Music you listen to.</li>
+</ul>
+<ul>
+<li>Credit Card information.</li>
+</ul>
+<ul>
+<li>Purchases.</li>
+</ul>
+</li>
+<li><strong>Microsoft can collect any personal data.</strong>
+<ul>
+<li>Your identity.</li>
+</ul>
+<ul>
+<li>Passwords.</li>
+</ul>
+<ul>
+<li>Demographics.</li>
+</ul>
+<ul>
+<li>Interests and habits.</li>
+</ul>
+<ul>
+<li>Usage data.</li>
+</ul>
+<ul>
+<li>Contacts and relationships.</li>
+</ul>
+<ul>
+<li>Location data.</li>
+</ul>
+<ul>
+<li>Content like emails, instant messages, caller list, audio and video recordings.</li>
+</ul>
+</li>
+<li><strong>Your data can be shared.</strong>
+<ul>
+<li>When downloading Windows 10, you are authorizing Microsoft to share any of above-mentioned data with any third-party, with or without your consent.</li>
+</ul>
+</li>
+</ol>
+<p>W10Privacy is a tool that attempts to disable all major tracking features in Windows 10 and 11. Though it isn't perfect, and wont block all tracking features, it definitely helps and is worth using. Check it out <a href="https://www.winprivacy.de/english-home/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Thehackernews.com reports that when a user left Microsoft Windows idle for about 8 hours, the computer had tried attempting well over 5,000 mysterious connections to 93 unique IP addresses, with almost 90% of those mysterious connections leading to IP addresses owned by Microsoft. Microsoft claims that all of this data sent is encrypted, and that no personal information is sent to them, so chances are, they are probably seeing what apps you're using, how much time you spend on them, etc. In Microsoft's official article stating that Windows 11 was being released on Oct. 5th, the word "privacy" did not appear once, and they did not even remotely mention anything user privacy related. Microsoft Windows is an OS that does not care one bit about user privacy and is solely focused on making Microsoft money.</p>
+<p>Linux is simply the best option. Don't even think of trying Apple's overpriced ugly garbage, because with the new child-abuse scanning feature your privacy is non-existent. There are thousands of Linux distros available on the internet, for you to use. To help you choose a Linux distro, we'll list some of the most popular, simple, and privacy-respecting ones below.</p>
+<p> </p>
+<figure class="post__image"><img loading="lazy"  src="https://swivro.net/media/posts/46/1024px-Desktop_Ubuntu_20.04.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://swivro.net/media/posts/46/responsive/1024px-Desktop_Ubuntu_20.04-xs.png 300w ,https://swivro.net/media/posts/46/responsive/1024px-Desktop_Ubuntu_20.04-sm.png 480w ,https://swivro.net/media/posts/46/responsive/1024px-Desktop_Ubuntu_20.04-md.png 768w"  alt="" width="1024" height="576"></figure>
+<h2>Ubuntu</h2>
+<p>Ubuntu is <strong>an open-source operating system (OS) based on the Debian GNU/Linux distribution</strong>. Ubuntu incorporates all the features of a Unix OS with an added customizable GUI, which makes it popular in universities and research organizations. Fun fact: Ubuntu is an African word that literally means "humanity to others." Ubuntu is incredibly easy to use, has an elegant interface, and is our favorite. I am currently typing these words on Ubuntu. At the time of writing, the latest LTS (long-term-support) version of Ubuntu is 20.04. <a href="https://ubuntu.com/download/desktop" target="_blank" rel="noopener noreferrer">Check out Ubuntu Desktop here</a>.</p>
+<p> </p>
+<figure class="post__image"><img loading="lazy"  src="https://swivro.net/media/posts/46/zorin-os-15.jpg" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://swivro.net/media/posts/46/responsive/zorin-os-15-xs.jpg 300w ,https://swivro.net/media/posts/46/responsive/zorin-os-15-sm.jpg 480w ,https://swivro.net/media/posts/46/responsive/zorin-os-15-md.jpg 768w"  alt="" width="1368" height="768"></figure>
+<h2>Zorin OS</h2>
+<p>Zorin OS is a personal computer operating system designed and promoted for users new to Linux-based computers. One of its built-in features lets users change the interface to resemble those of Microsoft Windows or macOS. In other words, if you're used to Windows, you can customize the Zorin OS layout to be more similar to the Windows layout (as seen in the screenshot above), or you can customize it to look more similar to the macOS layout. We like Ubuntu the best, but you may like Zorin OS better. Zorin OS is free, but offers a "Pro" version with more features. <a href="https://zorin.com/os/" target="_blank" rel="noopener noreferrer">Check out Zorin OS here</a>.</p>
+<p> </p>
+<figure class="post__image"><img loading="lazy"  src="https://swivro.net/media/posts/46/screenshot_03-24-2020_23-39-27-1024x576.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://swivro.net/media/posts/46/responsive/screenshot_03-24-2020_23-39-27-1024x576-xs.png 300w ,https://swivro.net/media/posts/46/responsive/screenshot_03-24-2020_23-39-27-1024x576-sm.png 480w ,https://swivro.net/media/posts/46/responsive/screenshot_03-24-2020_23-39-27-1024x576-md.png 768w"  alt="" width="1024" height="576"></figure>
+<h2>DraugerOS</h2>
+<p>Drauger OS is a Linux desktop gaming operating system. It aims to provide a platform for gamers to use where they can get great performance without sacrificing their security. Furthermore, it aims to make it easy for anyone to game, whether they use a keyboard and mouse, or some sort of controller. DraugerOS is based off of Ubuntu LTS releases and is stable, secure, and gets updates thanks to the Ubuntu repositories for 5 years (even if a given Drauger OS release is not supported for the full 5 years by Drauger OS Development itself). If you're a gamer, and you're currently using Microsoft Windows, but want some more privacy and better security, we think you'll enjoy DraugerOS. <a href="https://draugeros.org/go/download-old/" target="_blank" rel="noopener noreferrer">Check out DraugerOS here</a>.</p>
+<p> </p>
+<p>Each distro that we recommend above is unique in it's own way. Some lack features when compared to others, and some have more features. It all comes down to your personal preference. We suggest carefully reviewing the info provided above about each Linux distro, and from that, determine which distro you think would be best for you. You can also try each distro individually, and keep the one you like the most. Lastly, you can go to YouTube (or invidious if you're privacy-focused) and search for reviews on all of the distros listed above. Thanks for reading, and we hope this article helped you choose a Linux distro &amp; move away from Microsoft's nasty OS!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>What DNS resolvers should you be using?</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/what-dns-resolvers-should-you-be-using/"/>
+        <id>https://swivro.net/what-dns-resolvers-should-you-be-using/</id>
+
+        <updated>2021-11-02T17:26:09-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/45/business-5475661_1920.jpg" alt="" />
+                    Chances are, you're probably using your ISP's default DNS servers. That is, right after Google, the worst DNS resolver service&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/45/business-5475661_1920.jpg" alt="" />
+                <div class="alert alert-warning" role="alert">Chances are, you're probably using your ISP's default DNS servers. That is, right after Google, the worst DNS resolver service in the world in terms of privacy. DNS-over-HTTPS, DNS-over-TLS, and DNSCrypt resolvers will not make you anonymous. Using Anonymized DNSCrypt hides <i>only</i> your DNS traffic from your Internet Service Provider, so the DNS provider can still see what's going on. However, using any of these protocols will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</div>
+<h2 id="dns-table" class="table-responsive">AdGuard</h2>
+<div><a href="https://adguard.com/en/adguard-dns/overview.html" target="_blank" rel="noopener noreferrer">AdGuard</a> DNS is a foolproof way to block Internet ads that does not require installing any applications. It is easy to use, absolutely free, easily set up on any device, and provides you with minimal necessary functions to block ads, counters, malicious websites, and adult content.</div>
+<div> </div>
+<div>AdGuard Locations:</div>
+<ul>
+<li>Anycast (bsaed in Cyprus)</li>
+</ul>
+<p>AdGuard Logging Policy:</p>
+<ul>
+<li>They claim to have a <a href="https://kb.adguard.com/en/dns/overview#:~:text=We%20have%20strict%20no%20logging,Android%2C%20or%20iOS%20operated%20device." target="_blank" rel="noopener noreferrer">strict no logging policy</a>.</li>
+</ul>
+<p>AdGuard DNS Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+<li>DNSCrypt</li>
+</ul>
+<p>AdGuard Filtering:</p>
+<ul>
+<li>Blocks Ads</li>
+<li>Blocks Malicious Websites</li>
+<li>Blocks adult content</li>
+</ul>
+<h2 id="dns-table" class="table-responsive">BlahDNS</h2>
+<div>A hobby Adblock DNS project focused on online privacy, security, and anonymity, ran on pocket money and donations. For maximum privacy, none of their servers are based in the US, UK, or France, and they utilize various secure DNS Protocols.</div>
+<div> </div>
+<div>BlahDNS Locations:</div>
+<ul>
+<li>Switzerland</li>
+<li>Singapore</li>
+<li>Japan</li>
+<li>Germany</li>
+<li>Finland</li>
+</ul>
+<p>BlahDNS Logging Policy:</p>
+<ul>
+<li>The BlahDNS website says "no logs".</li>
+</ul>
+<p>BlahDNS Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over QUIC</li>
+</ul>
+<p>BlahDNS Filtering:</p>
+<ul>
+<li>Blocks Ads</li>
+<li>Blocks Malicious Websites</li>
+<li>Blocks trackers</li>
+</ul>
+<h2 id="dns-table" class="table-responsive">1.1.1.1 (Cloudflare DNS)</h2>
+<div>Cloudflare DNS is an enterprise-grade authoritative DNS service that offers the fastest response time, unparalleled redundancy, and advanced security with built-in DDoS mitigation and DNSSEC.</div>
+<div> </div>
+<div>1.1.1.1 Locations:</div>
+<ul>
+<li>Anycast (based in the USA)</li>
+</ul>
+<p>1.1.1.1 Logging Policy:</p>
+<ul>
+<li><a href="https://www.cloudflare.com/privacypolicy/#:~:text=Limited%20DNS%20query%20data%3A%20We,only%20stored%20for%2025%20hours." target="_blank" rel="noopener noreferrer">Cloudflare logs limited DNS query data.</a></li>
+</ul>
+<p>1.1.1.1 Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+</ul>
+<p>1.1.1.1 Filtering:</p>
+<ul>
+<li><a href="https://blog.cloudflare.com/introducing-1-1-1-1-for-families/" target="_blank" rel="noopener noreferrer">Based on server choice</a></li>
+</ul>
+<h2 id="dns-table" class="table-responsive">LibreDNS</h2>
+<div>Cloudflare DNS is an enterprise-grade authoritative DNS service that offers the fastest response time, unparalleled redundancy, and advanced security with built-in DDoS mitigation and DNSSEC.</div>
+<div> </div>
+<div>LibreDNS Locations:</div>
+<ul>
+<li>Germany</li>
+</ul>
+<p>LibreDNS Logging Policy:</p>
+<ul>
+<li>They claim that no logs are taken, and that logs are disabled for their DNS daemon.</li>
+</ul>
+<p>LibreDNS Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+</ul>
+<p>LibreDNS Filtering:</p>
+<ul>
+<li>Blocks ads</li>
+<li>Blocks trackers</li>
+</ul>
+<h2 id="dns-table" class="table-responsive">NextDNS</h2>
+<div>NextDNS protects you from all kinds of security threats, blocks ads and trackers on websites and in apps and provides a safe and supervised Internet for kids — on all devices and on all networks.</div>
+<div> </div>
+<div>NextDNS Locations:</div>
+<ul>
+<li>United States</li>
+<li>Areas in the European Union</li>
+<li>United Kingdom</li>
+<li>Switzerland</li>
+</ul>
+<p>NextDNS Logging Policy:</p>
+<ul>
+<li>You can choose how long you want your logs retained for, or you can disable logging.</li>
+</ul>
+<p>NextDNS Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+</ul>
+<p>NextDNS Filtering:</p>
+<ul>
+<li>Blocks piracy websites</li>
+<li>Blocks mature content</li>
+<li>You are also able to customize what you want blocked</li>
+</ul>
+<h2 id="dns-table" class="table-responsive">Quad9</h2>
+<div>Quad9 is a free service that replaces your default ISP or enterprise Domain Name Server (DNS) configuration. When your computer performs any Internet transaction that uses the DNS (and most transactions do), Quad9 blocks lookups of malicious host names from an up-to-the-minute list of threats.</div>
+<div> </div>
+<div>Quad9 Locations:</div>
+<ul>
+<li>Anycast (based in Switzerland)</li>
+</ul>
+<p>Quad9 Logging Policy:</p>
+<ul>
+<li>Quad9 claims to keep limited log data with no personal info retained.</li>
+</ul>
+<p>Quad9 Protocols:</p>
+<ul>
+<li>DNS over HTTPS</li>
+<li>DNS over TLS</li>
+<li>DNSCrypt</li>
+</ul>
+<p>Quad9 Filtering:</p>
+<ul>
+<li>Quad9 blocks malicious domains.</li>
+</ul>
+<p> </p>
+<div class="post__entry">
+<div class="post__entry">
+<p>You should carefully review the descriptions provided of the 6 best DNS resolver services listed above, and use that info to determine which one you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Discover File Encryption Tools</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/discover-file-encryption-tools/"/>
+        <id>https://swivro.net/discover-file-encryption-tools/</id>
+
+        <updated>2021-11-02T17:25:24-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/44/cyber-security-3400657_1920.jpg" alt="" />
+                    Here, you will discover free, open-source, and secure ways to encrypt your sensitive data to prevent your privacy from being&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/44/cyber-security-3400657_1920.jpg" alt="" />
+                <p>Here, you will discover free, open-source, and secure ways to encrypt your sensitive data to prevent your privacy from being compromised. If you are currently not using encryption software for your hard disk, emails, or file archives, you should pick an option here.</p>
+<p class="card-text"><strong>VeraCrypt</strong> is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. It was initially released on June 22, 2013. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed. <a href="https://veracrypt.fr/" target="_blank" rel="noopener noreferrer">Check out VeraCrypt</a>.</p>
+<p class="card-text"><strong>GnuPG</strong> is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems. GnuPG is a part of the Free Software Foundation's GNU software project, and has received major funding from the German government. <a href="https://gnupg.org/" target="_blank" rel="noopener noreferrer">Check out GnuPG</a>.</p>
+<p class="card-text"><strong>7-Zip</strong> is a free and open-source file archiver, a utility used to place groups of files within compressed containers. On Linux, MacOS etc. the command-line tool <a href="http://p7zip.sourceforge.net/" target="_blank" rel="noopener noreferrer"><strong>p7zip</strong></a> is used and integrates into various interfaces such as <a href="https://wiki.gnome.org/Apps/FileRoller" target="_blank" rel="noopener noreferrer">FileRoller</a>, <a href="https://github.com/ib/xarchiver" target="_blank" rel="noopener noreferrer">Xarchiver</a>, <a href="https://kde.org/applications/utilities/ark" target="_blank" rel="noopener noreferrer">Ark</a>. <a href="https://7-zip.org/" target="_blank" rel="noopener noreferrer">Check out 7-Zip</a>.</p>
+<p> </p>
+<div class="post__entry">
+<p>You should carefully review the descriptions provided of the 4 best file encryption services/software listed above, and use that info to determine which one you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Find a privacy-focused email provider; stop using Gmail!</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/the-most-private-email-services-stop-using-gmail/"/>
+        <id>https://swivro.net/the-most-private-email-services-stop-using-gmail/</id>
+
+        <updated>2021-11-03T21:39:29-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/43/email-6370595_1920.jpg" alt="" />
+                    Chances are, you're probably using Gmail, Yahoo, AOL, or iCloud for your email. It's time to take back your online&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/43/email-6370595_1920.jpg" alt="" />
+                <p>Chances are, you're probably using Gmail, Yahoo, AOL, or iCloud for your email. It's time to take back your online privacy and to switch to a secure, private, and simple email service.</p>
+<p><strong><a href="https://protonmail.com/" target="_blank" rel="noopener noreferrer">ProtonMail.com</a></strong> is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since <strong>2013</strong>. ProtonMail is based in Genève, Switzerland. Accounts start with 500 MB storage with their <strong>free</strong> plan. ProtonMail is also accessible via Tor (the ProtonMail onionsite) for increased anonymity. ProtonMail Free accounts have some limitations and do not allow the use of the <a href="https://protonmail.com/bridge" target="_blank" rel="noopener noreferrer">ProtonMail Bridge</a>, which is required to use a <a href="https://privacy.promo/software/email" target="_blank" rel="noopener noreferrer">recommended email client</a> (e.g. Thunderbird) or to search email by body text. Paid accounts are very inexpensive, and are available starting at <strong>€48/year</strong> which include features like ProtonMail Bridge, additional storage, custom domain support, and more. The webmail and mobile apps can only search <code>To:</code>, <code>From:</code>, <code>Date:</code> and <code>Subject:</code> (this is likely to change when <a href="https://reddit.com/comments/cqwk2a/comment/ex21b4e" target="_blank" rel="noopener noreferrer">v4.0</a> of ProtonMail is released). ProtonMail accepts Bitcoin in addition to accepting credit/debit cards and PayPal. You should have at least one of these payment methods. Bitcoin is the most anonymous in most cases. ProtonMail has <a href="https://protonmail.com/blog/zero-access-encryption" target="_blank" rel="noopener noreferrer">zero access encryption at rest</a> for your emails, <a href="https://protonmail.com/blog/encrypted-contacts-manager" target="_blank" rel="noopener noreferrer">address book contacts</a>, and <a href="https://protonmail.com/blog/protoncalendar-security-model" target="_blank" rel="noopener noreferrer">calendars</a>. This means the messages and other data stored in your account are only readable by you. ProtonMail has <a href="https://protonmail.com/support/knowledge-base/how-to-use-pgp" target="_blank" rel="noopener noreferrer">integrated OpenPGP encryption</a> in their webmail. Emails to other ProtonMail users are encrypted automatically, and encryption to non-ProtonMail users with an OpenPGP key can be enabled easily in your account settings. They also allow you to <a href="https://protonmail.com/support/knowledge-base/encrypt-for-outside-users">encrypt messages to non-ProtonMail users</a> without the need for them to sign up for a ProtonMail account or use software like OpenPGP. ProtonMail also supports the discovery of public keys via HTTP from their <a href="https://wiki.gnupg.org/WKD" target="_blank" rel="noopener noreferrer">Web Key Directory (WKD)</a>. This allows users outside of ProtonMail to find the OpenPGP keys of ProtonMail users easily, for cross-provider E2EE.</p>
+<p><strong><a href="https://mailbox.org/">Mailbox.org</a></strong> is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since <strong>2014</strong>. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed. Mailbox.org doesn't accept Bitcoin or any other cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung. Due to the fact that they don't accept any cryptocurrencies, this reduces your anonymity &amp; privacy. Typically, you want to provide a company with as little personal info as possible. Mailbox.org allows for encryption of incoming mail using their <a href="https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox" target="_blank" rel="noopener noreferrer">encrypted mailbox</a>. New messages that you receive will then be immediately encrypted with your public key. Mailbox.org has <a href="https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard" target="_blank" rel="noopener noreferrer">integrated encryption</a> in their webmail, which simplifies sending messages to users with public OpenPGP keys. They also allow <a href="https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP" target="_blank" rel="noopener noreferrer">remote recipients to decrypt an email</a> on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox. Mailbox.org also supports the discovery of public keys via HTTP from their <a href="https://wiki.gnupg.org/WKD" target="_blank" rel="noopener noreferrer">Web Key Directory (WKD)</a>. This allows users outside of Mailbox.org to find the OpenPGP keys of Mailbox.org users easily, for cross-provider E2EE.</p>
+<p><strong><a href="https://disroot.org/en/services/email">Disroot</a></strong> offers email amongst <a href="https://disroot.org/en/#services">other services</a>. The service is maintained by volunteers and its community. They have been in operation since <strong>2015</strong>. Disroot is based in Amsterdam. Disroot is free and uses open source software such as Rainloop to provide service. Users support the service through donations and buying extra storage. The mailbox limit is 1 GB, but extra storage can be purchased 0.15€ per GB per month paid yearly. Disroot accepts Bitcoin and Faircoin as payment methods. They also accept PayPal, direct bank deposit, and Patreon payments. Disroot is a not-for-profit organization that also accepts donations through Liberapay, Flattr, and Monero, but these payment methods cannot be used to purchase services. Disroot uses full disk encryption on their email servers. However, it doesn't appear to be "zero access", meaning it is technically possible for them to decrypt the data they have. Disroot allows for encrypted emails to be sent from their webmail application using OpenPGP. However, Disroot has not integrated a <a href="https://wiki.gnupg.org/WKD">Web Key Directory (WKD)</a> for users on their platform.</p>
+<p><strong><a href="https://tutanota.com/">Tutanota.com</a></strong> is an email service with a focus on security and privacy through the use of encryption. Tutanota has been in operation since <strong>2011</strong> and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan. <span style="color: #e03e2d;">Tutanota accepts only credit cards and PayPal.</span> This can definitely reduce your anonymity and privacy. Tutanota has <a href="https://tutanota.com/faq#what-encrypted" target="_blank" rel="noopener noreferrer">zero access encryption at rest</a> for your emails, <a href="https://tutanota.com/faq#encrypted-address-book" target="_blank" rel="noopener noreferrer">address book contacts</a>, and <a href="https://tutanota.com/faq#calendar" target="_blank" rel="noopener noreferrer">calendars</a>. This means the messages and other data stored in your account are only readable by you, and Tutanota is unable to see your data. Tutanota <a href="https://www.tutanota.com/faq/#pgp" target="_blank" rel="noopener noreferrer">does not use OpenPGP</a>. Tutanota users can only receive encrypted emails when external users send them through a <a href="https://www.tutanota.com/howto/#encrypted-email-external" target="_blank" rel="noopener noreferrer">temporary Tutanota mailbox</a>. Tutanota <a href="https://github.com/tutao/tutanota/issues/198">does have plans</a> to support <a href="https://autocrypt.org/" target="_blank" rel="noopener noreferrer">AutoCrypt</a>. This would allow for external users to send encrypted emails to Tutanota users as long as their email client supports the AutoCrypt headers.</p>
+<p>You should carefully review the descriptions that we have provided of the 4 best email providers listed above, and use that info to determine which email provider you think would work best for you. Each one has it's own unique features, but only one of them will fit your needs the best. We hope you found this article helpful, have a nice day!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>See the best alternatives to Google Search</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/discover-the-best-alternatives-to-google-search/"/>
+        <id>https://swivro.net/discover-the-best-alternatives-to-google-search/</id>
+
+        <updated>2021-11-01T21:28:59-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/42/internet-search-engine-1433323_1920.jpg" alt="" />
+                     It's time to finally stop using Google, Bing, and Ecosia, because they all unethically track you and store sensitive&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/42/internet-search-engine-1433323_1920.jpg" alt="" />
+                <div class="jumbotron p-5">
+<p class="lead">It's time to finally stop using Google, Bing, and Ecosia, because they <strong>all</strong> unethically track you and store sensitive information from you without consent. Discover search engines that doesn't track your search queries or display personalized ads based on your search history. Here are our favorites, listed below:</p>
+<p class="card-text"><strong>Searx</strong> is an <a href="https://github.com/asciimoo/searx" target="_blank" rel="noopener noreferrer">open-source</a>, self-hostable, metasearch engine, aggregating the results of other search engines while not storing information about its users. Searx is kind enough to provide a <a href="https://searx.space/" target="_blank" rel="noopener noreferrer">list of public instances</a>, or you can try out the <a href="https://searx.nixnet.services/" target="_blank" rel="noopener noreferrer">NixNet Public instance.</a></p>
+<p class="card-text"><strong>DuckDuckGo</strong> is a "search engine that doesn't track you." Some of DuckDuckGo's code is free software hosted at GitHub, but the DuckDuckGo core is unfortunatley proprietary, meaning we will not be able to see exactly what's going on. <a href="https://swivro.net/why-you-should-avoid-us-and-uk-services/" target="_blank" rel="noopener noreferrer">The company is based in the USA.</a></p>
+<p class="card-text"><strong>Qwant </strong>is a search engine with its philosophy based on two principles: no user tracking and no filter bubble.  <a href="https://swivro.net/why-you-should-avoid-us-and-uk-services/">The company is based in France.</a> While the complete source code of Qwant is not publicly accessible, it is believed that Qwant does not unethically track you, does not sell your data, and does not collect and save your search queries for research purposes.</p>
+<p class="card-text"><strong>Startpage</strong> is a search engine that displays search results from Google with complete privacy protection against Google's nasty tracking software. Startpage BV is a Netherlands-based company that has been dedicated to privacy-respecting web search since 2006. While the complete source code to Startpage is not publicly accessible, it is believed that Startpage does not unethically track you, doesn't sell your data, and does not collect and save your search queries for research purposes. <span style="color: #e03e2d;"><strong>Warning</strong>: Startpage was recently acquired by System1, a US-based analytics company.</span></p>
+<p><strong>Mojeek </strong>is a search engine that you can really trust, based in the United Kingdom. The search results which are provided by Mojeek come from its own index of web pages (unlike Startpage and DuckDuckGo), created by crawling the web. Mojeek is completely open source, so you can see everything that is going on when you use Mojeek, by looking at it's source code. Mojeek is also the first search engine to have a policy of not tracking its users.</p>
+<p>All of these search engines recommended above are unique in their own way. We suggest that you carefully reviewing the info we provided about them, and try each of them out individually to determine which one is best for you. Thanks for reading!</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>What messenger should you be using?</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/what-messenger-should-you-be-using/"/>
+        <id>https://swivro.net/what-messenger-should-you-be-using/</id>
+
+        <updated>2021-11-01T13:06:20-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/41/telephone-586266_1920.jpg" alt="" />
+                    If you are currently using an Instant Messenger like Telegram, LINE, Viber, WhatsApp, or plain SMS on your mobile device,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/41/telephone-586266_1920.jpg" alt="" />
+                <p>If you are currently using an Instant Messenger like Telegram, LINE, Viber, WhatsApp, or plain SMS on your mobile device, we highly suggest picking an alternative, which is what this post is all about.</p>
+<p>We only recommend instant messengers that utilize end-to-end encryption (E2EE), as E2EE encrypts all messages, voice, video, etc, before they are sent from your device to the recipient. E2EE will also protect the confidentiality and authenticity of the transmission as it passes through any part of the network. Any instant messengers we recommend below and completely free and are open source. </p>
+<p><a href="https://signal.org" target="_blank" rel="noopener noreferrer">Signal</a> is a mobile and desktop app developed by Signal Messenger LLC, which is very similar to Telegram but features full E2EE. The app provides instant messaging, as well as voice and video calling. All communications through Signal are end-to-end encrypted unless you choose to send a message as SMS. The Signal Protocol was also <a href="https://eprint.iacr.org/2016/1013.pdf">independently audited</a>.</p>
+<p><strong>Signal Benefits:</strong></p>
+<ul>
+<li>Cross-platform, supporting Desktop and Mobile.</li>
+<li>New features and changes can be implemented more quickly.</li>
+<li>Easier to get started with and to find contacts.</li>
+<li>Recommended by Elon Musk :)</li>
+</ul>
+<p><strong>Signal Downsides:</strong></p>
+<ul>
+<li>Requires a phone number</li>
+<li>Poor/No documentation for 3rd party developers</li>
+<li>The ownership, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
+<li>Centralized services could be more susceptible to legislation requiring backdoor access.</li>
+</ul>
+<p> </p>
+<p><a href="https://element.io/" target="_blank" rel="noopener noreferrer">Element</a> is the reference client for the <a href="https://matrix.org/docs/guides/introduction" target="_blank" rel="noopener noreferrer">Matrix</a> network. The <a href="https://matrix.org/docs/spec" target="_blank" rel="noopener noreferrer">Matrix open standard</a> is an open-source standard for secure (<a href="https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last" target="_blank" rel="noopener noreferrer">audit</a>), federated, real-time communication. Element/Matrix utilizes end-to-end encryption, does not require a phone number, can be used in a web browser, and is completely free, having a similar feel to the popular Discord App. Federated (aka decentralized) messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network. If you're a high threat level, we suggest using Element over the Tor Network in conjunction with a VPN. We suggest to either using the Public Matrix Server on Element, or create your own for maximum privacy.</p>
+<p><strong>Element Benefits:</strong></p>
+<ul>
+<li>Allows for greater control over your own data when running your own server.</li>
+<li>Often allows for third party clients which can provide a more native, customized, simpler, or more accessible experience.</li>
+<li>Allows you to choose who to trust your data with by choosing between multiple "public" matrix servers. We highly suggest running your own private server.</li>
+<li>Generally a less juicy target for governments wanting backdoor access to everything as the trust is decentralized.</li>
+<li>Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (ex: a family member or friend)</li>
+<li>Third-party developers can contribute code and add new features, instead of waiting for a private development team to do so.</li>
+</ul>
+<p><strong>Element Downsides:</strong></p>
+<ul>
+<li>Adding new features is more complex, because these features need to be standardized and tested to ensure they work with all servers on the network.</li>
+<li>Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).</li>
+<li>Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is utilized.</li>
+<li>Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with users on those servers.</li>
+</ul>
+<p>You should choose which messenger you think is a better option for you. If you're not a high threat level, and you're just looking for a more private experience when talking your friends, colleagues, or family members (whether that is via messaging, voice, or video), we suggest giving Signal a try. If you're maybe a higher threat level, want maximum anonymity, or want to share as little information as possible, we suggest going with Element/Matrix. We hope this article helped you pick a privacy-focused messenger!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Why you should avoid US &amp; UK Services</title>
+        <author>
+            <name>Albert A.</name>
+        </author>
+        <link href="https://swivro.net/why-you-should-avoid-us-and-uk-services/"/>
+        <id>https://swivro.net/why-you-should-avoid-us-and-uk-services/</id>
+
+        <updated>2021-11-01T12:13:04-04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://swivro.net/media/posts/40/computer-1591018_1920.jpg" alt="" />
+                    The UKUSA Agreement is an agreement between the United Kingdom, United States, Australia, Canada, and New Zealand to cooperatively collect,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://swivro.net/media/posts/40/computer-1591018_1920.jpg" alt="" />
+                <p>The UKUSA Agreement is an agreement between the United Kingdom, United States, Australia, Canada, and New Zealand to cooperatively collect, analyze, and share intelligence. Members of this group, known as the <a href="https://www.giswatch.org/en/communications-surveillance/unmasking-five-eyes-global-surveillance-practices" target="_blank" rel="noopener noreferrer">Five Eyes</a>, focus on gathering and analyzing intelligence from different parts of the world. While Five Eyes countries have agreed to <a href="https://www.pbs.org/newshour/world/an-exclusive-club-the-five-countries-that-dont-spy-on-each-other" target="_blank" rel="noopener noreferrer">not spy on each other</a> as adversaries, leaks by Snowden have revealed that some Five Eyes members monitor each other's citizens and <a href="https://www.theguardian.com/uk/2013/jun/21/gchq-cables-secret-world-communications-nsa" target="_blank" rel="noopener noreferrer">share intelligence</a> to <a href="https://www.theguardian.com/politics/2013/jun/10/nsa-offers-intelligence-british-counterparts-blunkett" target="_blank" rel="noopener noreferrer">avoid breaking domestic laws</a> that prohibit them from spying on their own citizens. The Five Eyes alliance also cooperates with groups of third-party countries to share intelligence (forming the Nine Eyes and Fourteen Eyes); however, Five Eyes and third-party countries can and do spy on each other.</p>
+<h3>Five Eyes Countries:</h3>
+<ol>
+<li>Australia</li>
+<li>Canada</li>
+<li>New Zealand</li>
+<li>United Kingdom</li>
+<li>United States of America</li>
+</ol>
+<h4>Nine Eyes Countries:</h4>
+<ol>
+<li>Denmark</li>
+<li>France</li>
+<li>Netherlands</li>
+<li>Norway</li>
+</ol>
+<h4>Fourteen Eyes Countries:</h4>
+<ol>
+<li>Belgium</li>
+<li>Germany</li>
+<li>Italy</li>
+<li>Spain</li>
+<li>Sweden</li>
+</ol>
+<h2 id="kdl" class="anchor">Key Disclosure Law</h2>
+<p>Who is required to hand over the encryption keys to authorities? Mandatory <a href="https://en.wikipedia.org/wiki/Key_disclosure_law" target="_blank" rel="noopener noreferrer">key disclosure laws</a> require individuals to turn over encryption keys to law enforcement conducting a criminal investigation. How these laws are implemented (who may be legally compelled to assist) vary from nation to nation, but a warrant is generally required. Defenses against key disclosure laws include steganography and encrypting data in a way that provides plausible deniability. <a href="https://en.wikipedia.org/wiki/Steganography" target="_blank" rel="noopener noreferrer">Steganography</a> involves hiding sensitive information (which may be encrypted) inside of ordinary data (for example, encrypting an image file and then hiding it in an audio file). With plausible deniability, data is encrypted in a way that prevents an adversary from being able to prove that the information they are after exists (for example, one password may decrypt benign data and another password, used on the same file, could decrypt sensitive data).</p>
+<h4>Key disclosure laws apply:</h4>
+<ol>
+<li>Antigua &amp; Barbuda</li>
+<li>Australia</li>
+<li>France</li>
+<li>India</li>
+<li>Ireland</li>
+<li>Norway</li>
+<li>Russia</li>
+<li>South Africa</li>
+<li>United Kingdom</li>
+</ol>
+<h4>Key disclosure laws <em>may </em>apply:</h4>
+<ol>
+<li>Belgium</li>
+<li>Estonia</li>
+<li>Finland *</li>
+<li>New Zealand (unclear)</li>
+<li>The Netherlands *</li>
+<li>United States</li>
+</ol>
+<h4>Key disclosure laws don't apply:</h4>
+<ol>
+<li>Canada</li>
+<li>Czech Republic</li>
+<li>Germany</li>
+<li>Iceland</li>
+<li>Italy</li>
+<li>Poland</li>
+<li>Sweden (though it has been proposed)</li>
+<li>Switzerland</li>
+</ol>
+<h2 id="usa" class="anchor">Why is it not recommended to choose a US-based service?</h2>
+<p>Services based in the United States are not recommended because of the country's surveillance programs and use of <a href="https://www.eff.org/issues/national-security-letters/faq" target="_blank" rel="noopener noreferrer">National Security Letters</a> (NSLs) with accompanying gag orders, which forbid the recipient from talking about the request (EX: informing their users that they received a subpoena). This combination allows the government to <a href="https://www.schneier.com/blog/archives/2013/08/more_on_the_nsa.html" target="_blank" rel="noopener noreferrer">secretly force</a> companies to grant complete access to customer data and transform the service into a tool of mass surveillance. A perfect example of this is <a href="https://en.wikipedia.org/wiki/Lavabit#Suspension_and_gag_order" target="_blank" rel="noopener noreferrer">Lavabit</a> – a secure email service created by Ladar Levison. The FBI <a href="https://www.vice.com/en_us/article/nzz888/lavabit-founder-ladar-levison-discusses-his-federal-battle-for-privacy" target="_blank" rel="noopener noreferrer">requested</a> Snowden's records after finding out that he used the service. Since Lavabit did not keep logs and email content was stored encrypted, the FBI served a subpoena (with a gag order) for the service's SSL keys. Having the SSL keys would allow them to access communications (both metadata and unencrypted content) in real time for all of Lavabit's customers, not just Snowden's. Levison turned over the SSL keys and <a href="https://www.theguardian.com/commentisfree/2014/may/20/why-did-lavabit-shut-down-snowden-email" target="_blank" rel="noopener noreferrer">shut down</a> the service at the same time. The US government then <a href="https://www.cnbc.com/id/100962389" target="_blank" rel="noopener noreferrer">threatened Levison with arrest</a>, saying that shutting down the service was a violation of the court order. Avoid US services at all costs.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>

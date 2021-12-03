@@ -1,0 +1,15 @@
+@font-face {
+   font-family: 'Bagnard';
+   font-display: swap;
+   src: url('Bagnard/font.otf');
+}
+@font-face {
+   font-family: 'Montserrat-Regular';
+   font-display: swap;
+   src: url('Montserrat-Regular/font.ttf');
+}
+@font-face {
+   font-family: 'Montserrat-Medium';
+   font-display: swap;
+   src: url('Montserrat-Medium/font.ttf');
+}

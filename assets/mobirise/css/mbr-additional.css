@@ -3366,6 +3366,9 @@ a {
 .cid-sMIduUssbw .checkmarknem {
   display: none;
 }
+.cid-sMIduUssbw .checkmarksol {
+  display: none;
+}
 .cid-sMIduUssbw .copytext {
   font-size: 14px;
 }
@@ -3374,6 +3377,9 @@ a {
 }
 .cid-sMIduUssbw .ptop1 {
   padding-top: 45px;
+}
+.cid-sMIduUssbw small {
+  font-size: 10px;
 }
 .cid-sMIfzMe2bf {
   padding-top: 0rem;

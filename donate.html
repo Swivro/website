@@ -194,6 +194,12 @@
 
 
 <input id="nemtext" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="NAPOE6VYKI2FM4YPES2PMV4KWUFCJ2I7OY3AJMPG">
+
+
+<h4 class="ptop1">Solana&nbsp;<a onclick="solcopy()" class="copytext text-info">[Copy Address]</a><span class="checkmark checkmarksol">✅</span></h4>
+
+
+<input id="soltext" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="4qXCR54faZqbwH4idbDJMdnyc8EbFDy6ou4Hjik7NSGv">
             </div>
             </div>
         </div>
@@ -337,6 +343,16 @@ async function nemcopy() {
   /* Display checkmark for 3 secs then disappear */
   document.getElementsByClassName("checkmarknem")[0].style.display = "inline";
   setTimeout(() => {  document.getElementsByClassName("checkmarknem")[0].style.display = "none"; }, 2000);
+}
+
+async function solcopy() {
+  var copyText = document.getElementById("soltext");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  navigator.clipboard.writeText(copyText.value);
+  /* Display checkmark for 3 secs then disappear */
+  document.getElementsByClassName("checkmarksol")[0].style.display = "inline";
+  setTimeout(() => {  document.getElementsByClassName("checkmarksol")[0].style.display = "none"; }, 2000);
 }
 </script>
 </section>

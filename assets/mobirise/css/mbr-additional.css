@@ -21,7 +21,7 @@ body {
   font-size: 4.375rem;
 }
 .display-4 {
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-Medium';
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -598,7 +598,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-Medium';
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -612,7 +612,7 @@ a:hover {
   border-color: #800080 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-Medium';
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;

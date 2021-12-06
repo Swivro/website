@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "encrypted-communications.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -92,7 +92,7 @@
     ],
     "imageResize": true,
     "uniqCompNum": 508,
-    "versionPublish": "5.5.0",
+    "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/new-project-2021-11-10t172707.969-128x128.png",
     "mbrsiteDomain": "0boo3kfd6k",

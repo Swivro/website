@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "search-engines.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -91,7 +91,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 526,
+    "uniqCompNum": 528,
     "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/new-project-2021-11-10t172707.969-128x128.png",
@@ -798,6 +798,9 @@
             },
             ".btn": {
               "width": "100%"
+            },
+            ".card-title": {
+              "text-align": "center"
             }
           },
           "_name": "pricing1",

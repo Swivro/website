@@ -14267,13 +14267,16 @@ a {
   color: #fafafa;
 }
 .cid-sQXrLSaKvP {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #f2f2f2;
 }
 .cid-sQXrLSaKvP .dnsfont {
   font-family: 'Montserrat-Regular';
   font-size: 13px;
+}
+.cid-sQXrLSaKvP .pad1 {
+  font-size: 11.5px;
 }
 .cid-sQXrGp9PFm {
   padding-top: 5rem;

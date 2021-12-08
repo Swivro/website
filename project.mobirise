@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "software-alternatives.html",
+    "currentPage": "anonymous-networks.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -12347,7 +12347,7 @@
     },
     "anonymous-networks.html": {
       "settings": {
-        "title": "Anonymous Networks - Swivro",
+        "title": "Anonymity Networks - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",

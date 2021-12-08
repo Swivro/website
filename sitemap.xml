@@ -60,9 +60,6 @@
 		<loc>https://swivro.net/password-manager.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/anonymous-networks.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/web-browsers.html</loc>
 	</url>
 	<url>
@@ -88,5 +85,8 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/dns-resolvers.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/anonymity-networks.html</loc>
 	</url>
 </urlset>

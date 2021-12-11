@@ -213,6 +213,18 @@
 
 
 <input id="soltext" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="4qXCR54faZqbwH4idbDJMdnyc8EbFDy6ou4Hjik7NSGv">
+
+
+<h4 class="ptop1">Zcash&nbsp;<a onclick="zeccopy()" class="copytext text-info">[Copy Address]</a><span class="checkmark checkmarkzec">✅</span></h4>
+
+
+<input id="zectext" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="t1PwjXRzP52i4YBTTHWMXSbMAcJLkXk91tT">
+
+
+<h4 class="ptop1">Dash&nbsp;<a onclick="dashcopy()" class="copytext text-info">[Copy Address]</a><span class="checkmark checkmarkdash">✅</span></h4>
+
+
+<input id="dashtext" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="XnniGD5pYXHjqjRkYtH2jXUJnXL1FTMjsr">
             </div>
             </div>
         </div>
@@ -366,6 +378,26 @@ async function solcopy() {
   /* Display checkmark for 3 secs then disappear */
   document.getElementsByClassName("checkmarksol")[0].style.display = "inline";
   setTimeout(() => {  document.getElementsByClassName("checkmarksol")[0].style.display = "none"; }, 2000);
+}
+
+async function zeccopy() {
+  var copyText = document.getElementById("zectext");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  navigator.clipboard.writeText(copyText.value);
+  /* Display checkmark for 3 secs then disappear */
+  document.getElementsByClassName("checkmarkzec")[0].style.display = "inline";
+  setTimeout(() => {  document.getElementsByClassName("checkmarkzec")[0].style.display = "none"; }, 2000);
+}
+
+async function dashcopy() {
+  var copyText = document.getElementById("dashtext");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  navigator.clipboard.writeText(copyText.value);
+  /* Display checkmark for 3 secs then disappear */
+  document.getElementsByClassName("checkmarkdash")[0].style.display = "inline";
+  setTimeout(() => {  document.getElementsByClassName("checkmarkdash")[0].style.display = "none"; }, 2000);
 }
 </script>
 </section>

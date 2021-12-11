@@ -314,11 +314,19 @@
 
 	
 	
-	<div><div class="modal fade" id="share" tabindex="-1" role="dialog" aria-labelledby="shareLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="shareLabel">Share Swivro</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="share_body"><div>
+	<div><div class="modal fade" id="share" tabindex="-1" role="dialog" aria-labelledby="shareLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="share_body"><style>
+h4 {
+font-family: 'Montserrat-Medium';
+}
+.input2 {
+text-align: center;
+}
+</style>
+<div>
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-{{textWidth}}">
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4">Simply copy the text displayed in the box below and send it to your friends, colleagues, and family. You can also share it on social media like as Twitter, Mastodon, etc.</h4>
-                <input id="sharetext2" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="www.swivro.net - Protect and Retain your Online Privacy Today.">
+                <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-4">Simply copy the text displayed in the box below and send it to your friends, colleagues, or family.</h4>
+                <input id="sharetext2" class="form-control input2" style="width: 100%;" readonly="readonly" type="text" value="www.swivro.net - Protect and Retain your Online Privacy Today.">
               </div>
             </div>
 			<script>
@@ -327,7 +335,7 @@
      document.execCommand('copy');
     }
 </script>
-        </div></div>    </div>  </div></div><script> 
+</div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script> 
 document.addEventListener("DOMContentLoaded", function() { 
   if(typeof jQuery === "function") {
     $("#share").on("hidden.bs.modal", function () { 

@@ -318,9 +318,15 @@
         <div class="row justify-content-center">
             <div class="title col-md-12 col-lg-{{textWidth}}">
                 <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4">Simply copy the text displayed in the box below and send it to your friends, colleagues, and family. You can also share it on social media like as Twitter, Mastodon, etc.</h4>
-                <input id="sharetext" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="www.swivro.net - Protect and Retain your Online Privacy Today.">
+                <input id="sharetext2" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="www.swivro.net - Protect and Retain your Online Privacy Today.">
               </div>
             </div>
+			<script>
+    document.getElementById("sharetext2").onclick = function() {
+     this.select();
+     document.execCommand('copy');
+    }
+</script>
         </div></div>    </div>  </div></div><script> 
 document.addEventListener("DOMContentLoaded", function() { 
   if(typeof jQuery === "function") {

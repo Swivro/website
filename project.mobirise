@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "changelog.html",
+    "currentPage": "encrypted-communications.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -7240,7 +7240,7 @@
               "margin-bottom": "2rem"
             },
             ".card-box": {
-              "padding": "20px"
+              "padding": "25px"
             }
           },
           "_name": "features9",
@@ -7298,7 +7298,7 @@
               "margin-bottom": "2rem"
             },
             ".card-box": {
-              "padding": "20px"
+              "padding": "25px"
             }
           },
           "_name": "features9",

@@ -1055,16 +1055,33 @@ a {
     left: -1rem;
   }
 }
-.cid-sQB8Bcppzp {
-  padding-top: 10rem;
-  padding-bottom: 7rem;
+.cid-sRBPO9E0eh {
+  padding-top: 9rem;
+  padding-bottom: 4rem;
   background-image: url("../../../assets/images/new-project-2021-12-05t002417.782-1857x1000.png");
 }
-.cid-sQB8Bcppzp .mbr-section-title {
-  color: #f2f2f2;
+.cid-sRBPO9E0eh .card-wrapper {
+  padding-right: 2rem;
 }
-.cid-sQB8Bcppzp .mbr-text,
-.cid-sQB8Bcppzp .mbr-section-btn {
+@media (max-width: 992px) {
+  .cid-sRBPO9E0eh .card {
+    margin-bottom: 2rem!important;
+  }
+  .cid-sRBPO9E0eh .card-wrapper {
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sRBPO9E0eh .link-wrap {
+    align-items: center;
+  }
+}
+.cid-sRBPO9E0eh .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sRBPO9E0eh .card-title,
+.cid-sRBPO9E0eh .card-box {
   color: #f2f2f2;
 }
 .cid-sOoLSo5zvj {

@@ -91,7 +91,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 638,
+    "uniqCompNum": 643,
     "versionPublish": "5.5.2",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/new-project-2021-11-10t172707.969-128x128.png",
@@ -595,7 +595,7 @@
           },
           "_name": "content4",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"11\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f2f2\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">\n                    If you don't have anything to hide from anyone, why should you even care about your online privacy?</h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Let's not confuse privacy with secrecy; keeping your privacy is different than keeping a secret. Everyone knows what happens on the toilet, but you still choose to close the door. That's not because you want to be secretive, you simply want privacy. <b>Everyone </b>has something to hide. <a href=\"why-does-online-privacy-matter.html\" class=\"text-secondary\"><b>Still not convinced?</b></a></h4>\n                <div class=\"mbr-section-btn align-right btnsec1\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary-outline\" href=\"#anonymity\" data-app-placeholder=\"Type Text\"><span class=\"fas fa-fw fa-user-secret mbr-iconfont mbr-iconfont-btn\"></span>Explore Privacy Resources</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"11\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f2f2\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\">\n                    If you don't have anything to hide from anyone, why should you even care about your online privacy?</h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Let's not confuse privacy with secrecy; keeping your privacy is different than keeping a secret. Everyone knows what happens on the toilet, but you still choose to close the bathroom door. That's not because you want to be secretive, you simply want privacy. <b>Everyone </b>has something to hide. <a href=\"why-does-online-privacy-matter.html\" class=\"text-secondary\"><b>Still not convinced?</b></a></h4>\n                <div class=\"mbr-section-btn align-right btnsec1\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary-outline\" href=\"#anonymity\" data-app-placeholder=\"Type Text\"><span class=\"fas fa-fw fa-user-secret mbr-iconfont mbr-iconfont-btn\"></span>Explore Privacy Resources</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sOoLSo5zvj",
           "_anchor": "content4-7l",
           "_PHPplaceholders": [],
@@ -1012,7 +1012,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 30
+        "order": 31
       },
       "components": [
         {
@@ -1783,7 +1783,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 25
+        "order": 26
       },
       "components": [
         {
@@ -2399,7 +2399,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 29
+        "order": 30
       },
       "components": [
         {
@@ -3138,7 +3138,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 26
+        "order": 27
       },
       "components": [
         {
@@ -3684,7 +3684,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 27
+        "order": 28
       },
       "components": [
         {
@@ -4230,7 +4230,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 24
+        "order": 25
       },
       "components": [
         {
@@ -4862,7 +4862,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -5525,7 +5525,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 28
+        "order": 29
       },
       "components": [
         {
@@ -6066,7 +6066,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -6637,7 +6637,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -7177,7 +7177,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -7816,7 +7816,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -8365,7 +8365,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -9584,7 +9584,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 23
+        "order": 24
       },
       "components": [
         {
@@ -10165,7 +10165,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -10804,7 +10804,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -11443,7 +11443,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -11992,7 +11992,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -13180,7 +13180,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -13761,7 +13761,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -14342,7 +14342,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -18165,7 +18165,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
         "html_before": "",
-        "order": 10
+        "order": 11
       },
       "components": [
         {

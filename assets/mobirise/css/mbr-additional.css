@@ -5122,10 +5122,15 @@ a {
   text-align: left;
   color: #fafafa;
 }
-.cid-sOHyNxDHMH {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #f2f2f2;
+.cid-sRVEM7GGYE {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-sRVEM7GGYE blockquote {
+  border-color: #75067f;
+  border-radius: 4px;
+  background-color: #fafafa;
 }
 .cid-sRwLth6yLL {
   padding-top: 5rem;

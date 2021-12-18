@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -911,39 +911,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "share",
-            "modalSize": "large",
-            "modalHeader": false,
-            "modalTitle": "Share Swivro",
-            "modalBody": "<style>\nh4 {\nfont-family: 'Montserrat-Medium';\n}\n.input2 {\ntext-align: center;\n}\n</style>\n<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Simply copy the text displayed in the box below and send it to your friends, colleagues, or family.</h4>\n                <input id=\"sharetext2\" class=\"form-control input2\" style=\"width: 100%;\" readonly=\"readonly\" type=\"text\" value=\"www.swivro.net - Protect and Retain your Online Privacy Today.\">\n              </div>\n            </div>\n\t\t\t<script>\n    document.getElementById(\"sharetext2\").onclick = function() {\n     this.select();\n     document.execCommand('copy');\n    }\n</script>\n</div>",
-            "modalBodyHTML": true,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Close",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": false,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#share\" data-bs-toggle=\"modal\" data-bs-target=\"#share\">Preview share</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#share-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#share-howtouse\">How to use share</a>\n</div>\n<div class=\"modal fade\" id=\"share-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"share-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"share-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('share')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "<style>\nh4 {\nfont-family: 'Montserrat-Medium';\n}\n.input2 {\ntext-align: center;\n}\n</style>\n<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Simply copy the text displayed in the box below and send it to your friends, colleagues, or family.</h4>\n                <input id=\"sharetext2\" class=\"form-control input2\" style=\"width: 100%;\" readonly=\"readonly\" type=\"text\" value=\"www.swivro.net - Protect and Retain your Online Privacy Today.\">\n              </div>\n            </div>\n\t\t\t<script>\n    document.getElementById(\"sharetext2\").onclick = function() {\n     this.select();\n     document.execCommand('copy');\n    }\n</script>\n</div>",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-fx",
-          "modalWindow": "<div class=\"modal fade\" id=\"share\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"shareLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-body\" id=\"share_body\"><style>\nh4 {\nfont-family: 'Montserrat-Medium';\n}\n.input2 {\ntext-align: center;\n}\n</style>\n<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Simply copy the text displayed in the box below and send it to your friends, colleagues, or family.</h4>\n                <input id=\"sharetext2\" class=\"form-control input2\" style=\"width: 100%;\" readonly=\"readonly\" type=\"text\" value=\"www.swivro.net - Protect and Retain your Online Privacy Today.\">\n              </div>\n            </div>\n\t\t\t<script>\n    document.getElementById(\"sharetext2\").onclick = function() {\n     this.select();\n     document.execCommand('copy');\n    }\n</script>\n</div></div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#share\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#share_body\" ).html(); \n      $( \"#share_body\" ).empty(); \n      $( \"#share_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#share\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "_name": "footer1-sOpMpnOYd4-sOR1GhUL5w",

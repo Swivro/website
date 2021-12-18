@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/new-project-2021-11-10t172707.969-128x128.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/new-project-2021-12-18t121921.050-125x125.png" type="image/x-icon">
   <meta name="description" content="Swivro is an organization focused on online privacy, cybersecurity, and free speech.">
   
   
@@ -55,7 +55,7 @@
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="../">
-                        <img src="assets/images/new-project-2021-11-10t172253.513-80x80.png" alt="[LOGO HERE]" style="height: 3rem;">
+                        <img src="assets/images/new-project-2021-12-18t121707.444-96x96.png" alt="[LOGO HERE]" style="height: 3rem;">
                     </a>
                 </span>
                 
@@ -310,7 +310,7 @@
 </script>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-fx" data-rv-view="2908">
+<section class="mbr-section" id="witsec-modal-window-block-fx" data-rv-view="61">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -323,8 +323,49 @@
 	}
 	</style>
 
-	
-	
+	<div class="witsec-modal-window-test" style="padding:1rem"><div class="mbr-section-btn">
+  <a href="#" class="btn btn-primary display-4" data-toggle="modal" data-target="#share" data-bs-toggle="modal" data-bs-target="#share">Preview share</a>
+  <a href="#" class="btn btn-primary display-4" data-toggle="modal" data-target="#share-howtouse" data-bs-toggle="modal" data-bs-target="#share-howtouse">How to use share</a>
+</div>
+<div class="modal fade" id="share-howtouse" tabindex="-1" role="dialog" aria-labelledby="share-howtouseLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document" style="height:auto">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="share-howtouseLabel">How to use?</h5>
+        <a href="" class="close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+      </div>
+      <div class="modal-body">
+        Using your new modal is very easy. Simply create a new link, then click the "..." tab and enter the following as custom URL:<br><br>
+        <code>javascript:OpenModal('share')</code>
+      </div>
+      <div class="modal-footer">
+        <div class="mbr-section-btn"><a href="#" class="btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+	<div class="witsec-modal-window-body" style="display:none"><style>
+h4 {
+font-family: 'Montserrat-Medium';
+}
+.input2 {
+text-align: center;
+}
+</style>
+<div>
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-{{textWidth}}">
+                <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-4">Simply copy the text displayed in the box below and send it to your friends, colleagues, or family.</h4>
+                <input id="sharetext2" class="form-control input2" style="width: 100%;" readonly="readonly" type="text" value="www.swivro.net - Protect and Retain your Online Privacy Today.">
+              </div>
+            </div>
+			<script>
+    document.getElementById("sharetext2").onclick = function() {
+     this.select();
+     document.execCommand('copy');
+    }
+</script>
+</div></div>
 	<div><div class="modal fade" id="share" tabindex="-1" role="dialog" aria-labelledby="shareLabel" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="share_body"><style>
 h4 {
 font-family: 'Montserrat-Medium';

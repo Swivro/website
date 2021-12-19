@@ -1255,12 +1255,18 @@ a {
 }
 @media (min-width: 992px) {
   .cid-sS0EqKFJrb .item-wrapper .item-content {
-    padding: 2rem;
+    padding: 2rem 2rem 0;
+  }
+  .cid-sS0EqKFJrb .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
   }
 }
 @media (max-width: 991px) {
   .cid-sS0EqKFJrb .item-wrapper .item-content {
-    padding: 1rem;
+    padding: 1rem 1rem 0;
+  }
+  .cid-sS0EqKFJrb .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
   }
 }
 .cid-sS0EqKFJrb .mbr-section-btn {

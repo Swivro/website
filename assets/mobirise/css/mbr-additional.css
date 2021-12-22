@@ -2403,153 +2403,91 @@ a {
   text-align: left;
   color: #fafafa;
 }
-.cid-sMIg2PzS9D {
-  padding-top: 5rem;
-  padding-bottom: 0rem;
-  background-color: #f2f2f2;
-}
-@media (max-width: 991px) {
-  .cid-sMIg2PzS9D .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-sMIg2PzS9D img {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .cid-sMIg2PzS9D .text-wrapper {
-    padding: 2rem;
-  }
-}
-.cid-sMIg2PzS9D .mbr-section-title {
-  color: #353535;
-}
-.cid-sMIg2PzS9D .mbr-text {
-  color: #353535;
-}
-.cid-sMIduUssbw {
-  padding-top: 4rem;
-  padding-bottom: 0rem;
-  background-color: #f2f2f2;
-}
-.cid-sMIduUssbw ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 2.5rem;
-}
-.cid-sMIduUssbw li {
-  position: relative;
-  margin-bottom: 1rem;
-}
-.cid-sMIduUssbw ul li::before {
-  position: absolute;
-  left: -1.6rem;
-  content: "\2022";
-  color: #123d6a;
-  font-weight: bold;
-  font-size: 2rem;
-  width: 1.6rem;
-}
-.cid-sMIduUssbw H3 {
-  color: #353535;
-}
-.cid-sMIduUssbw .list {
-  color: #353535;
-}
-.cid-sMIduUssbw .crypto {
-  padding-top: 40px;
-}
-.cid-sMIduUssbw .checkmarklitecoin {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkbitcoin {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkethereum {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkcardano {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkpolkadot {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkmonero {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkdogecoin {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkbitcoincash {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkstellar {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkvechain {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkcosmos {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarktron {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkneo {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarknem {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarksol {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkzec {
-  display: none;
-}
-.cid-sMIduUssbw .checkmarkdash {
-  display: none;
-}
-.cid-sMIduUssbw .copytext {
-  font-size: 14px;
-}
-.cid-sMIduUssbw .checkmark {
-  font-size: 14px;
-}
-.cid-sMIduUssbw .ptop1 {
-  padding-top: 45px;
-}
-.cid-sMIduUssbw small {
-  font-size: 10px;
-}
-.cid-sMIfzMe2bf {
-  padding-top: 0rem;
+.cid-sSi5HO3SaI {
+  padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #f2f2f2;
 }
-.cid-sMIfzMe2bf ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 2.5rem;
+.cid-sSi5HO3SaI blockquote {
+  border-color: #6d006d;
+  border-radius: 4px;
+  background-color: #ffffff;
 }
-.cid-sMIfzMe2bf li {
-  position: relative;
-  margin-bottom: 1rem;
-}
-.cid-sMIfzMe2bf ul li::before {
-  position: absolute;
-  left: -1.6rem;
-  content: "\2022";
-  color: #123d6a;
-  font-weight: bold;
-  font-size: 2rem;
-  width: 1.6rem;
-}
-.cid-sMIfzMe2bf H3 {
+.cid-sSi5HO3SaI H3 {
   color: #353535;
 }
-.cid-sMIfzMe2bf .list {
+.cid-sSi5HO3SaI .list {
   color: #353535;
+}
+.cid-sSi5HO3SaI .crypto {
+  padding-top: 40px;
+}
+.cid-sSi5HO3SaI .checkmark {
+  font-style: normal;
+  font-size: 14px;
+}
+.cid-sSi5HO3SaI .checkmarklitecoin {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkbitcoin {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkethereum {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkcardano {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkpolkadot {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkmonero {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkdogecoin {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkbitcoincash {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkstellar {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkvechain {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkcosmos {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarktron {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkneo {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarknem {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarksol {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkzec {
+  display: none;
+}
+.cid-sSi5HO3SaI .checkmarkdash {
+  display: none;
+}
+.cid-sSi5HO3SaI .copytext {
+  font-size: 14px;
+}
+.cid-sSi5HO3SaI .ptop1 {
+  padding-top: 45px;
+}
+.cid-sSi5HO3SaI small {
+  font-size: 10px;
+}
+.cid-sSi5HO3SaI .krypton {
+  padding-bottom: 22.5px;
 }
 .cid-sRwLth6yLL {
   padding-top: 5rem;

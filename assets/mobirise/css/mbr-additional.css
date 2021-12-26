@@ -2408,7 +2408,7 @@ a {
 }
 .cid-sSi5HO3SaI {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
   background-color: #f2f2f2;
 }
 .cid-sSi5HO3SaI blockquote {
@@ -2491,6 +2491,16 @@ a {
 }
 .cid-sSi5HO3SaI .krypton {
   padding-bottom: 22.5px;
+}
+.cid-sSEykCAvUy {
+  padding-top: 0rem;
+  padding-bottom: 3rem;
+  background-color: #f2f2f2;
+}
+.cid-sSEykCAvUy blockquote {
+  border-color: #75067f;
+  border-radius: 4px;
+  background-color: #fafafa;
 }
 .cid-sRwLth6yLL {
   padding-top: 5rem;

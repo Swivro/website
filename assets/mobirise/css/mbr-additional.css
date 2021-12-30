@@ -552,12 +552,6 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #ff3b4d;
 }
-.mbr-section-btn a.btn:not(.btn-form) {
-  border-radius: 100px;
-}
-.mbr-gallery-filter li a {
-  border-radius: 100px !important;
-}
 .mbr-gallery-filter li.active .btn {
   background-color: #123d6a;
   border-color: #123d6a;
@@ -565,9 +559,6 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
-}
-.nav-tabs .nav-link {
-  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -624,19 +615,6 @@ blockquote {
   border-color: #123d6a;
 }
 /* Forms */
-.mbr-form .input-group-btn a.btn {
-  border-radius: 100px !important;
-}
-.mbr-form .input-group-btn a.btn:hover {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
-.mbr-form .input-group-btn button[type="submit"] {
-  border-radius: 100px !important;
-  padding: 1rem 3rem;
-}
-.mbr-form .input-group-btn button[type="submit"]:hover {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #123d6a;
@@ -1117,15 +1095,11 @@ a {
 }
 .cid-sOoQ4VFUsh .mbr-section-title {
   text-align: center;
+  color: #123d6a;
 }
 .cid-sOoQ4VFUsh .mbr-section-subtitle {
   text-align: center;
-}
-.cid-sOoQ4VFUsh .textgradient {
-  padding: 5px;
-  background: linear-gradient(to right, #c300c3 0%, #270b4f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #123d6a;
 }
 .cid-sOSM5ySH55 {
   padding-top: 0rem;
@@ -1283,7 +1257,7 @@ a {
   margin-top: auto !important;
 }
 .cid-sS0EqKFJrb .mbr-section-title {
-  color: #232323;
+  color: #123d6a;
 }
 .cid-sS0EqKFJrb .mbr-text,
 .cid-sS0EqKFJrb .mbr-section-btn {
@@ -1302,6 +1276,9 @@ a {
   background: linear-gradient(to right, #c300c3 0%, #270b4f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.cid-sS0EqKFJrb .mbr-section-subtitle {
+  color: #123d6a;
 }
 .cid-sRwLth6yLL {
   padding-top: 5rem;

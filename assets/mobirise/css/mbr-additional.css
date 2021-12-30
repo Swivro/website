@@ -1097,9 +1097,11 @@ a {
   text-align: center;
   color: #123d6a;
 }
-.cid-sOoQ4VFUsh .mbr-section-subtitle {
-  text-align: center;
-  color: #123d6a;
+.cid-sOoQ4VFUsh .textgradient {
+  padding: 5px;
+  background: linear-gradient(to right, #c300c3 0%, #270b4f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .cid-sOSM5ySH55 {
   padding-top: 0rem;
@@ -1276,9 +1278,6 @@ a {
   background: linear-gradient(to right, #c300c3 0%, #270b4f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.cid-sS0EqKFJrb .mbr-section-subtitle {
-  color: #123d6a;
 }
 .cid-sRwLth6yLL {
   padding-top: 5rem;

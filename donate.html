@@ -101,10 +101,10 @@ padding-top: 5px;
                 <blockquote>
                 <h5 class="krypton mbr-section-title mbr-fonts-style mb-2 display-5">Cryptocurrency<strong><br></strong></h5>
                 
-                <h4><span style="font-style: normal;">Monero (XMR)&nbsp;</span><a onclick="monerocopy()" class="copytext text-info">[Copy Address]</a><span class="checkmark checkmarkmonero">✅</span></h4>
+                <h4><span style="font-style: normal;">Monero (XMR)&nbsp;</span><span class="checkmark checkmarkmonero">✅</span></h4>
 
 
-<input id="monerotext" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="42Uu1Ayk5bxje2E6c5fzcM46Q75iNvrFHj4i3QZYYo9agjAyaLKWCdJKr9TfrmeNafAAHZGc4vMDqJJcDwy67uhaGzhbT2y">
+<input id="monerotext" onclick="monerocopy()" class="form-control" style="width: 100%;" readonly="readonly" type="text" value="42Uu1Ayk5bxje2E6c5fzcM46Q75iNvrFHj4i3QZYYo9agjAyaLKWCdJKr9TfrmeNafAAHZGc4vMDqJJcDwy67uhaGzhbT2y">
             </blockquote></div>
             </div>
             </div>
@@ -116,7 +116,7 @@ async function monerocopy() {
   copyText.select();
   copyText.setSelectionRange(0, 99999); /* For mobile devices */
   navigator.clipboard.writeText(copyText.value);
-  /* Display checkmark for 3 secs then disappear */
+   /* Display checkmark for 3 secs then disappear */
   document.getElementsByClassName("checkmarkmonero")[0].style.display = "inline";
   setTimeout(() => {  document.getElementsByClassName("checkmarkmonero")[0].style.display = "none"; }, 2000);
 }

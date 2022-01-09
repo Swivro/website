@@ -2481,101 +2481,80 @@ a {
 .cid-sSJEhcsZci .maxwidth4 {
   max-width: 800px !important;
 }
-.cid-sSi5HO3SaI {
+.cid-sTZfEYWRtH {
   padding-top: 3rem;
-  padding-bottom: 0rem;
-  background-color: #f2f2f2;
-}
-.cid-sSi5HO3SaI blockquote {
-  border-color: #2299aa;
-  border-radius: 4px;
-  background-color: #ffffff;
-}
-.cid-sSi5HO3SaI H3 {
-  color: #353535;
-}
-.cid-sSi5HO3SaI .list {
-  color: #353535;
-}
-.cid-sSi5HO3SaI .crypto {
-  padding-top: 40px;
-}
-.cid-sSi5HO3SaI .checkmark {
-  font-style: normal;
-  font-size: 14px;
-}
-.cid-sSi5HO3SaI .checkmarklitecoin {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkbitcoin {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkethereum {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkcardano {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkpolkadot {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkmonero {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkdogecoin {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkbitcoincash {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkstellar {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkvechain {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkcosmos {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarktron {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkneo {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarknem {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarksol {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkzec {
-  display: none;
-}
-.cid-sSi5HO3SaI .checkmarkdash {
-  display: none;
-}
-.cid-sSi5HO3SaI .copytext {
-  font-size: 14px;
-}
-.cid-sSi5HO3SaI .ptop1 {
-  padding-top: 45px;
-}
-.cid-sSi5HO3SaI small {
-  font-size: 10px;
-}
-.cid-sSi5HO3SaI .krypton {
-  padding-bottom: 22.5px;
-}
-.cid-sSEykCAvUy {
-  padding-top: 0rem;
   padding-bottom: 3rem;
   background-color: #f2f2f2;
 }
-.cid-sSEykCAvUy blockquote {
-  border-color: #2299aa;
+.cid-sTZfEYWRtH .card-box {
+  padding: 2rem;
+  width: 58.33%;
+}
+.cid-sTZfEYWRtH .img-wrapper {
+  width: 41.66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-sTZfEYWRtH .img1 {
+  background: #2299aa;
+}
+.cid-sTZfEYWRtH .img2 {
+  background: #2299aa;
+}
+.cid-sTZfEYWRtH .mbr-iconfont {
+  display: block;
+  font-size: 8rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.cid-sTZfEYWRtH .card {
+  margin: auto;
+  min-height: 280px;
+  transition: all 0.3s;
+}
+.cid-sTZfEYWRtH .card-wrapper {
+  background: #ffffff;
   border-radius: 4px;
-  background-color: #fafafa;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+@media (max-width: 992px) {
+  .cid-sTZfEYWRtH .card-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sTZfEYWRtH .card-wrapper {
+    flex-direction: column;
+  }
+  .cid-sTZfEYWRtH .card-box {
+    padding: 1rem;
+  }
+  .cid-sTZfEYWRtH .card-box,
+  .cid-sTZfEYWRtH .img-wrapper {
+    width: 100%;
+  }
+  .cid-sTZfEYWRtH .img-wrapper {
+    padding: 4rem 1rem;
+  }
+  .cid-sTZfEYWRtH .mbr-flex {
+    flex-direction: column-reverse;
+  }
+}
+.cid-sTZfEYWRtH .card-subtitle {
+  color: #0077ff;
+}
+.cid-sTZfEYWRtH .mbr-text,
+.cid-sTZfEYWRtH .link-wrap {
+  color: #555555;
+}
+.cid-sTZfEYWRtH #monerotext {
+  max-width: 85%;
+}
+.cid-sTZfEYWRtH .monerodiv {
+  padding-left: 10px;
 }
 .cid-sRwLth6yLL {
   padding-top: 5rem;

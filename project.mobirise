@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5",
-    "currentPage": "index.html",
+    "currentPage": "changelog.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -30,13 +30,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#f2f2f2",
         "#00ed36",
         "#123d6a",
         "#6d006d",
         "#dbb723",
         "#d5c629",
-        "#e9e9ff",
-        "#949393"
+        "#e9e9ff"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -92,7 +92,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 795,
+    "uniqCompNum": 800,
     "versionPublish": "5.5.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/new-project-2021-12-30t152959.784-128x128.png",
@@ -2558,121 +2558,91 @@
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            "blockquote": {
-              "border-color": "@lineColor",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-box": {
+              "padding": "2rem",
+              "width": "58.33%"
+            },
+            ".img-wrapper": {
+              "width": "41.66%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".img1": {
+              "background": "@cardColor2"
+            },
+            ".img2": {
+              "background": "@cardColor3"
+            },
+            ".mbr-iconfont": {
+              "display": "block",
+              "font-size": "8rem",
+              "color": "@iconColor",
+              "margin-bottom": "2rem"
+            },
+            ".card": {
+              "margin": "auto",
+              "min-height": "280px",
+              "transition": "all 0.3s"
+            },
+            ".card-wrapper": {
+              "background": "@cardColor",
               "border-radius": "4px",
-              "background-color": "@cardColor"
+              "display": "flex",
+              "overflow": "hidden",
+              "justify-content": "space-between"
             },
-            "H3": {
-              "color": "#353535"
+            "@media (max-width: 992px)": {
+              ".card-wrapper": {
+                "margin-bottom": "2rem"
+              }
             },
-            ".list": {
-              "color": "#353535"
+            "@media (max-width: 767px)": {
+              ".card-wrapper": {
+                "flex-direction": "column"
+              },
+              ".card-box": {
+                "padding": "1rem"
+              },
+              ".card-box, .img-wrapper": {
+                "width": "100%"
+              },
+              ".img-wrapper": {
+                "padding": "4rem 1rem"
+              },
+              ".mbr-flex": {
+                "flex-direction": "column-reverse"
+              }
             },
-            ".crypto": {
-              "padding-top": "40px"
+            ".card-subtitle": {
+              "color": "#0077ff"
             },
-            ".checkmark": {
-              "font-style": "normal",
-              "font-size": "14px"
+            ".mbr-text, .link-wrap": {
+              "color": "#555555"
             },
-            ".checkmarklitecoin": {
-              "display": "none"
+            "#monerotext": {
+              "max-width": "85%"
             },
-            ".checkmarkbitcoin": {
-              "display": "none"
-            },
-            ".checkmarkethereum": {
-              "display": "none"
-            },
-            ".checkmarkcardano": {
-              "display": "none"
-            },
-            ".checkmarkpolkadot": {
-              "display": "none"
-            },
-            ".checkmarkmonero": {
-              "display": "none"
-            },
-            ".checkmarkdogecoin": {
-              "display": "none"
-            },
-            ".checkmarkbitcoincash": {
-              "display": "none"
-            },
-            ".checkmarkstellar": {
-              "display": "none"
-            },
-            ".checkmarkvechain": {
-              "display": "none"
-            },
-            ".checkmarkcosmos": {
-              "display": "none"
-            },
-            ".checkmarktron": {
-              "display": "none"
-            },
-            ".checkmarkneo": {
-              "display": "none"
-            },
-            ".checkmarknem": {
-              "display": "none"
-            },
-            ".checkmarksol": {
-              "display": "none"
-            },
-            ".checkmarkzec": {
-              "display": "none"
-            },
-            ".checkmarkdash": {
-              "display": "none"
-            },
-            ".copytext": {
-              "font-size": "14px"
-            },
-            ".ptop1": {
-              "padding-top": "45px"
-            },
-            "small": {
-              "font-size": "10px"
-            },
-            ".krypton": {
-              "padding-bottom": "22.5px"
+            ".monerodiv": {
+              "padding-left": "10px"
             }
           },
-          "_name": "content7",
+          "_name": "features6",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#2299aa\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f2f2f2\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n            <div class=\"list mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <blockquote>\n                <h5 class=\"krypton mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Cryptocurrency<b><br></b></h5>\n                \n                <h4><span style=\"font-style: normal;\">Monero (XMR)&nbsp;</span><span class=\"checkmark checkmarkmonero\">✅</span></h4>\n\n\n<input id=\"monerotext\" onclick=\"monerocopy()\" class=\"form-control\" style=\"width: 100%;\" readonly=\"readonly\" type=\"text\" value=\"42Uu1Ayk5bxje2E6c5fzcM46Q75iNvrFHj4i3QZYYo9agjAyaLKWCdJKr9TfrmeNafAAHZGc4vMDqJJcDwy67uhaGzhbT2y\">\n            </blockquote></div>\n            </div>\n            </div>\n        </div>\n    \n[JS_CODE_0]\n                \n                \n            \n        \n    \n</section>",
-          "_cid": "sSi5HO3SaI",
-          "_anchor": "content7-k7",
-          "_PHPplaceholders": [],
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Colors</header>\n        <input type=\"color\" title=\"Bg\" name=\"cardColor\" value=\"#ffffff\" selected>\n        <input type=\"color\" title=\"Icon 1\" name=\"cardColor2\" value=\"#2299aa\" selected>\n        <input type=\"color\" title=\"Icon 2\" name=\"cardColor3\" value=\"#2299aa\" selected condition=\"cardsAmount > 1\">\n        <input type=\"color\" title=\"Icon\" name=\"iconColor\" value=\"#ffffff\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#f2f2f2\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-lg-6\">\n                <div class=\"card-wrapper mbr-flex\">\n                    <div class=\"card-box align-left\">\n                        <h6 class=\"card-subtitle mbr-fonts-style align-left mb-2\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\" data-app-selector=\".card-subtitle\">\n                            Elevate your business\n                        </h6>\n                        <h5 class=\"card-title mbr-fonts-style align-left mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Monero (XMR)</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            We accept the Monero cryptocurrency for donations. Monero is fast, low-fee, secure, untraceable, and anonymous.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn monerodiv\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><input id=\"monerotext\" onclick=\"monerocopy()\" class=\"form-control\" readonly=\"readonly\" type=\"text\" value=\"42Uu1Ayk5bxje2E6c5fzcM46Q75iNvrFHj4i3QZYYo9agjAyaLKWCdJKr9TfrmeNafAAHZGc4vMDqJJcDwy67uhaGzhbT2y\"></div>\n                    </div>\n                    <div class=\"img-wrapper img1 align-center\">\n                        <span mbr-icon class=\"mbr-iconfont fab fa-fw fa-monero\"></span>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-lg-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper mbr-flex\">\n                    <div class=\"card-box align-left\">\n                        <h6 class=\"card-subtitle mbr-fonts-style align-left mb-2\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\" data-app-selector=\".card-subtitle\">\n                            Elevate your business\n                        </h6>\n                        <h5 class=\"card-title mbr-fonts-style align-left mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>PayPal (Fiat)</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            We accept donations via fiat currency, using PayPal. Please note that PayPal usually collects your personal information.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://www.paypal.com/donate/?hosted_button_id=BGZVJHG9DNJCJ\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">Donate via PayPal</a></div>\n                    </div>\n                    <div class=\"img-wrapper img2 align-center\">\n                        <span mbr-icon class=\"mbr-iconfont fab fa-fw fa-paypal\"></span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    [JS_CODE_0]\n</section>",
           "_JSplaceholders": [
             "<script>\nasync function monerocopy() {\n  var copyText = document.getElementById(\"monerotext\");\n  copyText.select();\n  copyText.setSelectionRange(0, 99999); /* For mobile devices */\n  navigator.clipboard.writeText(copyText.value);\n   /* Display checkmark for 3 secs then disappear */\n  document.getElementsByClassName(\"checkmarkmonero\")[0].style.display = \"inline\";\n  setTimeout(() => {  document.getElementsByClassName(\"checkmarkmonero\")[0].style.display = \"none\"; }, 2000);\n}\n</script>"
           ],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            "blockquote": {
-              "border-color": "@lineColor",
-              "border-radius": "4px",
-              "background-color": "@cardColor"
-            }
-          },
-          "_name": "content7",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#2299aa\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f2f2f2\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Fiat Currency</h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><b><a href=\"https://www.paypal.com/donate/?hosted_button_id=BGZVJHG9DNJCJ\" class=\"text-primary\" target=\"_blank\">Click here to make a donation via PayPal</a></b></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content7-kk",
+          "_PHPplaceholders": [],
+          "_anchor": "features6-m7",
           "_isUserblock": true,
-          "_cid": "sSEykCAvUy",
+          "_cid": "sTZfEYWRtH",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -5605,7 +5575,7 @@
           },
           "_name": "content7",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#2299aa\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f2f2f2\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">January, 2022<br></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">- Fix link colors on Privacy Checklist page<br>- Update website font (Satoshi -&gt; Inter)</p></blockquote></div>\n            </div>\n        </div>\n    \n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#2299aa\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f2f2f2\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">January, 2022<br></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">- Update design of donate page<br>- Update homepage description<br>- Fix link colors on Privacy Checklist page<br>- Update website font (Satoshi -&gt; Inter)</p></blockquote></div>\n            </div>\n        </div>\n    \n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "content7-m2",

@@ -5,7 +5,7 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Satoshi-Regular';
+  font-family: 'Inter-Bold';
   font-size: 4.6rem;
   line-height: 1.1;
 }
@@ -13,7 +13,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Satoshi-Bold';
+  font-family: 'Inter-Medium';
   font-size: 3.5rem;
   line-height: 1.1;
 }
@@ -21,7 +21,7 @@ body {
   font-size: 4.375rem;
 }
 .display-4 {
-  font-family: 'Satoshi-Medium';
+  font-family: 'Inter-Regular';
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -29,7 +29,7 @@ body {
   font-size: 1.375rem;
 }
 .display-5 {
-  font-family: 'Satoshi-Bold';
+  font-family: 'Inter-Medium';
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -37,7 +37,7 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Satoshi-Regular';
+  font-family: 'Inter-Regular';
   font-size: 1.2rem;
   line-height: 1.5;
 }
@@ -589,7 +589,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Satoshi-Medium';
+  font-family: 'Inter-Regular';
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -603,7 +603,7 @@ a:hover {
   border-color: #40b0bf !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Satoshi-Medium';
+  font-family: 'Inter-Regular';
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 400;

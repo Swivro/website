@@ -1,15 +1,15 @@
 @font-face {
-   font-family: 'Satoshi-Regular';
+   font-family: 'Inter-Bold';
    font-display: swap;
-   src: url('Satoshi-Regular/font.ttf');
+   src: url('Inter-Bold/font.ttf');
 }
 @font-face {
-   font-family: 'Satoshi-Bold';
+   font-family: 'Inter-Medium';
    font-display: swap;
-   src: url('Satoshi-Bold/font.ttf');
+   src: url('Inter-Medium/font.ttf');
 }
 @font-face {
-   font-family: 'Satoshi-Medium';
+   font-family: 'Inter-Regular';
    font-display: swap;
-   src: url('Satoshi-Medium/font.otf');
+   src: url('Inter-Regular/font.ttf');
 }

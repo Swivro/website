@@ -16977,6 +16977,39 @@ a {
 .cid-sU4Y6Ng9hu .mbr-section-btn {
   text-align: left;
 }
+.cid-sU8iZJ5tHf {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sU8iZJ5tHf .mbr-text {
+  color: #767676;
+}
+.cid-sU8iZJ5tHf .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-sU8iZJ5tHf .title .num {
+  width: 100%;
+  display: block;
+}
+.cid-sU8iZJ5tHf .title .card-title {
+  z-index: 1;
+}
+.cid-sU8iZJ5tHf .num {
+  color: #2299aa;
+}
+@media (max-width: 767px) {
+  .cid-sU8iZJ5tHf * {
+    text-align: center !important;
+  }
+  .cid-sU8iZJ5tHf .content-column {
+    margin-bottom: 2rem;
+  }
+}
+.cid-sU8iZJ5tHf .mbr-section-title,
+.cid-sU8iZJ5tHf .card-box {
+  text-align: center;
+}
 .cid-sU4SRFPjyA {
   padding-top: 5rem;
   padding-bottom: 5rem;

@@ -10,7 +10,7 @@
   <meta name="description" content="Swivro is an organization focused on online privacy, cybersecurity, and free speech.">
   
   
-  <title>Introducing Decentrasearch - Swivro</title>
+  <title>KeyVault - Swivro</title>
   <link rel="stylesheet" href="assets/font-awesome-solid/../css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/font-awesome-solid/css/solid.min.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
@@ -29,7 +29,7 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu2 cid-sU9WvZD8nW" once="menu" id="menu2-ni">
+  <section data-bs-version="5.1" class="menu menu2 cid-sUlxqhYUTA" once="menu" id="menu2-nu">
 <!-- extra custom styling that applies to all pages -->
 <style>
 .badge {
@@ -75,7 +75,7 @@ font-family: Inter-Regular;
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header12 cid-sU51K01Zk7" id="header12-mz">
+<section data-bs-version="5.1" class="header12 cid-sUlxqg0QXL" id="header12-np">
 
     
 
@@ -86,73 +86,141 @@ font-family: Inter-Regular;
                 <div class="card-wrapper">
                     <div class="card-box align-center">
                         <h1 class="card-title mbr-fonts-style mb-3 display-1">
-                            <strong>Introducing Decentrasearch</strong></h1>
-                        <p class="mbr-text mbr-fonts-style display-7">Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in our database. This means every time you search, you connect to a different server. This, in numerous ways, makes it harder for malicious actors to build a profile on you. There is also no central search authority. </p>
-                        <!-- start search -->
+                            <strong>KeyVault</strong></h1>
+                        <p class="mbr-text mbr-fonts-style display-7">Store your crypto seed phrase securely and privately. Simply enter a custom passphrase (REMEMBER this passphrase, do not store it electronically or physically), paste your crypto seed phrase, and press Encrypt. To decrypt an encrypted seed phrase, type your custom passphrase, paste your encrypted seed phrase, and Decrypt.</p>
                         
-      <div align="center">
-<!-- <form id="search" method="POST"> -->
-      <input class="searchsearx searchvalue form-control" id="searchsearx" autofocus="" name="q" type="text" placeholder="Search for..." spellcheck="false" dir="auto">
-      <input type="submit" id="btnsend" class="btn btn-primary" onclick="openLink()" value="Search">
-<!-- </form> -->
-            <p class="p2 fontdefault">There are currently <strong>34</strong> <a href="javascript:OpenModal('searx-info')"><u>SearX nodes</u></a> in our database. Your search query will be sent to one of them (picked randomly).</p>
-        </div>
+<!-- start encrypter -->
                         
-                        <!-- end search -->
-                        
- <script>
-let links = [];
-links[0] = "https://searx.be/search";
-links[1] = "https://searx.bar/search";
-links[2] = "https://anon.sx/search";
-links[3] = "https://searx.ru/search";
-links[4] = "https://search.disroot.org/search";
-links[5] = "https://searx.gnu.style/search";
-links[6] = "https://swag.pw/search";
-links[7] = "https://searx.prvcy.eu/search";
-links[8] = "https://xeek.com/search";
-links[9] = "https://northboot.xyz/search";
-links[10] = "https://jsearch.pw/search";
-links[11] = "https://searx.tiekoetter.com/search";
-links[12] = "https://metasearch.nl/search";
-links[13] = "https://searx.ninja/search";
-links[14] = "https://search.st8.at/search";
-links[15] = "https://searx.hardwired.link/search";
-links[16] = "https://searx.thegreenwebfoundation.org/search";
-links[17] = "https://searx.lavatech.top/search";
-links[18] = "https://www.gruble.de/search";
-links[19] = "https://searx.theanonymouse.xyz/search";
-links[20] = "https://searx.zackptg5.com/";
-links[21] = "https://searx.mha.fi/search";
-links[22] = "https://searx.dresden.network/search";
-links[23] = "https://nibblehole.com/search";
-links[24] = "https://searx.mastodontech.de/search";
-links[25] = "https://sx.fedi.tech/search";
-links[26] = "https://searx.gnous.eu/search";
-links[27] = "https://searx.divided-by-zero.eu/search";
-links[28] = "https://searx.tuxcloud.net/search";
-links[29] = "https://searx.nevrlands.de/search";
-links[30] = "https://searx.pwoss.org/search";
-links[31] = "https://searx.fmac.xyz/search";
-links[32] = "https://searx.sp-codes.de/search";
-links[33] = "https://searx.roflcopter.fr/search";
-links[34] = "https://darmarit.org/searx/search";
-function openLink() {
-  var i = ~~(Math.random() * links.length);
-  window.location.href = links[i] + "?q=" + document.getElementsByClassName("searchsearx")[0].value;
-  return false;
-}
+      <style>
+    .maincontent {
+      padding-top: 30px;
+    }
+    .key {
+      width: 100%;
+    }
+    .text {
+      margin-top: 1rem;
+      width: 100%;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap-reverse;
+      padding-top: 30px;
+    } 
+   /** .encrypt-button {
+      color: white;
+      background: green;
+    }
+    .decrypt-button {
+      color: white;
+      background: brown;
+    }
+    .encrypt-button, .decrypt-button {
+      ouline: none;
+      border: 0;
+      cursor: pointer;
+      padding: 5px 10px;
+      margin-top: 1rem;
+    }
+    .encrypt-button:hover, .decrypt-button:hover {
+      color: black;
+      background: yellow;
+      outline: solid 1px #ddd;
+    } **/
+    .result-title {
+      margin-top: 3rem;
+    }
+    .result-text {
+      margin-top: 0;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/pbkdf2.js"></script>
+  <script>
+    var keySize = 256;
+	  var ivSize = 128;
+	  var iterations = 100;
 
+    function getData() {
+    	var isValid = true;
+	    var key = (document.getElementById('key').value || '').trim();
+	    var text = (document.getElementById('text').value || '').trim();
+	    if (!key || !text) {
+	      isValid = false;
+		    alert('please enter key and text');
+	    }
 
-      // when enter key is pressed while focused on search input
-var input = document.getElementById("searchsearx");
-input.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("btnsend").click();
-  }
-});
-</script>
+	    return { isValid: isValid, key: key, text: text };
+    }
+
+    function encrypt() {
+      var data = getData();
+      if (data.isValid) {
+	      // var decrypt = asmCrypto.AES_CBC.encrypt(text, key);
+	      var salt = CryptoJS.lib.WordArray.random(128/8);
+
+	      var key = CryptoJS.PBKDF2(data.key, salt, {
+		      keySize: keySize/32,
+		      iterations: iterations
+	      });
+
+	      var iv = CryptoJS.lib.WordArray.random(128/8);
+
+	      var encrypted = CryptoJS.AES.encrypt(data.text, key, {
+		      iv: iv,
+		      padding: CryptoJS.pad.Pkcs7,
+		      mode: CryptoJS.mode.CBC
+	      });
+
+	      // salt, iv will be hex 32 in length
+	      // append them to the ciphertext for use  in decryption
+	      var transitmessage = salt.toString()+ iv.toString() + encrypted.toString();
+	      document.getElementById('result').value = transitmessage;
+      }
+    }
+
+    function decrypt() {
+	    var data = getData();
+	    if (data.isValid) {
+	      var salt = CryptoJS.enc.Hex.parse(data.text.substr(0, 32));
+	      var iv = CryptoJS.enc.Hex.parse(data.text.substr(32, 32))
+	      var encrypted = data.text.substring(64);
+
+	      var key = CryptoJS.PBKDF2(data.key, salt, {
+		      keySize: keySize/32,
+		      iterations: iterations
+	      });
+
+	      var decrypted = CryptoJS.AES.decrypt(encrypted, key, {
+		      iv: iv,
+		      padding: CryptoJS.pad.Pkcs7,
+		      mode: CryptoJS.mode.CBC
+
+	      })
+		    document.getElementById('result').value = decrypted.toString(CryptoJS.enc.Utf8);
+	    }
+    }
+  </script>
+<div class="maincontent">
+<form class="form">
+  <div class="alert alert-danger" role="alert">
+    <strong>NEVER</strong> share your passphrase with anyone, no matter how much you trust them. If they are compelled by law enforcement to give up your passphrase, your crypto can be stolen.
+  </div>
+  <div><input id="key" class="key form-control" placeholder="Enter Custom Passphrase" type="password" value=""></div>
+  <input id="text" class="text form-control" placeholder="Enter Seed Phrase (either encrypted or decrypted)" type="password">
+
+  <div class="buttons">
+    <span class="decrypt-button btn btn-danger" onclick="decrypt()">Decrypt Seed Phrase</span>
+    <span class="encrypt-button btn btn-success" onclick="encrypt();">Encrypt Seed Phrase</span>
+  </div>
+
+  <h3 class="result-title">Output:</h3>
+  <textarea id="result" class="text result-text form-control"></textarea>
+</form>
+</div>
+                        
+<!-- end  encrypter -->
                     </div>
                 </div>
             </div>
@@ -160,7 +228,7 @@ input.addEventListener("keyup", function(event) {
     </div>
 </section>
 
-<section data-bs-version="5.1" class="features1 cid-sU54Lh65z4" id="features2-n2">
+<section data-bs-version="5.1" class="features1 cid-sUlxqgnyz5" id="features2-nq">
 
     
 
@@ -170,8 +238,16 @@ input.addEventListener("keyup", function(event) {
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-delivery"></span>
-                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Code &amp; Database is all in your browser.</strong></h4>
+                        <span class="mbr-iconfont mbrib-protect"></span>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Encryption and decryption is processed in your browser.</strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <span class="mbr-iconfont mbrib-left-right"></span>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>No server-side dynamic code or processes.</strong></h4>
                     </div>
                 </div>
             </div>
@@ -179,23 +255,15 @@ input.addEventListener("keyup", function(event) {
                 <div class="card-wrapper">
                     <div class="card-box align-center">
                         <span class="mbr-iconfont mbrib-code"></span>
-                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>No server-side dynamic code. All in your browser.</strong></h4>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Open Source (GNU General Public License v3.0)</strong></h4>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-protect"></span>
-                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Absolutely zero data is collected from you</strong></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-lock"></span>
-                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>An encrypted HTTPS/TLS connection is forced.</strong></h4>
+                        <span class="mbr-iconfont mbrib-opened-folder"></span>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Nothing you type is stored on our servers.</strong></h4>
                     </div>
                 </div>
             </div>
@@ -203,7 +271,7 @@ input.addEventListener("keyup", function(event) {
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content14 cid-sU56Sio5Z6" id="content14-n4">
+<section data-bs-version="5.1" class="content14 cid-sUlxqgMRxr" id="content14-nr">
     
     
     
@@ -214,18 +282,18 @@ input.addEventListener("keyup", function(event) {
                         <strong>Frequently asked questions</strong>
                     </h3>
                 <ul class="list mbr-fonts-style display-7">
-                    <li><strong>How is this decentralized if it is only available here?</strong><br>Decentrasearch, is not a search engine itself. When you submit your search, the query is sent to a privacy-respecting open source search engine (a SearX node), randomly picked from our database. This means there is no central search authority, making it decentralized.</li>
-                    <li><strong>Do you log my search queries?</strong><br>No. All code for this project is ran in your browser, so you can see everything that is going on.</li>
-                    <li><strong>Are all of the search engines used for this safe?</strong><br>We only send your search query to an open source decentralized search engine (a public SearX node). We verify that the SearX node meets our minimum security and privacy requirements before adding it to our database. To see all of the search engines currently in our DB, you can view the source of this page, and scroll down until you see some JS code that stands out.</li>
-                    <li><strong>How is this more private than using a SearX search engine directly?</strong><br>Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in our database. This means every time you search, you connect to a different server. This primarily, in numerous ways, makes it harder for malicious actors to build a profile on you. Keep in mind that there is also no central search authority.</li>
-                    <li><strong>Why are some search results different each time I search?<br></strong>Currently, we are still in the process of making Decentrasearch more stable to ensure that search results are very similar for each time you submit your search query. At this time, you may see slightly different search results each time you submit your search query. This is primarily due to each SearX node operator having different server/search configuration.</li>
+                    <li><strong>How can I trust this? Is this another scam?</strong><br>You can see all of the code of this tool in your browser, by typing view-source: before the URL. The git repository is also available here -&gt; <a href="https://github.com/Swivro/keyvault" class="text-primary" target="_blank">https://github.com/Swivro/keyvault</a></li>
+                    <li><strong>How do I know you don't log my seed phrase and/or passphrase?</strong><br>We don't log anything you type here, but we can't prove it unless we give you access to our server. So, if you don't trust this, you can self-host it, here's the code -&gt; <a href="https://github.com/Swivro/keyvault" class="text-primary" target="_blank">https://github.com/Swivro/keyvault</a></li>
+                    <li><strong>Is all information sent across the internet encrypted?</strong><br>No information entered on this page is sent anywhere across the internet. Encryption and decryption takes place locally on your device/machine. No info ever leaves your machine.</li>
+                    <li><strong>Who made this application?</strong><br>Licensed under <a href="https://github.com/Swivro/keyvault/blob/master/LICENSE" class="text-primary" target="_blank">GNU General Public License v3.0</a>, this application is a modified fork of <a href="https://github.com/zohar1000/in-browser-encryption/blob/master/LICENSE" class="text-primary" target="_blank">zohar1000/in-browser-encryption</a>. The source code for our fork is available at <a href="https://github.com/Swivro/keyvault/" class="text-primary" target="_blank">https://github.com/Swivro/keyvault/</a>. Changes can be seen on our <a href="https://github.com/Swivro/keyvault/blob/master/README.md" class="text-primary" target="_blank">README</a> file.</li>
+                    <li><strong>Where is my encrypted seed phrase stored?<br></strong>You'll have to store it yourself, we do not store it. After you've encrypted your seed phrase with your own passphrase, save the encrypted text to a safe place (either electronically or physically). You can decrypt it by coming back here, entering the same passphrase you used, then entering the encrypted seed phrase text, and clicking Decrypt.</li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-n1" data-rv-view="492">
+<section class="mbr-section" id="witsec-modal-window-block-ns" data-rv-view="44">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -240,16 +308,16 @@ input.addEventListener("keyup", function(event) {
 
 	
 	
-	<div><div class="modal fade" id="searx-info" tabindex="-1" role="dialog" aria-labelledby="searx-infoLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="searx-infoLabel">What is a SearX Node?</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="searx-info_body">SearX is an open source search engine written in Python. Anyone can host their own public instance of SearX, which anyone can use (we call those SearX Nodes). Our database consists of many SearX Nodes. When you submit a search query here, your query is sent to one of the SearX instances instances in our database, picked randomly. This improves your privacy and anonymity.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script> 
+	<div><div class="modal fade" id="prying-eyes" tabindex="-1" role="dialog" aria-labelledby="prying-eyesLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="prying-eyesLabel">Avoid prying eyes 👀</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="prying-eyes_body">Is anyone looking at your screen? Are you recording? Do you have an antivirus software? Check all of these things before using this, as sensitive information is involved here.<br><br>No one should be able to see your screen, you should not be recording, you should not have a camera near you, and it's a good idea to have an antivirus software.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script> 
 document.addEventListener("DOMContentLoaded", function() { 
   if(typeof jQuery === "function") {
-    $("#searx-info").on("hidden.bs.modal", function () { 
-      var html = $( "#searx-info_body" ).html(); 
-      $( "#searx-info_body" ).empty(); 
-      $( "#searx-info_body" ).append(html); 
+    $("#prying-eyes").on("hidden.bs.modal", function () { 
+      var html = $( "#prying-eyes_body" ).html(); 
+      $( "#prying-eyes_body" ).empty(); 
+      $( "#prying-eyes_body" ).append(html); 
     }) 
   } else { 
-      var mdw = document.getElementById("#searx-info") 
+      var mdw = document.getElementById("#prying-eyes") 
       mdw.addEventListener("hidden.bs.modal", function(event) { 
         mdw.innerHTML = mdw.innerHTML; 
       }); 
@@ -296,9 +364,13 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 	</script>
 
-</section>
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout( function() { OpenModal("prying-eyes"); } , 3000);
+});
+</script>
 
-<section data-bs-version="5.1" class="footer1 cid-sU9UbA6IWt" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-nh">
+<section data-bs-version="5.1" class="footer1 cid-sUlxqhnI9M" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-nt">
 
     
     

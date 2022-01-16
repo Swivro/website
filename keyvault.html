@@ -102,9 +102,9 @@ font-family: Inter-Regular;
       width: 100%;
     }
     .buttons {
-      display: flex;
+/**      display: flex;
       justify-content: space-around;
-      flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse; **/
       padding-top: 30px;
     } 
    /** .encrypt-button {
@@ -147,7 +147,7 @@ font-family: Inter-Regular;
 	    var text = (document.getElementById('text').value || '').trim();
 	    if (!key || !text) {
 	      isValid = false;
-		    alert('please enter key and text');
+		    alert('Please enter the required fields.');
 	    }
 
 	    return { isValid: isValid, key: key, text: text };
@@ -209,9 +209,14 @@ font-family: Inter-Regular;
   <div><input id="key" class="key form-control" placeholder="Enter Custom Passphrase" type="password" value=""></div>
   <input id="text" class="text form-control" placeholder="Enter Seed Phrase (either encrypted or decrypted)" type="password">
 
-  <div class="buttons">
-    <span class="decrypt-button btn btn-danger" onclick="decrypt()">Decrypt Seed Phrase</span>
-    <span class="encrypt-button btn btn-success" onclick="encrypt();">Encrypt Seed Phrase</span>
+  <div class="buttons row">
+      <div class="col">
+          <span class="decrypt-button btn btn-danger" onclick="decrypt()">Decrypt Seed Phrase</span>
+      </div>
+      
+      <div class="col">
+          <span class="encrypt-button btn btn-success" onclick="encrypt();">Encrypt Seed Phrase</span>
+      </div>
   </div>
 
   <h3 class="result-title">Output:</h3>
@@ -292,7 +297,7 @@ font-family: Inter-Regular;
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-ns" data-rv-view="4258">
+<section class="mbr-section" id="witsec-modal-window-block-ns" data-rv-view="8117">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -367,7 +372,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
   if (modalGetCookie("prying-eyes_viewed") == "") {
     setTimeout( function() {
-      if (document.cookie)
+      
         modalSetCookie("prying-eyes_viewed", true, 3600);
       OpenModal("prying-eyes");
     } , 3000);

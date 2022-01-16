@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5-Mainnet",
-    "currentPage": "changelog.html",
+    "currentPage": "keyvault.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -20066,7 +20066,7 @@
             "modalVerticalCenter": false,
             "modalFade": true,
             "modalAutoOpen": true,
-            "modalAutoOpenOnce": false,
+            "modalAutoOpenOnce": true,
             "modalAutoOpenGDPR": true,
             "modalAutoOpenDelay": "3"
           },

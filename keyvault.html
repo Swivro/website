@@ -365,7 +365,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </section><script>
 document.addEventListener("DOMContentLoaded", function() {
-  setTimeout( function() { OpenModal("prying-eyes"); } , 3000);
+  if (modalGetCookie("prying-eyes_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("prying-eyes_viewed", true, 3600);
+      OpenModal("prying-eyes");
+    } , 3000);
+  }
 });
 </script>
 

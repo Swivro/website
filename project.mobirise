@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5-Mainnet",
-    "currentPage": "keyvault.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -96,7 +96,7 @@
     "versionPublish": "5.5.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/new-project-19-128x128.png",
-    "mbrsiteDomain": "uxgr7jt7fw",
+    "mbrsiteDomain": "h25jnfosgh",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -105,7 +105,8 @@
     "witsec-white-label": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "global_footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>"
   },
   "pages": {
     "index.html": {
@@ -114,7 +115,7 @@
         "title": "Swivro - an organization focused on cybersecurity and online privacy",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": ""
       },
       "components": [
@@ -1199,7 +1200,7 @@
         "title": "Directory of Malicious Companies - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 31
       },
@@ -1996,7 +1997,7 @@
         "title": "About - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 29
       },
@@ -2638,7 +2639,7 @@
         "title": "Donate - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 30
       },
@@ -3282,7 +3283,7 @@
         "title": "Securing your online accounts - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 28
       },
@@ -3940,7 +3941,7 @@
         "title": "Changelog - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 20
       },
@@ -4562,7 +4563,7 @@
         "title": "Why Online Privacy Matters - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 17
       },
@@ -5133,7 +5134,7 @@
         "title": "Instant Messengers - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 23
       },
@@ -5798,7 +5799,7 @@
         "title": "Internet Providers - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 18
       },
@@ -6373,7 +6374,7 @@
         "title": "VPN Providers - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 21
       },
@@ -6979,7 +6980,7 @@
         "title": "Search Engines - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 1
       },
@@ -7672,7 +7673,7 @@
         "title": "Cryptocurrency Exchanges - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 27
       },
@@ -8337,7 +8338,7 @@
         "title": "Hosting Providers - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 22
       },
@@ -9002,7 +9003,7 @@
         "title": "Email Providers - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 24
       },
@@ -9667,7 +9668,7 @@
         "title": "Software Alternatives - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 19
       },
@@ -10242,7 +10243,7 @@
         "title": "Password Managers - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 16
       },
@@ -10849,7 +10850,7 @@
         "title": "Web Browsers - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 13
       },
@@ -11482,7 +11483,7 @@
         "title": "File Sharing - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 25
       },
@@ -12089,7 +12090,7 @@
         "title": "Email Clients - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 14
       },
@@ -12723,7 +12724,7 @@
         "title": "File Encryption - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 26
       },
@@ -13330,7 +13331,7 @@
         "title": "Cloud File Storage - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 12
       },
@@ -13995,7 +13996,7 @@
         "title": "Privacy Checklist - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 11
       },
@@ -14760,7 +14761,7 @@
         "title": "2-step Authentication - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 10
       },
@@ -15367,7 +15368,7 @@
         "title": "DNS Resolvers - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 9
       },
@@ -16032,7 +16033,7 @@
         "title": "Anonymity Networks - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 15
       },
@@ -16697,7 +16698,7 @@
         "title": "Global Mass Surveillance - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 8
       },
@@ -17445,7 +17446,7 @@
         "title": "Are you a Karen? - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 7
       },
@@ -18016,7 +18017,7 @@
         "title": "Operating Systems - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 2
       },
@@ -18623,7 +18624,7 @@
         "title": "Privacy Tools - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 6
       },
@@ -19225,7 +19226,7 @@
         "title": "Decentrasearch - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 4
       },
@@ -19897,7 +19898,7 @@
         "title": "KeyVault - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 5
       },
@@ -20574,7 +20575,7 @@
         "title": "Blog - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
-        "footer_custom": "<script src=\"//instant.page/5.1.0\" type=\"module\" integrity=\"sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw\"></script>",
+        "footer_custom": "",
         "html_before": "",
         "order": 3
       },

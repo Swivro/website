@@ -17116,8 +17116,6 @@ a {
   }
 }
 .cid-sUNPuNc3mk .searchvalue {
-  width: 80%;
-  max-width: 720px;
   display: inline-block;
 }
 .cid-sUNPuNc3mk button {
@@ -17138,8 +17136,13 @@ a {
 .cid-sUNPuNc3mk .card-title {
   padding-bottom: 25px;
 }
-.cid-sUNPuNc3mk #btnsend {
-  display: none;
+.cid-sUNPuNc3mk #btnsend:hover {
+  color: white;
+  background-color: #5a72d0;
+}
+.cid-sUNPuNc3mk .input-group {
+  max-width: 750px;
+  width: 85%;
 }
 .cid-sUNRxurYvx {
   padding-top: 0rem;

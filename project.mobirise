@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5-Mainnet",
-    "currentPage": "index.html",
+    "currentPage": "decentrasearch-newtab.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -21452,10 +21452,10 @@
               ".f11": {
                 "display": "block",
                 "padding-bottom": "10px"
+              },
+              ".tgradient": {
+                "padding-top": "25px"
               }
-            },
-            ".tgradient": {
-              "padding": "5px"
             }
           },
           "_name": "content4",

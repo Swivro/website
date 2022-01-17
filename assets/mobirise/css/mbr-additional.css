@@ -17151,9 +17151,9 @@ a {
     display: block;
     padding-bottom: 10px;
   }
-}
-.cid-sUNRxurYvx .tgradient {
-  padding: 5px;
+  .cid-sUNRxurYvx .tgradient {
+    padding-top: 25px;
+  }
 }
 .cid-sUNXfPqufN {
   padding-top: 5rem;

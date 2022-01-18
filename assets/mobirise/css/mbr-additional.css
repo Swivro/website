@@ -17216,6 +17216,8 @@ a {
   background-color: #ffffff;
 }
 .cid-sUPybBJS3N {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #5a72d0;
 }
 .cid-sUPybBJS3N .icons-media-container {
@@ -17359,8 +17361,8 @@ a {
   display: flex;
   border-radius: 50%;
   text-align: center;
-  color: #6592e6;
-  border: 2px solid #6592e6;
+  color: #5a72d0;
+  border: 2px solid #5a72d0;
   justify-content: center;
   align-content: center;
   transition: all 0.3s;
@@ -17369,7 +17371,7 @@ a {
   padding: 0.6rem;
 }
 .cid-sUPFKp3P7r .icons-menu .soc-item .mbr-iconfont:hover {
-  background-color: #6592e6;
+  background-color: #5a72d0;
   color: #ffffff;
 }
 .cid-sUPy4bjDtZ {

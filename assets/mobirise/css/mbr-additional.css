@@ -1041,7 +1041,7 @@ a {
 .cid-sUUzO8A6jQ {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/mbr-1920x1081.png");
+  background-image: url("../../../assets/images/mbr-1920x1078.png");
 }
 .cid-sUUzO8A6jQ .btn112 {
   padding-top: 10px;
@@ -13332,6 +13332,9 @@ a {
 .cid-sU51K01Zk7 .input-group {
   width: auto;
   max-width: 600px;
+}
+.cid-sU51K01Zk7 .carddiv {
+  padding: 65px;
 }
 .cid-sU54Lh65z4 {
   padding-top: 5rem;

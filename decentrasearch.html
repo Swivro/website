@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
@@ -24,12 +25,16 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+  <style>
+body {
+scroll-margin-top: 20px !important;
+}
+</style>
   
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu2 cid-sUI7Tni1W8" once="menu" id="menu2-o6">
+  <section data-bs-version="5.1" class="menu menu2 cid-sUVhGX4LWy" once="menu" id="menu2-pz">
 <!-- extra custom styling that applies to all pages -->
 <style>
 .badge {
@@ -43,10 +48,14 @@ padding-top: 5px;
 .fontdefault, .modal-content, ul {
 font-family: Inter-Regular;
 }
+    
+.plan {
+border-radius: 4px;
+}
 </style>
 <!-- end custom styling - PS, hi! from Swivro! -->
     
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+    <nav class="navbar navbar-dropdown navbar-expand-lg">
         <div class="container">
             <div class="navbar-brand">
                 <span class="navbar-logo">
@@ -74,11 +83,12 @@ font-family: Inter-Regular;
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header12 cid-sU51K01Zk7" id="header12-mz">
+<section data-bs-version="5.1" class="header12 cid-sU51K01Zk7 mbr-parallax-background" id="header12-mz">
 
     
 
-    
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(90, 114, 208);">
+    </div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="card col-12 col-md-12 col-lg-9">
@@ -89,11 +99,10 @@ font-family: Inter-Regular;
                         <!-- start search -->
                         
       <div align="center">
-<!-- <form id="search" method="POST"> -->
-      <input class="searchsearx searchvalue form-control" id="searchsearx" autofocus="" name="q" type="text" placeholder="Search for..." spellcheck="false" dir="auto">
-      <input type="submit" id="btnsend" class="btn btn-primary" onclick="openLink()" value="Search">
-<!-- </form> -->
-            <p class="p2 fontdefault">There are currently <strong>28</strong> <a href="javascript:OpenModal('searx-info')"><u>SearX nodes</u></a> in our database. Your search query will be sent to one of them (picked randomly).</p>
+	  <div class="input-group">
+      <input class="searchsearx searchvalue form-control" id="searchsearx" autofocus="" name="q" type="text" placeholder="Search the web privately..." spellcheck="false" dir="auto">
+       <span id="btnsend" class="input-group-text" onclick="openLink()"><i class="fas fa-search"></i></span>
+	   </div>
         </div>
                         
                         <!-- end search -->
@@ -230,7 +239,7 @@ input.addEventListener("keyup", function(event) {
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-n1" data-rv-view="471">
+<section class="mbr-section" id="witsec-modal-window-block-n1" data-rv-view="216">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -348,6 +357,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/parallax/jarallax.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>

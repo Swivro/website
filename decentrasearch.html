@@ -6,18 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/new-project-19-128x128.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/new-project-19-128x128-1-128x128.png" type="image/x-icon">
   <meta name="description" content="Swivro is an organization focused on online privacy, cybersecurity, and free speech.">
   
   
   <title>Decentrasearch - Swivro</title>
   <link rel="stylesheet" href="assets/font-awesome-solid/../css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/font-awesome-solid/css/solid.min.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
@@ -49,8 +50,8 @@ padding-top: 5px;
 font-family: Inter-Regular;
 }
     
-.plan {
-border-radius: 4px;
+.plan, .card-wrapper {
+border-radius: 10px !important;
 }
 </style>
 <!-- end custom styling - PS, hi! from Swivro! -->
@@ -60,7 +61,7 @@ border-radius: 4px;
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="../">
-                        <img src="assets/images/new-project-18-360x96.png" alt="" style="height: 3rem;">
+                        <img src="assets/images/new-project-41-360x96.png" alt="" style="height: 3rem;">
                     </a>
                 </span>
                 
@@ -74,8 +75,8 @@ border-radius: 4px;
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary show display-4" href="argon.html" aria-expanded="false">Argon</a></li><li class="nav-item"><a class="nav-link link text-black text-primary show display-4" href="decentrasearch.html">Decentrasearch</a></li><li class="nav-item"><a class="nav-link link text-black text-primary show display-4" href="keyvault.html">Seedcrypt</a></li><li class="nav-item dropdown"><a class="nav-link link text-black text-primary dropdown-toggle display-4" href="keyvault.html" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Privacy</a><div class="dropdown-menu" aria-labelledby="dropdown-undefined"><a class="text-black text-primary show dropdown-item display-4" href="privacy-checklist.html"><span class="mbrib-bulleted-list mbr-iconfont mbr-iconfont-btn"></span>Privacy Checklist</a><a class="text-black text-primary show dropdown-item display-4" href="privacytools.html"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>Privacy Tools</a></div></li><li class="nav-item"><a class="nav-link link text-black text-primary show display-4" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="donate.html">Donate</a></li></ul>
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link show text-white text-primary display-4" href="argon.html" aria-expanded="false">Argon</a></li><li class="nav-item"><a class="nav-link link show text-white display-4" href="decentrasearch.html">Decentrasearch</a></li><li class="nav-item"><a class="nav-link link show text-white display-4" href="keyvault.html">Seedcrypt</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="keyvault.html" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Digital Privacy</a><div class="dropdown-menu" aria-labelledby="dropdown-undefined"><a class="show dropdown-item text-white display-4" href="privacy-checklist.html"><span class="mbrib-bulleted-list mbr-iconfont mbr-iconfont-btn"></span>Privacy Checklist</a><a class="show dropdown-item text-white display-4" href="privacytools.html"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>Privacy Tools</a></div></li><li class="nav-item"><a class="nav-link link show text-white display-4" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link link text-white display-4" href="donate.html">Donate</a></li></ul>
                 
                 
             </div>
@@ -83,12 +84,11 @@ border-radius: 4px;
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header12 cid-sU51K01Zk7 mbr-parallax-background" id="header12-mz">
+<section data-bs-version="5.1" class="header12 cid-sU51K01Zk7" id="header12-mz">
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(90, 114, 208);">
-    </div>
+    
     <div class="container">
         <div class="row justify-content-center">
             <div class="card col-12 col-md-12 col-lg-9">
@@ -184,7 +184,7 @@ input.addEventListener("keyup", function(event) {
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-delivery"></span>
+                        <span class="mbr-iconfont mbrib-delivery" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Code &amp; Database is all in your browser.</strong></h4>
                     </div>
                 </div>
@@ -192,7 +192,7 @@ input.addEventListener("keyup", function(event) {
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-code"></span>
+                        <span class="mbr-iconfont mbrib-code" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>No server-side dynamic code. All in your browser.</strong></h4>
                     </div>
                 </div>
@@ -200,7 +200,7 @@ input.addEventListener("keyup", function(event) {
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-protect"></span>
+                        <span class="mbr-iconfont mbrib-protect" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Absolutely zero data is collected from you</strong></h4>
                     </div>
                 </div>
@@ -208,7 +208,7 @@ input.addEventListener("keyup", function(event) {
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
                     <div class="card-box align-center">
-                        <span class="mbr-iconfont mbrib-lock"></span>
+                        <span class="mbr-iconfont mbrib-lock" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);"></span>
                         <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>An encrypted HTTPS/TLS connection is forced.</strong></h4>
                     </div>
                 </div>
@@ -217,29 +217,111 @@ input.addEventListener("keyup", function(event) {
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content14 cid-sU56Sio5Z6" id="content14-n4">
+<section data-bs-version="5.1" class="content16 cid-sV0p05YhLl" id="content16-q5">
+
     
-    
+
     
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-4 display-5">
-                        <strong>Frequently asked questions</strong>
-                    </h3>
-                <ul class="list mbr-fonts-style display-7">
-                    <li><strong>How is this decentralized if it is only available here?</strong><br>Decentrasearch, is not a search engine itself. When you submit your search, the query is sent to a privacy-respecting open source search engine (a SearX node), randomly picked from our database. This means there is no central search authority, making it decentralized.</li>
-                    <li><strong>Do you log my search queries?</strong><br>No. All code for this project is ran in your browser, so you can see everything that is going on.</li>
-                    <li><strong>Are all of the search engines used for this safe?</strong><br>We only send your search query to an open source decentralized search engine (a public SearX node). We verify that the SearX node meets our minimum security and privacy requirements before adding it to our database. To see all of the search engines currently in our DB, you can view the source of this page, and scroll down until you see some JS code that stands out.</li>
-                    <li><strong>How is this more private than using a SearX search engine directly?</strong><br>Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in our database. This means every time you search, you connect to a different server. This primarily, in numerous ways, makes it harder for malicious actors to build a profile on you. Keep in mind that there is also no central search authority.</li>
-                    <li><strong>Why are some search results different each time I search?<br></strong>Currently, we are still in the process of making Decentrasearch more stable to ensure that search results are very similar for each time you submit your search query. At this time, you may see slightly different search results each time you submit your search query. This is primarily due to each SearX node operator having different server/search configuration.</li>
-                </ul>
+            <div class="col-12 col-md-12">
+                <div class="mbr-section-head align-center mb-4">
+                    <h3 class="mbr-section-title mb-0 mbr-fonts-style display-5">
+                        <strong>Frequently asked questions</strong></h3>
+                    
+                </div>
+                <div id="bootstrap-accordion_123" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_123" aria-expanded="false" aria-controls="collapse1">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How is Decentrasearch truly decentralized if it is only available via this website?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse1_123" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_123">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">Well, Decentrasearch, is not a search engine itself. When you submit your search, the query is sent to a privacy-respecting open source search engine (a SearX node), randomly picked from the Decentrasearch database. This means there is no central search authority or central search server, making it decentralized.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_123" aria-expanded="false" aria-controls="collapse2">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Are my search queries logged?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse2_123" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_123">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    No. All of the Decentrasearch code is ran in your browser, so you can see everything that is going on by viewing the page source. We don't run any dynamic code for Decentrasearch on our server.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_123" aria-expanded="false" aria-controls="collapse3">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Are all of the search engines used for this safe?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse3_123" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_123">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">Decentrasearch only sends your search query to an open source decentralized search engine (a public SearX node). We verify that the SearX node meets our minimum security and privacy requirements before adding it to our database. To see all of the search engines currently in the Decentrasearch database, you can view the source of the Decentrasearch page, and scroll down until you see some JS code that stands out. At the time of writing this, there are 30 SearX nodes in the database. Your search query will be sent to one of them randomly. We look forward to adding more, and eventually reaching 100, but we need more people to host SearX nodes, as we don't have the funds to do it ourselves. We also do not want to host all of the SearX nodes, because that makes Decentrasearch more centralized.&nbsp;<br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_123" aria-expanded="false" aria-controls="collapse4">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How is this more private than using a SearX search engine/node directly?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse4_123" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_123">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in the Decentrasearch database. This means every time you search, you connect to a different server. This primarily, in numerous ways, makes it harder for malicious actors to build a profile on you. Keep in mind that there is also no central search authority.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_123" aria-expanded="false" aria-controls="collapse5">
+                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Why are some search results different each time I search?</strong></h6>
+                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
+                            </a>
+                        </div>
+                        <div id="collapse5_123" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_123">
+                            <div class="panel-body">
+                                <p class="mbr-fonts-style panel-text display-4">
+                                    Currently, we are still in the process of making Decentrasearch more stable to ensure that search results are very similar for each time you submit your search query. At this time, you may see slightly different search results each time you submit your search query. This is primarily due to each SearX node operator having different server/search configuration. For example, some SearX node operators may choose for their engine to utilize Google and Bing results by default, while other operators may choose for their engine to utilize Qwant and Mojeek by default. We've modified the Decentrasearch script so all SearX nodes use roughly the same configuration, but some node operators still disable some search engines, or are blocked by some search engines.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-n1" data-rv-view="8488">
+<section data-bs-version="5.1" class="content4 cid-sV0rcowOaZ" id="content4-q8">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+                    <strong>Latest SearX Node Information</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">Currently, there are <strong><u>28</u></strong> SearX nodes in the Decentrasearch database. Your search query will be sent to one of them, picked randomly.</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-n1" data-rv-view="381">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -312,7 +394,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </section>
 
-<section data-bs-version="5.1" class="footer1 cid-sUmchcCL3z" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-nw">
+<section data-bs-version="5.1" class="footer1 cid-sV0lI2vs2R" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-q4">
 
     
     
@@ -357,9 +439,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/parallax/jarallax.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
   

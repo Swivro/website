@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroMobirise5-Mainnet-clone",
-    "currentPage": "argon.html",
+    "currentPage": "decentrasearch-newtab.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -15678,7 +15678,7 @@
             },
             "#btnsend:hover": {
               "color": "white",
-              "background-color": "#5a72d0"
+              "background-color": "#5a9cc3"
             },
             ".input-group": {
               "width": "auto",
@@ -17858,7 +17858,7 @@
             },
             "#btnsend:hover": {
               "color": "white",
-              "background-color": "#5a72d0"
+              "background-color": "#5a9cc3"
             },
             ".input-group": {
               "width": "80%",

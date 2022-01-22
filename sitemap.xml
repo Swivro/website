@@ -75,9 +75,6 @@
 		<loc>https://swivro.net/decentrasearch.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/keyvault.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/blog.html</loc>
 	</url>
 	<url>
@@ -85,5 +82,8 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/argon.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/seedcrypt.html</loc>
 	</url>
 </urlset>

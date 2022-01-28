@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroNewest-clone",
-    "currentPage": "index.html",
+    "currentPage": "unicrypt.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -18256,39 +18256,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "prying-eyes",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Avoid prying eyes 👀",
-            "modalBody": "Is anyone looking at your screen? Are you recording? Do you have an antivirus software? Check all of these things before using this, as sensitive information is involved here.\n\nNo one should be able to see your screen, you should not be recording, you should not have a camera near you, and it's a good idea to have an antivirus software.",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Close",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": false,
-            "modalAutoOpenDelay": "1"
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#prying-eyes\" data-bs-toggle=\"modal\" data-bs-target=\"#prying-eyes\">Preview prying-eyes</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#prying-eyes-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#prying-eyes-howtouse\">How to use prying-eyes</a>\n</div>\n<div class=\"modal fade\" id=\"prying-eyes-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"prying-eyes-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"prying-eyes-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('prying-eyes')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Is anyone looking at your screen? Are you recording? Do you have an antivirus software? Check all of these things before using this, as sensitive information is involved here.\n\nNo one should be able to see your screen, you should not be recording, you should not have a camera near you, and it's a good idea to have an antivirus software.",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "mobirise5",
-          "modalWindow": "<div class=\"modal fade\" id=\"prying-eyes\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"prying-eyesLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"prying-eyesLabel\">Avoid prying eyes 👀</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"prying-eyes_body\">Is anyone looking at your screen? Are you recording? Do you have an antivirus software? Check all of these things before using this, as sensitive information is involved here.<br /><br />No one should be able to see your screen, you should not be recording, you should not have a camera near you, and it's a good idea to have an antivirus software.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#prying-eyes\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#prying-eyes_body\" ).html(); \n      $( \"#prying-eyes_body\" ).empty(); \n      $( \"#prying-eyes_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#prying-eyes\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>",
-          "_anchor": "witsec-modal-window-block-ns"
         },
         {
           "_name": "footer1-sOpMpnOYd4-sOR1GhUL5w",

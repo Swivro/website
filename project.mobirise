@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroNewest-clone",
-    "currentPage": "unicrypt.html",
+    "currentPage": "changelog.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -92,7 +92,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 971,
+    "uniqCompNum": 996,
     "versionPublish": "5.5.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/new-project-19-128x128-1-128x128.png",
@@ -1274,7 +1274,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 25
+        "order": 27
       },
       "components": [
         {
@@ -1829,7 +1829,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 28
+        "order": 30
       },
       "components": [
         {
@@ -2476,7 +2476,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 19
+        "order": 21
       },
       "components": [
         {
@@ -2527,7 +2527,7 @@
           },
           "_name": "content7",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#4b80a0\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#243947\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#26485e\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">January, 2022<br></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">- Add Alert Message/NEW section to Unicrypt page<br>- Update Check Marks (switch from system emoji to FontAwesome) &amp; update font colors on Decentrasearch page<br>- Update features section on homepage (change crypto section to decentrasearch)<br>- Update Argon Browser download links<br>- Update Decentrasearch page (remove bottom section with Searx Node counter &amp; add new features section)<br>- Fix blog post order on blog page<br>- Update description on about page<br>- Update about section on footer<br>- Update Argon Browser download link (new version)<br>- Update button border radius globally<br>- Update navbar &amp; footer (rename Seedcrypt to Unicrypt)<br>- Rename Seedcrypt (previously named KeyVault) to Unicrypt<br>- Update header background image on Argon page<br>- Fix padding across all pages<br>- Add Argon to navbar<br>- Update Argon page (add download link for windows)<br>- Update colors across website<br>- Update navbar item<br>- Add padding to Decentrasearch search section on decentrasearch.html<br>- Update product cards on homepage<br>-&nbsp;Update homepage background image<br>- Add github repo link on Argon page<br>- Update search box/btn on decentrasearch page<br>- Update headers/heros on every page to match homepage header bg &amp; color<br>- Update homepage header/hero design (update image &amp; text)<br>- Create Argon page (argon.html)<br>- Update alert message on Decentrasearch page<br>- Add search button on the right side of the HTML input on the Decentrasearch Start Page page<br>- Add tags to Decentrasearch recommendation on search engines page<br>- Add Decentrasearch to Search Engine recommendation page<br>- Remove roflcopter from Decentrasearch database &amp; add searx.nixnet.services<br>- Create new start page for Decentrasearch to be used as the default browser homepage - also enabling a quick way to privately and securely search the internet.<br>- Major update to Decentrasearch (remove 4 SearX nodes from database which have broken or missing features, add paulgo.io to database, and ensure all SearX nodes use specific search engines &amp; have specific configuration)<br>- Create products section on homepage<br>- Add search.ononoki.org to Decentrasearch database<br>- Update blog section on homepage &amp; blog.html<br>- Create new blog post<br>- Fix visuals/display issues on KeyVault page<br>- Update main section on footer<br>- Fix JittySearch URL in Decentrasearch database<br>- Fix button visuals on mobile (blog page)<br>- Update navbar logo &amp; favicon<br>- Fix XMR address JS copy function on donate page<br>-&nbsp;Remove search.st8.at from Decentrasearch database and add search.snopyta.org<br>- Remove swag.pw, nibblehole, and divided-by-zero from Decentrasearch database<br>- Add 2 new engines to Decentrasearch database<br>- Remove&nbsp;searx.lavatech.top from Decentrasearch database (bad search results)<br>- Remove&nbsp;searx.mastodontech.de,&nbsp;sx.fedi.tech, and&nbsp;searx.ru, from Decentrasearch database (all of those SearX nodes are broken).<br>- Update Njalla description on hosting providers page<br>- Update navbar (add blog.html)<br>- Create Blog Page<br>- Update navbar (create \"Digital Privacy\" item &amp; add submenu w/ Privacy Checklist and Privacy Tools, and add Blog)<br>- Remove OpenCash Page (dead project)<br>- Update navbar (add KeyVault)<br>- Create KeyVault page<br>- Add Sideshift.ai to crypto exchange page<br>- Rename \"Digital Privacy Checklist\" to \"Digital Privacy\" on navbar<br>- Add \"Onion Search Engine\" to search engine recommendation page<br>- Update favicon<br>- Update navbar logo<br>- Update website colors<br>- Create new section on OpenCash page (avg. stats)<br>- Update PrivacyNow blog post links on bottom of homepage<br>- Add searx.zackptg5.com Searx instance to Decentrasearch database<br>- Remove bluelock Searx instance from Decentrasearch database<br>- Update navbar (add 2 items &amp; remove 2 items)<br>- Create Decentrasearch page<br>- Create OpenCash NFT page<br>- Update color of bottom section (blog) on homepage<br>- Add two new sections below \"Verified Privacy Tools\" on homepage<br>- Update buttons on \"Verified Privacy Tools\" section on homepage<br>- Add images on two right/left sections at top of homepage body<br>- Update icons on Privacy Checklist page<br>- Update design of donate page<br>- Update homepage description<br>- Fix link colors on Privacy Checklist page<br>- Update website font (Satoshi -&gt; Inter)</p></blockquote></div>\n            </div>\n        </div>\n    \n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#4b80a0\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#243947\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#26485e\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">January, 2022<br></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">- Update FAQ on Unicrypt page<br>- Add Alert Message/NEW section to Unicrypt page<br>- Update Check Marks (switch from system emoji to FontAwesome) &amp; update font colors on Decentrasearch page<br>- Update features section on homepage (change crypto section to decentrasearch)<br>- Update Argon Browser download links<br>- Update Decentrasearch page (remove bottom section with Searx Node counter &amp; add new features section)<br>- Fix blog post order on blog page<br>- Update description on about page<br>- Update about section on footer<br>- Update Argon Browser download link (new version)<br>- Update button border radius globally<br>- Update navbar &amp; footer (rename Seedcrypt to Unicrypt)<br>- Rename Seedcrypt (previously named KeyVault) to Unicrypt<br>- Update header background image on Argon page<br>- Fix padding across all pages<br>- Add Argon to navbar<br>- Update Argon page (add download link for windows)<br>- Update colors across website<br>- Update navbar item<br>- Add padding to Decentrasearch search section on decentrasearch.html<br>- Update product cards on homepage<br>-&nbsp;Update homepage background image<br>- Add github repo link on Argon page<br>- Update search box/btn on decentrasearch page<br>- Update headers/heros on every page to match homepage header bg &amp; color<br>- Update homepage header/hero design (update image &amp; text)<br>- Create Argon page (argon.html)<br>- Update alert message on Decentrasearch page<br>- Add search button on the right side of the HTML input on the Decentrasearch Start Page page<br>- Add tags to Decentrasearch recommendation on search engines page<br>- Add Decentrasearch to Search Engine recommendation page<br>- Remove roflcopter from Decentrasearch database &amp; add searx.nixnet.services<br>- Create new start page for Decentrasearch to be used as the default browser homepage - also enabling a quick way to privately and securely search the internet.<br>- Major update to Decentrasearch (remove 4 SearX nodes from database which have broken or missing features, add paulgo.io to database, and ensure all SearX nodes use specific search engines &amp; have specific configuration)<br>- Create products section on homepage<br>- Add search.ononoki.org to Decentrasearch database<br>- Update blog section on homepage &amp; blog.html<br>- Create new blog post<br>- Fix visuals/display issues on KeyVault page<br>- Update main section on footer<br>- Fix JittySearch URL in Decentrasearch database<br>- Fix button visuals on mobile (blog page)<br>- Update navbar logo &amp; favicon<br>- Fix XMR address JS copy function on donate page<br>-&nbsp;Remove search.st8.at from Decentrasearch database and add search.snopyta.org<br>- Remove swag.pw, nibblehole, and divided-by-zero from Decentrasearch database<br>- Add 2 new engines to Decentrasearch database<br>- Remove&nbsp;searx.lavatech.top from Decentrasearch database (bad search results)<br>- Remove&nbsp;searx.mastodontech.de,&nbsp;sx.fedi.tech, and&nbsp;searx.ru, from Decentrasearch database (all of those SearX nodes are broken).<br>- Update Njalla description on hosting providers page<br>- Update navbar (add blog.html)<br>- Create Blog Page<br>- Update navbar (create \"Digital Privacy\" item &amp; add submenu w/ Privacy Checklist and Privacy Tools, and add Blog)<br>- Remove OpenCash Page (dead project)<br>- Update navbar (add KeyVault)<br>- Create KeyVault page<br>- Add Sideshift.ai to crypto exchange page<br>- Rename \"Digital Privacy Checklist\" to \"Digital Privacy\" on navbar<br>- Add \"Onion Search Engine\" to search engine recommendation page<br>- Update favicon<br>- Update navbar logo<br>- Update website colors<br>- Create new section on OpenCash page (avg. stats)<br>- Update PrivacyNow blog post links on bottom of homepage<br>- Add searx.zackptg5.com Searx instance to Decentrasearch database<br>- Remove bluelock Searx instance from Decentrasearch database<br>- Update navbar (add 2 items &amp; remove 2 items)<br>- Create Decentrasearch page<br>- Create OpenCash NFT page<br>- Update color of bottom section (blog) on homepage<br>- Add two new sections below \"Verified Privacy Tools\" on homepage<br>- Update buttons on \"Verified Privacy Tools\" section on homepage<br>- Add images on two right/left sections at top of homepage body<br>- Update icons on Privacy Checklist page<br>- Update design of donate page<br>- Update homepage description<br>- Fix link colors on Privacy Checklist page<br>- Update website font (Satoshi -&gt; Inter)</p></blockquote></div>\n            </div>\n        </div>\n    \n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "content7-m2",
@@ -3093,7 +3093,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 18
+        "order": 20
       },
       "components": [
         {
@@ -3647,7 +3647,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 22
+        "order": 24
       },
       "components": [
         {
@@ -4301,7 +4301,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 20
+        "order": 22
       },
       "components": [
         {
@@ -4890,7 +4890,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 6
+        "order": 8
       },
       "components": [
         {
@@ -5567,7 +5567,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 27
+        "order": 29
       },
       "components": [
         {
@@ -6221,7 +6221,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 21
+        "order": 23
       },
       "components": [
         {
@@ -6875,7 +6875,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 23
+        "order": 25
       },
       "components": [
         {
@@ -7529,7 +7529,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 17
+        "order": 19
       },
       "components": [
         {
@@ -8119,7 +8119,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 14
+        "order": 16
       },
       "components": [
         {
@@ -8709,7 +8709,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 24
+        "order": 26
       },
       "components": [
         {
@@ -9299,7 +9299,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 15
+        "order": 17
       },
       "components": [
         {
@@ -9916,7 +9916,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 26
+        "order": 28
       },
       "components": [
         {
@@ -10506,7 +10506,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 13
+        "order": 15
       },
       "components": [
         {
@@ -11160,7 +11160,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 12
+        "order": 14
       },
       "components": [
         {
@@ -11920,7 +11920,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 11
+        "order": 13
       },
       "components": [
         {
@@ -12510,7 +12510,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 10
+        "order": 12
       },
       "components": [
         {
@@ -13164,7 +13164,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 16
+        "order": 18
       },
       "components": [
         {
@@ -13818,7 +13818,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 9
+        "order": 11
       },
       "components": [
         {
@@ -14369,7 +14369,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 7
+        "order": 9
       },
       "components": [
         {
@@ -14959,7 +14959,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 8
+        "order": 10
       },
       "components": [
         {
@@ -16323,7 +16323,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 5
+        "order": 7
       },
       "components": [
         {
@@ -16991,7 +16991,7 @@
     },
     "decentrasearch-newtab.html": {
       "settings": {
-        "title": "Decentrasearch (New Tab) - Swivro",
+        "title": "Decentrasearch Web (New Tab) - Swivro",
         "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
         "header_custom": "",
         "footer_custom": "",
@@ -17060,13 +17060,22 @@
             ".input-group": {
               "width": "80%",
               "max-width": "1800px"
+            },
+            ".active": {
+              "background-color": "#62a6cf !important"
+            },
+            ".nav-link": {
+              "color": "#62a6cf",
+              "font-family": "Inter-Regular"
             }
           },
           "_name": "header12",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header12\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#243947\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n<style>\n.badge {\n  font-family: 'Inter-Regular';\n  font-size: 12px;\n}\n.desc1 {\npadding-top: 5px;\n}\n    \n.fontdefault, .modal-content, ul {\nfont-family: Inter-Regular;\n}\n    \n.plan, .card-wrapper {\nborder-radius: 10px !important;\n}\n.btn {\nborder-radius: 8px !important;\n}\n</style>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-md-12 col-lg-9\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <h1 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b><i class=\"fas fa-search\"></i>&nbsp;Decentrasearch</b></h1>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in our database. This means every time you search, you connect to a different server. This, in numerous ways, makes it harder for malicious actors to build a profile on you. There is also no central search authority. </p>\n                        <!-- start search -->\n                        \n      <div align=\"center\">\n\t  <div class=\"input-group\">\n      <input class=\"searchsearx searchvalue form-control\" id=\"searchsearx\" autofocus name=\"q\" type=\"text\" placeholder=\"Search the web privately...\" spellcheck=\"false\" dir=\"auto\">\n       <span id=\"btnsend\" class=\"input-group-text\" onclick=\"openLink()\"><i class=\"fas fa-search\"></i></span>\n\t   </div>\n        </div>\n                        \n                        <!-- end search -->\n                        \n <script src=\"https://cdn.swivro.net/decentrasearch/script.js\">\n     \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header12\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#243947\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n<style>\n.badge {\n  font-family: 'Inter-Regular';\n  font-size: 12px;\n}\n.desc1 {\npadding-top: 5px;\n}\n    \n.fontdefault, .modal-content, ul {\nfont-family: Inter-Regular;\n}\n    \n.plan, .card-wrapper {\nborder-radius: 10px !important;\n}\n.btn, .nav-link {\nborder-radius: 8px !important;\n}\n</style>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-md-12 col-lg-9\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <h1 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b><i class=\"fas fa-search\"></i>&nbsp;Decentrasearch</b></h1>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in our database. This means every time you search, you connect to a different server. This, in numerous ways, makes it harder for malicious actors to build a profile on you. There is also no central search authority. </p>\n                        <!-- start search -->\n                        \n      <div align=\"center\">\n\t  <div class=\"input-group\">\n      <input class=\"searchsearx searchvalue form-control\" id=\"searchsearx\" autofocus name=\"q\" type=\"text\" placeholder=\"Search the web privately...\" spellcheck=\"false\" dir=\"auto\">\n       <span id=\"btnsend\" class=\"input-group-text\" onclick=\"openLink()\"><i class=\"fas fa-search\"></i></span>\n\t   </div>\n        </div>\n          \n<div align=\"center\">  \n                        <br>\n<ul class=\"nav nav-pills justify-content-center\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" aria-current=\"page\" href=\"decentrasearch-newtab.html\">Web</a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"decentrasearch-images-newtab.html\">Images</a>\n  </li>\n</ul>\n </div>\n                        \n                        <!-- end search -->\n                        \n [JS_CODE_0]</div></div></div></div></div></section>",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://cdn.swivro.net/decentrasearch/script.js\">\n     \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section></script>"
+          ],
           "_cid": "sUNPuNc3mk",
           "_anchor": "header12-o8",
           "_protectedParams": [],
@@ -17108,11 +17117,12 @@
           },
           "_name": "content4",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center tgradient\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\"><p>\n                    &nbsp; &nbsp;We protect your digital privacy &amp; anonymity.</p></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Decentrasearch lets you search the web privately and securely.<br><br><span class=\"f11\"><i class=\"fas fa-check-square\"></i> Community-ran&nbsp; &nbsp;&nbsp;</span><span class=\"f11\"><i class=\"fas fa-check-square\"></i> TLS Encryption&nbsp; &nbsp;&nbsp;</span><span class=\"f11\"><i class=\"fas fa-check-square\"></i> Most private search</span></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://blog.swivro.net/introducing-decentrasearch-and-keyvault.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Learn More about this</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sUNRxurYvx",
-          "_anchor": "content4-og",
-          "_PHPplaceholders": [],
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center tgradient\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\"><p>\n                    &nbsp; &nbsp;We protect your digital privacy &amp; anonymity.</p></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Decentrasearch lets you search the web privately and securely.<br><br><span class=\"f11\"><i class=\"fas fa-check-square\"></i> Community-ran&nbsp; &nbsp;&nbsp;</span><span class=\"f11\"><i class=\"fas fa-check-square\"></i> TLS Encryption&nbsp; &nbsp;&nbsp;</span><span class=\"f11\"><i class=\"fas fa-check-square\"></i> Most private search</span></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://blog.swivro.net/introducing-decentrasearch-and-keyvault.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Learn More about this</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content4-r5",
+          "_isUserblock": true,
+          "_cid": "sVR8t21zEk",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -17152,7 +17162,7 @@
           },
           "_name": "features2",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\n        <header>Card</header>\n        <input type=\"color\" title=\"BG\" name=\"cardColor\" value=\"#26485e\">\n        <input type=\"range\" title=\"Count\" name=\"cardsAmount\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-globe-2\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Works on any device with internet and a browser</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-devices\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>All code is ran locally on your device (Javascript)</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-search\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Aggregates results from many search engines</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-sites mobi-mbri\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Unlimited Sites</b>\n                        </h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\n        <header>Card</header>\n        <input type=\"color\" title=\"BG\" name=\"cardColor\" value=\"#26485e\">\n        <input type=\"range\" title=\"Count\" name=\"cardsAmount\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-chat\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Powered entirely by the Searx Community</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-protect\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Transport Encryption (TLS/SSL) is forced</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-search\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Aggregates results from many search engines</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-sites mobi-mbri\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Unlimited Sites</b>\n                        </h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sUNXfPqufN",
           "_anchor": "features2-oi",
           "_protectedParams": [],
@@ -18020,7 +18030,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4
+        "order": 6
       },
       "components": [
         {
@@ -18218,7 +18228,7 @@
           },
           "_name": "content14",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Content\" class=\"content14\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Frequently asked questions</b>\n                    </h3>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li><b>How can I trust this? Is this another crypto scam?</b><br>You can see all of the code of this tool in your browser, by typing view-source: before the URL. The git repository is also available here -&gt; <a href=\"https://github.com/Swivro/unicrypt\" class=\"text-primary\" target=\"_blank\">https://github.com/Swivro/unicrypt</a></li>\n                    <li><b>How do I know you don't log my seed phrase and/or passphrase?</b><br>We don't log anything you type here, but we can't prove it unless we give you access to our server. So, if you don't trust this, you can self-host it, here's the code -&gt; <a href=\"https://github.com/Swivro/unicrypt\" class=\"text-primary\" target=\"_blank\">https://github.com/Swivro/keyvault</a></li>\n                    <li><b>Is all information sent across the internet encrypted?</b><br>No information entered on this page is sent anywhere across the internet. Encryption and decryption takes place locally on your device/machine. No info ever leaves your machine.</li>\n                    <li><b>Who made this application?</b><br>Licensed under <a href=\"https://github.com/Swivro/unicrypt/blob/master/LICENSE\" class=\"text-primary\" target=\"_blank\">GNU General Public License v3.0</a>, this application is a modified fork of <a href=\"https://github.com/zohar1000/in-browser-encryption/blob/master/LICENSE\" class=\"text-primary\" target=\"_blank\">zohar1000/in-browser-encryption</a>. The source code for our fork is available at <a href=\"https://github.com/Swivro/unicrypt\" class=\"text-primary\" target=\"_blank\">https://github.com/Swivro/unicrypt</a>. Changes can be seen on our <a href=\"https://github.com/Swivro/unicrypt/blob/master/README.md\" class=\"text-primary\" target=\"_blank\">README</a> file.</li>\n                    <li><b>Where is my encrypted seed phrase stored?<br></b>You'll have to store it yourself, we do not store it. After you've encrypted your seed phrase with your own passphrase, save the encrypted text to a safe place (either electronically or physically). You can decrypt it by coming back here, entering the same passphrase you used, then entering the encrypted seed phrase text, and clicking Decrypt.</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Content\" class=\"content14\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Frequently asked questions</b>\n                    </h3>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li><b>How can I trust this? Is this another crypto scam?</b><br>You can see all of the code of this tool in your browser, by typing view-source: before the URL. The git repository is also available here -&gt; <a href=\"https://github.com/Swivro/unicrypt\" class=\"text-primary\" target=\"_blank\">https://github.com/Swivro/unicrypt</a></li>\n                    <li><b>How do I know you don't log my passphrase?</b><br>We don't log anything you type here, but we can't prove it unless we give you access to our server. So, if you don't trust this, you can self-host it, here's the code -&gt; <a href=\"https://github.com/Swivro/unicrypt\" class=\"text-primary\" target=\"_blank\">https://github.com/Swivro/keyvault</a></li>\n                    <li><b>Is all information sent across the internet encrypted?</b><br>No information entered on this page is sent anywhere across the internet. Encryption and decryption takes place locally on your device/machine. No info ever leaves your machine.</li>\n                    <li><b>Who made this application?</b><br>Licensed under <a href=\"https://github.com/Swivro/unicrypt/blob/master/LICENSE\" class=\"text-primary\" target=\"_blank\">GNU General Public License v3.0</a>, this application is a modified fork of <a href=\"https://github.com/zohar1000/in-browser-encryption/blob/master/LICENSE\" class=\"text-primary\" target=\"_blank\">zohar1000/in-browser-encryption</a>. The source code for our fork is available at <a href=\"https://github.com/Swivro/unicrypt\" class=\"text-primary\" target=\"_blank\">https://github.com/Swivro/unicrypt</a>. Changes can be seen on our <a href=\"https://github.com/Swivro/unicrypt/blob/master/README.md\" class=\"text-primary\" target=\"_blank\">README</a> file.</li>\n                    <li><b>Where is my encrypted text and passphrase stored?<br></b>We do not store either of those things. As mentioned, encryption &amp; decryption takes place locally, in your browser. No information typed into this page ever reaches us or any 3rd party servers.</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sUlxqgMRxr",
           "_anchor": "content14-nr",
           "_protectedParams": [],
@@ -18741,6 +18751,258 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
+          "_params": {}
+        }
+      ]
+    },
+    "decentrasearch-images-newtab.html": {
+      "settings": {
+        "title": "Decentrasearch Images (New Tab) - Swivro",
+        "meta_descr": "Swivro is an organization focused on online privacy, cybersecurity, and free speech.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "border-radius": "4px",
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".searchvalue": {
+              "display": "inline-block",
+              "background-color": "#26485e",
+              "color": "white"
+            },
+            "button": {
+              "display": "inline-block"
+            },
+            ".btn, .btn-primary": {
+              "display": "inline-block",
+              "height": "50px !important",
+              "font-family": "Inter-Regular"
+            },
+            ".p2": {
+              "display": "block",
+              "font-size": "10.5px",
+              "padding-top": "7px",
+              "font-family": "Inter-Regular"
+            },
+            ".card-title": {
+              "padding-bottom": "25px",
+              "color": "#fafafa"
+            },
+            "#btnsend": {
+              "background-color": "#26485e",
+              "color": "white",
+              "border-color": "#26485e"
+            },
+            "#btnsend:hover": {
+              "color": "white",
+              "background-color": "#5a9cc3"
+            },
+            ".input-group": {
+              "width": "80%",
+              "max-width": "1800px"
+            },
+            ".active": {
+              "background-color": "#62a6cf !important"
+            },
+            ".nav-link": {
+              "color": "#62a6cf",
+              "font-family": "Inter-Regular"
+            }
+          },
+          "_name": "header12",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header12\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#243947\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n<style>\n.badge {\n  font-family: 'Inter-Regular';\n  font-size: 12px;\n}\n.desc1 {\npadding-top: 5px;\n}\n    \n.fontdefault, .modal-content, ul {\nfont-family: Inter-Regular;\n}\n    \n.plan, .card-wrapper {\nborder-radius: 10px !important;\n}\n.btn, .nav-link {\nborder-radius: 8px !important;\n}\n</style>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-md-12 col-lg-9\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <h1 class=\"card-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b><i class=\"fas fa-search\"></i>&nbsp;Decentrasearch</b></h1>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in our database. This means every time you search, you connect to a different server. This, in numerous ways, makes it harder for malicious actors to build a profile on you. There is also no central search authority. </p>\n                        <!-- start search -->\n                        \n      <div align=\"center\">\n\t  <div class=\"input-group\">\n      <input class=\"searchsearx searchvalue form-control\" id=\"searchsearx\" autofocus name=\"q\" type=\"text\" placeholder=\"Search for images privately...\" spellcheck=\"false\" dir=\"auto\">\n       <span id=\"btnsend\" class=\"input-group-text\" onclick=\"openLink()\"><i class=\"fas fa-search\"></i></span>\n\t   </div>\n        </div>\n          \n<!-- <div align=\"center\">  \n                        <br>\n<ul class=\"nav nav-pills justify-content-center\">\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" aria-current=\"page\" href=\"decentrasearch-newtab.html\">Web</a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link active\" href=\"decentrasearch-images-newtab.html\">Images</a>\n  </li>\n</ul>\n </div> -->\n                        \n                        <!-- end search -->\n                        \n[JS_CODE_0]</div></div></div></div></div></section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://cdn.swivro.net/decentrasearch/script-images.js\">\n     \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section></script>"
+          ],
+          "_cid": "sVQWPFNI1T",
+          "_anchor": "header12-r1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media screen and (max-width: 600px)": {
+              ".f11": {
+                "display": "block",
+                "padding-bottom": "10px"
+              },
+              ".tgradient": {
+                "padding-top": "25px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#fafafa"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#bbbbbb"
+            },
+            "i": {
+              "color": "#02d86e"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center tgradient\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\"><p>\n                    &nbsp; &nbsp;We protect your digital privacy &amp; anonymity.</p></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Decentrasearch lets you search the web privately and securely.<br><br><span class=\"f11\"><i class=\"fas fa-check-square\"></i> Community-ran&nbsp; &nbsp;&nbsp;</span><span class=\"f11\"><i class=\"fas fa-check-square\"></i> TLS Encryption&nbsp; &nbsp;&nbsp;</span><span class=\"f11\"><i class=\"fas fa-check-square\"></i> Most private search</span></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://blog.swivro.net/introducing-decentrasearch-and-keyvault.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Learn More about this</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content4-r6",
+          "_isUserblock": true,
+          "_cid": "sVR8wZCBvS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-iconfont": {
+              "display": "block",
+              "font-size": "4rem",
+              "color": "@primaryColor",
+              "margin-bottom": "2rem"
+            },
+            ".card-wrapper": {
+              "min-height": "220px",
+              "transition": "all 0.3s",
+              "border-radius": "4px",
+              "padding": "1rem",
+              "background": "@cardColor",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "margin-bottom": "2rem"
+            },
+            ".card-title, .card-box": {
+              "color": "#bbbbbb"
+            }
+          },
+          "_name": "features2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\n        <header>Card</header>\n        <input type=\"color\" title=\"BG\" name=\"cardColor\" value=\"#26485e\">\n        <input type=\"range\" title=\"Count\" name=\"cardsAmount\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-chat\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Powered entirely by the Searx Community</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-protect\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\"><b>Transport Encryption (TLS/SSL) is forced</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-search\" style=\"color: rgb(250, 250, 250); fill: rgb(250, 250, 250);\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Aggregates results from many search engines</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-sites mobi-mbri\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".card-title, .card-box\">\n                            <b>Unlimited Sites</b>\n                        </h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sVQWPGuPxL",
+          "_anchor": "features2-r2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.4rem !important",
+              "font-family": "'Moririse2' !important",
+              "color": "@primaryColor",
+              "margin-left": "1rem"
+            },
+            ".panel-group": {
+              "border": "none"
+            },
+            ".panel-title": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".panel-body, .card-header": {
+              "padding": "1rem 0"
+            },
+            ".panel-title-edit": {
+              "color": "#bbbbbb"
+            },
+            ".card .card-header": {
+              "background-color": "transparent",
+              "margin-bottom": "0"
+            },
+            "H3": {
+              "color": "#fafafa"
+            },
+            ".panel-text": {
+              "color": "#bbbbbb"
+            }
+          },
+          "_name": "content16",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content16\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#243947\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Frequently asked questions</b></h3>\n                    <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                       Accordion Subtitle</h4>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>How is Decentrasearch truly decentralized if it is only available via this website?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Well, Decentrasearch, is not a search engine itself. When you submit your search, the query is sent to a privacy-respecting open source search engine (a SearX node), randomly picked from the Decentrasearch database. This means there is no central search authority or central search server, making it decentralized.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Are my search queries logged?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    No. All of the Decentrasearch code is ran in your browser, so you can see everything that is going on by viewing the page source. We don't run any dynamic code for Decentrasearch on our server.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Are all of the search engines used for this safe?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Decentrasearch only sends your search query to an open source decentralized search engine (a public SearX node). We verify that the SearX node meets our minimum security and privacy requirements before adding it to our database. To see all of the search engines currently in the Decentrasearch database, you can view the source of the Decentrasearch page, and scroll down until you see some JS code that stands out. At the time of writing this, there are 30 SearX nodes in the database. Your search query will be sent to one of them randomly. We look forward to adding more, and eventually reaching 100, but we need more people to host SearX nodes, as we don't have the funds to do it ourselves. We also do not want to host all of the SearX nodes, because that makes Decentrasearch more centralized.&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>How is this more private than using a SearX search engine/node directly?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in the Decentrasearch database. This means every time you search, you connect to a different server. This primarily, in numerous ways, makes it harder for malicious actors to build a profile on you. Keep in mind that there is also no central search authority.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Why are some search results different each time I search?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Currently, we are still in the process of making Decentrasearch more stable to ensure that search results are very similar for each time you submit your search query. At this time, you may see slightly different search results each time you submit your search query. This is primarily due to each SearX node operator having different server/search configuration. For example, some SearX node operators may choose for their engine to utilize Google and Bing results by default, while other operators may choose for their engine to utilize Qwant and Mojeek by default. We've modified the Decentrasearch script so all SearX nodes use roughly the same configuration, but some node operators still disable some search engines, or are blocked by some search engines.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Can I create sites for commerical\n                                        projects?</b></h6>\n                                <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sVQWPH8JuI",
+          "_anchor": "content16-r3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content11",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content11 witsec-draft-mode\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href data-app-placeholder=\"Type Text\"><span class=\"fas fa-fw fa-search mbr-iconfont mbr-iconfont-btn\"></span>Learn more</a>\n                    <a class=\"btn btn-primary-outline\" href data-app-placeholder=\"Type Text\">Live demo</a></div>\n            </div>\n        </div>\n    </div>\n<style class=\"witsec-draft-mode-style\">.witsec-draft-mode { border: 3px dashed red; }</style></section>",
+          "_cid": "sVQWPHC6nM",
+          "_anchor": "content11-r4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]

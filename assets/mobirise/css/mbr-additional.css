@@ -1178,6 +1178,20 @@ a {
 .cid-sVXSmO3Vgn .uctab {
   background-image: url("https://cdn.swivro.net/website-images/jMPD9EwR2XbAfQ%20(1).png") !important;
 }
+.cid-sVXSmO3Vgn .onlymobile {
+  display: none;
+}
+@media screen and (max-width: 540px) {
+  .cid-sVXSmO3Vgn .onlymobile {
+    display: block !important;
+  }
+  .cid-sVXSmO3Vgn .hidemobile {
+    display: none;
+  }
+  .cid-sVXSmO3Vgn .firstcard {
+    padding-top: 0px !important;
+  }
+}
 .cid-sU4uYGVxur {
   padding-top: 5rem;
   padding-bottom: 5rem;

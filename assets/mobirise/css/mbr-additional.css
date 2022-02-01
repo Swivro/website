@@ -13841,7 +13841,7 @@ a {
 }
 .cid-sUNPuNc3mk #btnsend:hover {
   color: #fafafa;
-  background-color: #4479d9;
+  background-image: linear-gradient(100deg, #2d9ab3, #34b5b2) !important;
 }
 .cid-sUNPuNc3mk .input-group {
   width: 80%;

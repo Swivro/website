@@ -1118,6 +1118,11 @@ a {
 .cid-sVVui6UyUk .uctab {
   background-image: url("https://cdn.swivro.net/website-images/jMPD9EwR2XbAfQ%20(1).png") !important;
 }
+@media screen and (max-width: 540px) {
+  .cid-sVVui6UyUk .card-wrapper {
+    padding: 45px !important;
+  }
+}
 .cid-sVXSmO3Vgn {
   padding-top: 0rem;
   padding-bottom: 5rem;
@@ -1192,6 +1197,9 @@ a {
   }
   .cid-sVXSmO3Vgn .firstcard {
     padding-top: 0px !important;
+  }
+  .cid-sVXSmO3Vgn .card-wrapper {
+    padding: 45px !important;
   }
 }
 .cid-sU4uYGVxur {
@@ -1484,7 +1492,7 @@ a {
   background-color: #fafafa;
 }
 .cid-sR3AayYyUL blockquote {
-  border-color: #4479d9;
+  border-color: #2299aa;
   border-radius: 4px;
   background-color: #dee4ea;
 }
@@ -2471,7 +2479,7 @@ a {
   background-color: #fafafa;
 }
 .cid-sTfrs3OC2V blockquote {
-  border-color: #4479d9;
+  border-color: #2299aa;
   border-radius: 4px;
   background-color: #dee4ea;
 }
@@ -2487,7 +2495,7 @@ a {
   background-color: #fafafa;
 }
 .cid-sR3AiVvIQH blockquote {
-  border-color: #4479d9;
+  border-color: #2299aa;
   border-radius: 4px;
   background-color: #dee4ea;
 }
@@ -2503,7 +2511,7 @@ a {
   background-color: #fafafa;
 }
 .cid-sR3Au9RTgC blockquote {
-  border-color: #4479d9;
+  border-color: #2299aa;
   border-radius: 4px;
   background-color: #dee4ea;
 }
@@ -11337,23 +11345,24 @@ a {
 .cid-sUUHhTQMD1 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #243947;
+  background-color: #dee4ea;
 }
 .cid-sUUHhTQMD1 .mbr-section-title {
   text-align: center;
+  color: #232323;
 }
 .cid-sRVuYnX0b8 {
   padding-top: 5rem;
   padding-bottom: 3rem;
-  background-color: #26485e;
+  background-color: #fafafa;
 }
 .cid-sRVuYnX0b8 blockquote {
-  border-color: #4b80a0;
+  border-color: #4479d9;
   border-radius: 4px;
-  background-color: #243947;
+  background-color: #dee4ea;
 }
 .cid-sRVuYnX0b8 .mbr-text {
-  color: #bbbbbb;
+  color: #353535;
 }
 .cid-sV60pzFD66 {
   padding-top: 5rem;

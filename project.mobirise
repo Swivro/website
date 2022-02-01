@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroNewest-clone-clone-clone-clone",
-    "currentPage": "index.html",
+    "currentPage": "decentrasearch-newtab.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -551,6 +551,9 @@
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
+            },
+            ".mbr-section-title": {
+              "color": "#232323"
             }
           },
           "_name": "header2",
@@ -17056,7 +17059,7 @@
             ".searchvalue": {
               "display": "inline-block",
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             },
             "button": {
               "display": "inline-block"
@@ -18164,43 +18167,43 @@
             },
             "input": {
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             },
             "input:hover": {
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             },
             "input:active": {
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             },
             "input:focus": {
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             },
             "input:click": {
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             },
             "H3": {
               "color": "#232323"
             },
             "textarea": {
               "background-color": "#fafafa !important",
-              "color": "white !important",
+              "color": "#353535 !important",
               "height": "120px"
             },
             "textarea:active": {
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             },
             "textarea:hover": {
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             },
             "textarea:focus": {
               "background-color": "#fafafa",
-              "color": "white"
+              "color": "#353535"
             }
           },
           "_name": "header12",

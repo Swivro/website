@@ -2479,8 +2479,24 @@ a {
   text-align: center;
   color: #353535;
 }
-.cid-sTfrs3OC2V {
+.cid-sWfghvRVkx {
   padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color: #fafafa;
+}
+.cid-sWfghvRVkx blockquote {
+  border-color: #2299aa;
+  border-radius: 4px;
+  background-color: #dee4ea;
+}
+.cid-sWfghvRVkx .mbr-section-title {
+  color: #232323;
+}
+.cid-sWfghvRVkx .mbr-text {
+  color: #353535;
+}
+.cid-sTfrs3OC2V {
+  padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #fafafa;
 }

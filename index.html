@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/new-project-19-128x128-1-128x128.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/lion-14-512-11-1-128x128.png" type="image/x-icon">
   <meta name="description" content="Swivro is an organization focused on online privacy, cybersecurity, and free speech.">
   
   
@@ -18,7 +18,6 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
@@ -49,18 +48,38 @@ font-family: Inter-Regular;
 .plan, .card-wrapper {
 border-radius: 10px !important;
 }
-.btn {
-border-radius: 10px !important;
+.dstab, .uctab, .card-wrapper, .item-wrapper {
+border-radius: 20px !important;
 }
+.btn {
+border-radius: 12px !important;
+}
+.btn-primary {
+background-image: linear-gradient(100deg, #2d9ab3, #34b5b2) !important;
+border: none !important;
+}
+.btn-primary:hover {
+opacity: 0.9;
+}
+.gradient {
+  background-image: linear-gradient(42deg, #3880e3, #33f091) !important;
+  background-size: 100% !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: bold;
+}
+    
 </style>
 <!-- end custom styling - PS, hi! from Swivro! -->
     
-    <nav class="navbar navbar-dropdown navbar-expand-lg">
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="../">
-                        <img src="assets/images/new-project-41-360x96.png" alt="" style="height: 3rem;">
+                        <img src="assets/images/new-project-100-346x92.png" alt="" style="height: 3rem;">
                     </a>
                 </span>
                 
@@ -74,8 +93,8 @@ border-radius: 10px !important;
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="keyvault.html" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Products</a><div class="dropdown-menu" aria-labelledby="dropdown-undefined"><a class="show dropdown-item text-white text-primary display-4" href="unicrypt.html"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>Unicrypt</a><a class="show dropdown-item text-white text-primary display-4" href="secret-share.html"><span class="mbrib-chat mbr-iconfont mbr-iconfont-btn"></span>Secret Share</a><a class="show dropdown-item text-white text-primary display-4" href="decentrasearch.html"><span class="mbrib-search mbr-iconfont mbr-iconfont-btn"></span>Decentrasearch</a><a class="show dropdown-item text-white text-primary display-4" href="argon.html"><span class="mbrib-globe-2 mbr-iconfont mbr-iconfont-btn"></span>Argon Browser</a></div></li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-4" href="keyvault.html" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Digital Privacy</a><div class="dropdown-menu" aria-labelledby="dropdown-undefined"><a class="text-white show dropdown-item text-primary display-4" href="privacy-checklist.html"><span class="mbrib-numbered-list mbr-iconfont mbr-iconfont-btn"></span>Privacy Checklist</a><a class="text-white show dropdown-item text-primary display-4" href="privacytools.html"><span class="mbrib-lock mbr-iconfont mbr-iconfont-btn"></span>Privacy Tools</a></div></li><li class="nav-item"><a class="nav-link link show text-white display-4" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link link text-white display-4" href="donate.html">Donate</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="about.html">About</a></li></ul>
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link show text-black text-primary display-4" href="secret-share.html" aria-expanded="false">Secret Share</a></li><li class="nav-item"><a class="nav-link link show text-black display-4" href="argon.html">Argon</a></li><li class="nav-item"><a class="nav-link link show text-black display-4" href="decentrasearch.html">Decentrasearch</a></li><li class="nav-item"><a class="nav-link link show text-black display-4" href="unicrypt.html">Unicrypt</a></li><li class="nav-item"><a class="nav-link link show text-black display-4" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="donate.html">Donate</a></li></ul>
                 
                 
             </div>
@@ -83,96 +102,126 @@ border-radius: 10px !important;
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header6 cid-sUUzO8A6jQ mbr-parallax-background" id="header6-oz">
+<section data-bs-version="5.1" class="header2 cid-sVVlmQ7klF" id="header2-ru">
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(38, 72, 94);"></div>
+    
 
-    <div class="align-center container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-10">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>We are the creators of privacy-centric software</strong></h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-7">
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2"><strong>We are the creators of privacy-centric software</strong></h1>
                 
+                <p class="mbr-text mbr-fonts-style display-7">We are Swivro, the privacy brand, est. 2016, creating and offering a variety of software centered around privacy and decentralization.<br></p>
                 
-                <div class="mbr-section-btn mt-3 btn112"><a class="btn btn-danger display-4" href="#products"><span class="fas fa-fw fa-arrow-down mbr-iconfont mbr-iconfont-btn"></span>Discover Our Products</a></div>
             </div>
         </div>
     </div>
 </section>
 
-<section data-bs-version="5.1" class="pricing2 cid-sUUtpGbogW" id="pricing2-ox">
+<section data-bs-version="5.1" class="pricing1 cid-sVVui6UyUk" id="pricing1-rw">
+
     
 
     
     <div class="container">
-        <div class="row justify-content-center" id="products">
-            <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5"></h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-5"><strong>Decentrasearch</strong></p>
-                            <p class="price-term mbr-fonts-style mb-3 display-7"></p>
-                        </div>
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper dstab">
+                    <div class="card-box align-left">
+                        <h6 class="card-title mbr-fonts-style mb-4 display-2">
+                            <strong>Decentrasearch</strong></h6>
+                        <p class="mbr-text mbr-fonts-style mb-5 display-7">Search the internet privately, anonymously, and securely, in a decentralized way using Decentrasearch.<br>
+                        </p>
                     </div>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7">Search the internet privately using Decentrasearch</ul>
-                        </div>
-                        <div class="mbr-section-btn text-center"><a href="decentrasearch.html" class="btn btn-primary display-4"><span class="fas fa-fw fa-search mbr-iconfont mbr-iconfont-btn"></span>Get started</a></div>
-                    </div>
+                    <div class="mbr-section-btn"><a class="btn btn-white display-4" href="decentrasearch.html"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>Learn more</a></div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5"></h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-5"><strong>Unicrypt</strong></p>
-                            <p class="price-term mbr-fonts-style mb-3 display-7"></p>
-                        </div>
+
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper uctab">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mb-4 mbr-fonts-style display-2">
+                            <strong>Unicrypt</strong></h4>
+                        <p class="mbr-text mbr-fonts-style mb-5 display-7">Encrypt some sensitive information (text) or the contents of a file securely and privately.<br>
+                        </p>
                     </div>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7">Encrypt some text or the contents of a file securely and privately</ul>
-                        </div>
-                        <div class="mbr-section-btn text-center"><a href="unicrypt.html" class="btn btn-primary display-4"><span class="fas fa-fw fa-key mbr-iconfont mbr-iconfont-btn"></span>Get started</a></div>
-                    </div>
+                    <div class="mbr-section-btn"><a class="btn btn-white display-4" href="unicrypt.html"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>Learn more</a></div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5"></h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-5"><strong>Secret Share</strong></p>
-                            <p class="price-term mbr-fonts-style mb-3 display-7"></p>
-                        </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="pricing1 cid-sVXSmO3Vgn" id="pricing1-ry">
+
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg-3">
+                <div class="card-wrapper dstab">
+                    <div class="card-box align-left">
+                        
+                        <div class="onlymobile"><h4 class="card-title mb-4 mbr-fonts-style display-2">
+                            <strong>Secret</strong></h4></div>
+                        
+                        <div class="hidemobile"><h6 class="card-title mbr-fonts-style mb-4 display-5">
+                            <strong>Secret</strong></h6></div>
+                        <p class="mbr-text mbr-fonts-style mb-5 display-7">Share one-time secret messages securely and privately.<br>
+                        </p>
                     </div>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7">Share messages secretly, securely, privately, in a very quick way.</ul>
-                        </div>
-                        <div class="mbr-section-btn text-center"><a href="secret-share.html" class="btn btn-primary display-4"><span class="fas fa-fw fa-share-alt mbr-iconfont mbr-iconfont-btn"></span>Get started</a></div>
-                    </div>
+                    <div class="mbr-section-btn"><a class="btn btn-white display-4" href="secret-share.html"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>See More</a></div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5"></h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-5"><strong>Argon Browser</strong><br></p>
-                            <p class="price-term mbr-fonts-style mb-3 display-7"></p>
-                        </div>
+
+            <div class="card col-12 col-lg-3">
+                <div class="card-wrapper uctab">
+                    <div class="card-box align-left">
+                        
+                        <div class="onlymobile"><h4 class="card-title mb-4 mbr-fonts-style display-2">
+                            <strong>Browser</strong></h4></div>
+                        
+                        <div class="hidemobile"><h4 class="card-title mb-4 mbr-fonts-style display-5">
+                            <strong>Browser</strong></h4></div>
+                        <p class="mbr-text mbr-fonts-style mb-5 display-7">Argon Browser lets you browse the internet privately &amp; quickly.<br>
+                        </p>
                     </div>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7">Browse the internet securely, privately, and anonymously</ul>
-                        </div>
-                        <div class="mbr-section-btn text-center"><a href="argon.html" class="btn btn-primary display-4"><span class="fas fa-fw fa-globe mbr-iconfont mbr-iconfont-btn"></span>Get started</a></div>
+                    <div class="mbr-section-btn"><a class="btn btn-white display-4" href="argon.html"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>See more</a></div>
+                </div>
+            </div>
+            
+                        <div class="card col-12 col-lg-3">
+                <div class="card-wrapper uctab">
+                    <div class="card-box align-left">
+                        
+                        <div class="onlymobile"><h4 class="card-title mb-4 mbr-fonts-style display-2">
+                            <strong>Email</strong></h4></div>
+                        
+                        <div class="hidemobile"><h4 class="card-title mb-4 mbr-fonts-style display-5"><strong>Email</strong></h4></div>
+                        <p class="mbr-text mbr-fonts-style mb-5 display-7">Use one of the most private email services in the world, at no cost.<br>
+                        </p>
                     </div>
+                    <div class="mbr-section-btn"><a class="btn btn-white display-4" href="email.html"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>See more</a></div>
+                </div>
+            </div>
+            
+                        <div class="card col-12 col-lg-3">
+                <div class="card-wrapper uctab">
+                    <div class="card-box align-left">
+                        
+                        <div class="onlymobile"><h4 class="card-title mb-4 mbr-fonts-style display-2">
+                            <strong>Cloud</strong></h4></div>
+                        
+                        
+                        <div class="hidemobile"><h4 class="card-title mb-4 mbr-fonts-style display-5">
+                            <strong>Cloud</strong></h4></div>
+                        <p class="mbr-text mbr-fonts-style mb-5 display-7">Store your important files on our cloud file storage platform.<br>
+                        </p>
+                    </div>
+                    <div class="mbr-section-btn"><a class="btn btn-white display-4" href="cloud.html"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>See more</a></div>
                 </div>
             </div>
         </div>
@@ -188,7 +237,7 @@ border-radius: 10px !important;
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-4 image-wrapper">
-                <img class="w-100 d-none d-lg-block" src="assets/images/new-project-22-508x377.png" alt="">
+                <img class="w-100 d-none d-lg-block" src="assets/images/new-project-93-508x377.png" alt="">
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper text-center">
@@ -211,7 +260,7 @@ border-radius: 10px !important;
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-4 image-wrapper">
-                <img class="w-100 d-none d-lg-block" src="assets/images/new-project-62-508x377.png" alt="">
+                <img class="w-100 d-none d-lg-block" src="assets/images/new-project-95-508x377.png" alt="">
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper text-center">
@@ -225,138 +274,61 @@ border-radius: 10px !important;
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-sOoQ4VFUsh" id="content4-7q">
+<section data-bs-version="5.1" class="features1 cid-sVW4JJvLax" id="features1-rx">
     
+
     
-        <div id="anonymity">
-    </div>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">Directory of Verified Privacy Tools</h3>
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">Explore <strong><b><u>the best</u></b> </strong>directory of privacy-respecting software &amp; service providers.</h4>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                    <strong>Swivro will never...</strong></h3>
                 
             </div>
         </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="pricing2 cid-sOSM5ySH55" id="pricing2-b6">
-    
-
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5">Web Browsers</h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-1"></p>
-                            <p class="price-term mbr-fonts-style mb-3 display-7"></p>
-                        </div>
-                    </div>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7"></ul>
-                        </div>
-                        <div class="mbr-section-btn text-center"><a href="web-browsers.html" class="btn btn-primary display-4"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>Discover</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5">Search Engines</h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-1"></p>
-                            <p class="price-term mbr-fonts-style mb-3 display-7"></p>
-                        </div>
-                    </div>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7"></ul>
-                        </div>
-                        <div class="mbr-section-btn text-center"><a href="search-engines.html" class="btn btn-primary display-4"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>Discover</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5">VPN Providers</h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-1"></p>
-                            <p class="price-term mbr-fonts-style mb-3 display-7"></p>
-                        </div>
-                    </div>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7"></ul>
-                        </div>
-                        <div class="mbr-section-btn text-center"><a href="vpn-providers.html" class="btn btn-primary display-4"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>Discover</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 align-center col-lg-3">
-                <div class="plan">
-                    <div class="plan-header">
-                        <h6 class="plan-title mbr-fonts-style mb-3 display-5">Email Providers</h6>
-                        <div class="plan-price">
-                            <p class="price mbr-fonts-style m-0 display-1"></p>
-                            <p class="price-term mbr-fonts-style mb-3 display-7"></p>
-                        </div>
-                    </div>
-                    <div class="plan-body">
-                        <div class="plan-list mb-4">
-                            <ul class="list-group mbr-fonts-style list-group-flush display-7"></ul>
-                        </div>
-                        <div class="mbr-section-btn text-center"><a href="email-providers.html" class="btn btn-primary display-4"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>Discover</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content4 cid-sQcT9nGt5d" id="content4-d3">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">or</h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="pricing1 cid-sQcUjT2K3l" id="pricing1-d5">
-
-    
-
-    
-    <div class="container">
-        <div class="row justify-content-center padd66">
-            <div class="card col-12 col-lg-6">
+        <div class="row">
+            <div class="card col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
-                    <div class="card-box align-left">
-                        <h6 class="card-title mbr-fonts-style mb-4 display-5">View all endorsed tools</h6>
-                        
+                    <div class="card-box align-center">
+                        <div class="iconfont-wrapper">
+                            <span class="mbr-iconfont mbrib-preview"></span>
+                        </div>
+                        <h5 class="card-title mbr-fonts-style display-7"><strong>Spy on you</strong></h5>
+                        <p class="card-text mbr-fonts-style display-7">Privacy is one of our main priorities. No data mining, no tracking, no spying, no BS.</p>
                     </div>
-                    <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="privacytools.html"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>Redirect Me</a></div>
                 </div>
             </div>
-
-            <div class="card col-12 col-lg-6">
+            <div class="card col-12 col-md-6 col-lg-3">
                 <div class="card-wrapper">
-                    <div class="card-box align-left">
-                        <h4 class="card-title mb-4 mbr-fonts-style display-5">View our privacy checklist</h4>
-                        
+                    <div class="card-box align-center">
+                        <div class="iconfont-wrapper">
+                            <span class="mbr-iconfont mbrib-opened-folder"></span>
+                        </div>
+                        <h5 class="card-title mbr-fonts-style display-7"><strong>Sell your data</strong></h5>
+                        <p class="card-text mbr-fonts-style display-7">This isn't Google, Microsoft, Yandex, Amazon, or Facebook. We'll never sell your data.</p>
                     </div>
-                    <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="privacy-checklist.html"><span class="fas fa-fw fa-external-link-alt mbr-iconfont mbr-iconfont-btn"></span>Redirect Me</a></div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <div class="iconfont-wrapper">
+                            <span class="mbr-iconfont mbrib-left-right"></span>
+                        </div>
+                        <h5 class="card-title mbr-fonts-style display-7"><strong>Log your traffic</strong></h5>
+                        <p class="card-text mbr-fonts-style display-7">We'll never unethically log your browsing traffic even if you demand us to. No BS involved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <div class="iconfont-wrapper">
+                            <span class="mbr-iconfont mbrib-quote-left"></span>
+                        </div>
+                        <h5 class="card-title mbr-fonts-style display-7"><strong>Censor you</strong></h5>
+                        <p class="card-text mbr-fonts-style display-7">We don't really care about your opinions here which is why we wont censor them.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -372,7 +344,7 @@ border-radius: 10px !important;
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-4 image-wrapper">
-                <img class="w-100 d-none d-lg-block" src="assets/images/new-project-24-508x377.png" alt="">
+                <img class="w-100 d-none d-lg-block" src="assets/images/new-project-96-508x377.png" alt="">
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper text-center">
@@ -394,7 +366,7 @@ border-radius: 10px !important;
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-4 image-wrapper">
-                <img class="w-100 d-none d-lg-block" src="assets/images/new-project-25-508x377.png" alt="">
+                <img class="w-100 d-none d-lg-block" src="assets/images/new-project-97-508x377.png" alt="">
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper text-center">
@@ -412,8 +384,8 @@ border-radius: 10px !important;
     
     <div class="container">
         <div class="mbr-section-head">
-            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">Latest Blog Posts &amp; Articles</h4>
-            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-7">See the latest <a href="blog.html" class="text-white">blog posts</a> from Swivro. Date format = [mm/dd/yy]</h5>
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">&nbsp;Latest Blog Posts &amp; Articles</h4>
+            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-7">See the latest <a href="blog.html" class="text-primary">blog posts</a> from Swivro. Date format = [mm/dd/yy]</h5>
         </div>
         <div class="row mt-4">
             
@@ -423,7 +395,7 @@ border-radius: 10px !important;
                         <img src="assets/images/softwaredev-lg-788x504.png" alt="" title="" data-slide-to="0" data-bs-slide-to="0">
                     </div>
                     <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5"><a href="https://blog.swivro.net/introducing-decentrasearch-and-keyvault.html" class="text-primary" target="_blank">Introducing new products</a></h5>
+                        <h5 class="item-title mbr-fonts-style display-5"><a href="https://blog.swivro.net/introducing-decentrasearch-and-keyvault.html" class="text-black" target="_blank">Introducing new products</a></h5>
                         <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">
                             <strong>Albert</strong><em>&nbsp;1/16/2022</em></h6>
                         <p class="mbr-text mbr-fonts-style mt-3 display-7">As you may have noticed on our website, we've introduced two new products in the past week, both free, as usual. Let's get straight into it and [..]<br></p>
@@ -436,7 +408,7 @@ border-radius: 10px !important;
                         <img src="assets/images/new-project-2021-12-31t022005.649-788x504.png" alt="" title="" data-slide-to="1" data-bs-slide-to="1">
                     </div>
                     <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-5"><a href="https://blog.swivro.net/why-does-tls-matter.html" class="text-primary" target="_blank">Why does TLS matter?</a></h5>
+                        <h5 class="item-title mbr-fonts-style display-5"><a href="https://blog.swivro.net/why-does-tls-matter.html" class="text-black" target="_blank">Why does TLS matter?</a></h5>
                         <h6 class="item-subtitle mbr-fonts-style mt-1 display-7"><strong>Albert</strong><em>&nbsp;12/31/21</em></h6>
                         <p class="mbr-text mbr-fonts-style mt-3 display-7">When browsing the internet or using a website, you should always make sure that your connection to the website is encrypted via TLS, mostly referred [..]<br></p>
                     </div>
@@ -459,7 +431,7 @@ border-radius: 10px !important;
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
                     <strong>Main</strong></h5>
                 <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><a href="../" class="text-warning">Homepage</a></li><li class="mbr-text item-wrap"><a href="privacy-checklist.html" class="text-warning">Privacy Checklist</a></li><li class="mbr-text item-wrap"><a href="decentrasearch.html" class="text-warning">Decentrasearch</a></li><li class="mbr-text item-wrap"><a href="unicrypt.html" class="text-warning">Unicrypt</a></li>
+                    <li class="mbr-text item-wrap"><a href="../" class="text-black">Homepage</a></li><li class="mbr-text item-wrap"><a href="privacy-checklist.html" class="text-black">Privacy Checklist</a></li><li class="mbr-text item-wrap"><a href="decentrasearch.html" class="text-black">Decentrasearch</a></li><li class="mbr-text item-wrap"><a href="unicrypt.html" class="text-black">Unicrypt</a></li>
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
@@ -467,13 +439,13 @@ border-radius: 10px !important;
                     <strong>Legal</strong></h5>
                 <ul class="list mbr-fonts-style display-4">
 
-                    <li class="mbr-text item-wrap"><a href="mailto:6j8lizy3@anonaddy.me" class="text-warning" style="font-size: 1.1rem;">Report Misinformation</a><br></li><li class="mbr-text item-wrap"><a href="mailto:6j8lizy3@anonaddy.me" class="text-warning">Contact Us</a></li><li class="mbr-text item-wrap"><a href="are-you-a-karen.html" class="text-warning">Are you a Karen?</a></li>
+                    <li class="mbr-text item-wrap"><a href="mailto:6j8lizy3@anonaddy.me" class="text-black" style="font-size: 1.1rem;">Report Misinformation</a><br></li><li class="mbr-text item-wrap"><a href="mailto:6j8lizy3@anonaddy.me" class="text-black">Contact Us</a></li><li class="mbr-text item-wrap"><a href="are-you-a-karen.html" class="text-black">Are you a Karen?</a></li>
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>More</strong></h5>
                 <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><a href="changelog.html" class="text-warning">Swivro&nbsp;Changelog</a></li><li class="mbr-text item-wrap"><a href="about.html" class="text-warning">About&nbsp;Swivro</a></li><li class="mbr-text item-wrap"><a href="donate.html" class="text-warning">Donate to us</a></li>
+                    <li class="mbr-text item-wrap"><a href="changelog.html" class="text-black">Swivro&nbsp;Changelog</a></li><li class="mbr-text item-wrap"><a href="about.html" class="text-black">About&nbsp;Swivro</a></li><li class="mbr-text item-wrap"><a href="donate.html" class="text-black">Donate to us</a></li>
                 </ul>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
@@ -485,7 +457,7 @@ border-radius: 10px !important;
                 
             </div>
             <div class="col-12 mt-4">
-                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7"><a href="https://webdock.io" class="text-warning" style="" target="_blank"><strong>Hosted by Webdock.io</strong></a><br>© Copyright 2022 Swivro - All Rights Reserved<br>
+                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7"><a href="https://webdock.io" class="text-black" style="" target="_blank"><strong>Hosted by Webdock.io</strong></a><br>© Copyright 2022 Swivro - All Rights Reserved<br>
                 </p>
             </div>
         </div>
@@ -494,7 +466,6 @@ border-radius: 10px !important;
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/parallax/jarallax.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>

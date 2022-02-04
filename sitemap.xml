@@ -24,9 +24,6 @@
 		<loc>https://swivro.net/decentrasearch-newtab.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/argon.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/decentrasearch-images-newtab.html</loc>
 	</url>
 	<url>
@@ -43,5 +40,8 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/encipher.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/browser.html</loc>
 	</url>
 </urlset>

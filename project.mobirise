@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SwivroNewest-clone-clone-clone-clone",
-    "currentPage": "decentrasearch-newtab.html",
+    "currentPage": "decentrasearch.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -95,8 +95,8 @@
     "uniqCompNum": 1037,
     "versionPublish": "5.5.8",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/lion-14-512-11-1-128x128.png",
-    "mbrsiteDomain": "j758wyxfeh",
+    "favicon": "@PROJECT_PATH@/assets/images/new-project-2022-02-03t210442.383-128x128.png",
+    "mbrsiteDomain": "dfq7xjb3v0",
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",

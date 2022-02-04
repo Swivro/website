@@ -18,9 +18,6 @@
 		<loc>https://swivro.net/are-you-a-karen.html</loc>
 	</url>
 	<url>
-		<loc>https://swivro.net/decentrasearch.html</loc>
-	</url>
-	<url>
 		<loc>https://swivro.net/blog.html</loc>
 	</url>
 	<url>
@@ -43,5 +40,8 @@
 	</url>
 	<url>
 		<loc>https://swivro.net/cloud.html</loc>
+	</url>
+	<url>
+		<loc>https://swivro.net/search.html</loc>
 	</url>
 </urlset>

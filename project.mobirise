@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "SwivroNewest-clone-clone-clone-clone-clone",
-    "currentPage": "changelog.html",
+    "name": "SwivroNewest-clone-clone-clone-clone-clone-clone",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -169,7 +169,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -252,6 +252,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -489,7 +490,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -520,6 +520,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -1412,7 +1416,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -1495,6 +1499,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -1732,7 +1737,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -1763,6 +1767,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -2067,7 +2075,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -2150,6 +2158,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -2387,7 +2396,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -2418,6 +2426,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -2722,7 +2734,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -2805,6 +2817,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -3042,7 +3055,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -3073,6 +3085,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -3375,7 +3391,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -3458,6 +3474,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -3695,7 +3712,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -3726,6 +3742,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -3933,7 +3953,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -4016,6 +4036,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -4253,7 +4274,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -4284,6 +4304,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -4613,7 +4637,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -4696,6 +4720,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -4933,7 +4958,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -4964,6 +4988,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -5281,7 +5309,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -5364,6 +5392,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -5601,7 +5630,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -5632,6 +5660,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -5948,7 +5980,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -6031,6 +6063,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -6268,7 +6301,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -6299,6 +6331,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -6645,7 +6681,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -6728,6 +6764,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -6965,7 +7002,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -6996,6 +7032,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -7375,7 +7415,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -7458,6 +7498,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -7695,7 +7736,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -7726,6 +7766,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -8105,7 +8149,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -8188,6 +8232,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -8425,7 +8470,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -8456,6 +8500,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -8833,7 +8881,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -8916,6 +8964,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -9153,7 +9202,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -9184,6 +9232,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -9540,7 +9592,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -9623,6 +9675,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -9860,7 +9913,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -9891,6 +9943,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",
@@ -10364,7 +10420,7 @@
             ".dropdown-item": {
               "border-bottom": "1px solid #e6e6e6",
               "&:hover, &:focus": {
-                "background": "@primaryColor !important",
+                "background": "#2299aa !important",
                 "color": "white !important"
               },
               "&:hover span": {
@@ -10447,6 +10503,7 @@
                 "background": "@menuBgColor"
               },
               "& when (@transparent)": {
+                "position": "absolute",
                 "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
               },
               "&.opened": {
@@ -10684,7 +10741,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -10715,6 +10771,10 @@
                 "max-width": "calc(100% ~\"+\" 2rem)",
                 "left": "-1rem"
               }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
             }
           },
           "_name": "menu2",

@@ -1015,7 +1015,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -1044,6 +1043,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sVVlmQ7klF {
   padding-top: 6rem;
@@ -1896,7 +1899,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -1925,6 +1927,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sUUJxQD6Gs {
   padding-top: 6rem;
@@ -2431,7 +2437,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -2460,6 +2465,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sUUIzAyvek {
   padding-top: 6rem;
@@ -2926,7 +2935,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -2955,6 +2963,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sUUHH5LwHN {
   padding-top: 6rem;
@@ -3425,7 +3437,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -3454,6 +3465,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sUUHhTQMD1 {
   padding-top: 6rem;
@@ -3869,7 +3884,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -3898,6 +3912,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sUUGlXdtfi {
   padding-top: 6rem;
@@ -4370,7 +4388,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -4399,6 +4416,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sUNPuNc3mk {
   padding-top: 9rem;
@@ -4889,7 +4910,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -4918,6 +4938,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sVQWPFNI1T {
   padding-top: 9rem;
@@ -5407,7 +5431,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -5436,6 +5459,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sW91pmx584 {
   padding-top: 5rem;
@@ -5943,7 +5970,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -5972,6 +5998,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sWeZUKVJWN {
   padding-top: 5rem;
@@ -6479,7 +6509,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -6508,6 +6537,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sWfcNRXKuH {
   padding-top: 5rem;
@@ -7015,7 +7048,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -7044,6 +7076,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sVsLbjdrmB {
   padding-top: 5rem;
@@ -7551,7 +7587,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -7580,6 +7615,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sUlxqg0QXL {
   padding-top: 6rem;
@@ -8122,7 +8161,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -8151,6 +8189,10 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 .cid-sUUPvWg9zt {
   padding-top: 6rem;
@@ -8729,7 +8771,6 @@ a {
   transition: all 0.2s;
 }
 .cid-sWCtdOwtbm .navbar-dropdown {
-  padding: 0 1rem;
   position: fixed;
 }
 .cid-sWCtdOwtbm a.nav-link {
@@ -8758,4 +8799,8 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sWCtdOwtbm .navbar-toggleable-sm .navbar-collapse {
+  justify-content: center;
+  -webkit-justify-content: center;
 }

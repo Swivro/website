@@ -8825,7 +8825,14 @@ a {
   font-family: Inter-Regular;
 }
 .cid-sWGMzbGUdL .check {
-  color: #02d86e;
+  color: #00d26a;
+}
+.cid-sWGMzbGUdL .x {
+  color: #f92f60;
+}
+.cid-sWGMzbGUdL .check,
+.cid-sWGMzbGUdL .x {
+  font-size: 20px;
 }
 .cid-sWGNOb1vXv {
   padding-top: 6rem;

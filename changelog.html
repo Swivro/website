@@ -40,7 +40,7 @@
 padding-top: 5px;
 }
     
-.fontdefault, .modal-content, ul, table {
+.fontdefault, .modal-content, ul, table, .banner {
 font-family: Inter-Regular;
 }
     
@@ -56,6 +56,7 @@ border-radius: 12px !important;
 .btn-primary {
 background-image: linear-gradient(100deg, #2d9ab3, #34b5b2) !important;
 border: none !important;
+opacity: 1 !important;
 }
 .btn-primary:hover {
 opacity: 0.9;
@@ -68,8 +69,7 @@ opacity: 0.9;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   font-weight: bold;
-}
-    
+}   
 </style>
 <!-- end custom styling - PS, hi! from Swivro! -->
     
@@ -333,7 +333,7 @@ opacity: 0.9;
     </div>
 </section>
 
-<section data-bs-version="5.1" class="footer1 cid-sV60pzFD66" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-qb">
+<section data-bs-version="5.1" class="footer1 cid-sWO66iwkiT" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-te">
 
     
     
@@ -374,6 +374,16 @@ opacity: 0.9;
             </div>
         </div>
     </div>
+    <script>
+        window.onload = function() {
+    var buttons = document.getElementsByClassName("btn"),
+        len = buttons !== null ? buttons.length : 0,
+        i = 0;
+    for(i; i < len; i++) {
+        buttons[i].className += " shadow-none"; 
+    }
+}
+    </script>
 </section>
 
 

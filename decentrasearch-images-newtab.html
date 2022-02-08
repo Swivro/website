@@ -42,7 +42,7 @@
 padding-top: 5px;
 }
     
-.fontdefault, .modal-content, ul, table {
+.fontdefault, .modal-content, ul, table, .banner {
 font-family: Inter-Regular;
 }
     
@@ -58,6 +58,7 @@ border-radius: 12px !important;
 .btn-primary {
 background-image: linear-gradient(100deg, #2d9ab3, #34b5b2) !important;
 border: none !important;
+opacity: 1 !important;
 }
 .btn-primary:hover {
 opacity: 0.9;
@@ -70,8 +71,7 @@ opacity: 0.9;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   font-weight: bold;
-}
-    
+}   
 </style>
 <!-- end custom styling - PS, hi! from Swivro! -->
     
@@ -233,15 +233,15 @@ border-radius: 8px !important;
                         <strong>Frequently asked questions</strong></h3>
                     
                 </div>
-                <div id="bootstrap-accordion_53" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                <div id="bootstrap-accordion_55" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_53" aria-expanded="false" aria-controls="collapse1">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_55" aria-expanded="false" aria-controls="collapse1">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How is Decentrasearch truly decentralized if it is only available via this website?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse1_53" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_53">
+                        <div id="collapse1_55" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_55">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">Well, Decentrasearch, is not a search engine itself. When you submit your search, the query is sent to a privacy-respecting open source search engine (a SearX node), randomly picked from the Decentrasearch database. This means there is no central search authority or central search server, making it decentralized.</p>
                             </div>
@@ -249,12 +249,12 @@ border-radius: 8px !important;
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_53" aria-expanded="false" aria-controls="collapse2">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_55" aria-expanded="false" aria-controls="collapse2">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Are my search queries logged?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse2_53" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_53">
+                        <div id="collapse2_55" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_55">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">
                                     No. All of the Decentrasearch code is ran in your browser, so you can see everything that is going on by viewing the page source. We don't run any dynamic code for Decentrasearch on our server.</p>
@@ -263,12 +263,12 @@ border-radius: 8px !important;
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_53" aria-expanded="false" aria-controls="collapse3">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_55" aria-expanded="false" aria-controls="collapse3">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Are all of the search engines used for this safe?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse3_53" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_53">
+                        <div id="collapse3_55" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_55">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">Decentrasearch only sends your search query to an open source decentralized search engine (a public SearX node). We verify that the SearX node meets our minimum security and privacy requirements before adding it to our database. To see all of the search engines currently in the Decentrasearch database, you can view the source of the Decentrasearch page, and scroll down until you see some JS code that stands out. At the time of writing this, there are 30 SearX nodes in the database. Your search query will be sent to one of them randomly. We look forward to adding more, and eventually reaching 100, but we need more people to host SearX nodes, as we don't have the funds to do it ourselves. We also do not want to host all of the SearX nodes, because that makes Decentrasearch more centralized.&nbsp;<br></p>
                             </div>
@@ -276,12 +276,12 @@ border-radius: 8px !important;
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_53" aria-expanded="false" aria-controls="collapse4">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_55" aria-expanded="false" aria-controls="collapse4">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>How is this more private than using a SearX search engine/node directly?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse4_53" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_53">
+                        <div id="collapse4_55" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_55">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">
                                     Decentrasearch improves your privacy and anonymity by sending your search query to a randomly-picked SearX instance in the Decentrasearch database. This means every time you search, you connect to a different server. This primarily, in numerous ways, makes it harder for malicious actors to build a profile on you. Keep in mind that there is also no central search authority.</p>
@@ -290,12 +290,12 @@ border-radius: 8px !important;
                     </div>
                     <div class="card mb-3">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_53" aria-expanded="false" aria-controls="collapse5">
+                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_55" aria-expanded="false" aria-controls="collapse5">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Why are some search results different each time I search?</strong></h6>
                                 <span class="sign mbr-iconfont mbri-arrow-down"></span>
                             </a>
                         </div>
-                        <div id="collapse5_53" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_53">
+                        <div id="collapse5_55" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_55">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-4">
                                     Currently, we are still in the process of making Decentrasearch more stable to ensure that search results are very similar for each time you submit your search query. At this time, you may see slightly different search results each time you submit your search query. This is primarily due to each SearX node operator having different server/search configuration. For example, some SearX node operators may choose for their engine to utilize Google and Bing results by default, while other operators may choose for their engine to utilize Qwant and Mojeek by default. We've modified the Decentrasearch script so all SearX nodes use roughly the same configuration, but some node operators still disable some search engines, or are blocked by some search engines.</p>
@@ -310,6 +310,59 @@ border-radius: 8px !important;
 </section>
 
 
+
+<section data-bs-version="5.1" class="footer1 cid-sWO66iwkiT" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-te">
+
+    
+    
+    <div class="container">
+        <div class="row mbr-white">
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                    <strong>Main</strong></h5>
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap"><a href="../" class="text-black">Homepage</a></li><li class="mbr-text item-wrap"><a href="privacy-checklist.html" class="text-black">Privacy Checklist</a></li><li class="mbr-text item-wrap"><a href="decentrasearch.html" class="text-black">Decentrasearch</a></li><li class="mbr-text item-wrap"><a href="encipher.html" class="text-black text-primary">Encipher</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                    <strong>Legal</strong></h5>
+                <ul class="list mbr-fonts-style display-4">
+
+                    <li class="mbr-text item-wrap"><a href="mailto:6j8lizy3@anonaddy.me" class="text-black" style="font-size: 1.1rem;">Report Misinformation</a><br></li><li class="mbr-text item-wrap"><a href="mailto:6j8lizy3@anonaddy.me" class="text-black">Contact Us</a></li><li class="mbr-text item-wrap"><a href="are-you-a-karen.html" class="text-black">Are you a Karen?</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>More</strong></h5>
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap"><a href="changelog.html" class="text-black">Swivro&nbsp;Changelog</a></li><li class="mbr-text item-wrap"><a href="about.html" class="text-black">About&nbsp;Swivro</a></li><li class="mbr-text item-wrap"><a href="donate.html" class="text-black">Donate to us</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                    <strong>About</strong>
+                </h5>
+                <p class="mbr-text mbr-fonts-style mb-4 display-4">We are Swivro, the privacy brand, creating and offering a variety of software centered around privacy, cybersecurity, transparency, and decentralization.<br></p>
+                
+                
+            </div>
+            <div class="col-12 mt-4">
+                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7"><a href="https://webdock.io" class="text-black" style="" target="_blank"><strong>Hosted by Webdock.io</strong></a><br>© Copyright 2022 Swivro - All Rights Reserved<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+    var buttons = document.getElementsByClassName("btn"),
+        len = buttons !== null ? buttons.length : 0,
+        i = 0;
+    for(i; i < len; i++) {
+        buttons[i].className += " shadow-none"; 
+    }
+}
+    </script>
+</section>
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>

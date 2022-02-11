@@ -1128,6 +1128,11 @@ a {
     padding: 45px !important;
   }
 }
+@media screen and (max-width: 985px) {
+  .cid-sVVui6UyUk .encipher-box {
+    margin-bottom: -5px !important;
+  }
+}
 .cid-sVXSmO3Vgn {
   padding-top: 0rem;
   padding-bottom: 5rem;
@@ -1205,6 +1210,11 @@ a {
   }
   .cid-sVXSmO3Vgn .card-wrapper {
     padding: 45px !important;
+  }
+}
+@media screen and (max-width: 985px) {
+  .cid-sVXSmO3Vgn .secret-box {
+    margin-top: -5px !important;
   }
 }
 .cid-sU4uYGVxur {

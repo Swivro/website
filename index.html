@@ -172,7 +172,7 @@ opacity: 0.9;
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-7">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2"><strong>We are the creators of privacy-first software</strong></h1>
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2"><strong>Decentralization is the way to go in <strong><text id="year"></text></strong></strong></h1>
                 
                 <p class="mbr-text mbr-fonts-style display-7">We are Swivro, the privacy brand, est. 2016, creating and offering a variety of software centered around privacy and decentralization.<br></p>
                 
@@ -325,11 +325,15 @@ opacity: 0.9;
                 
             </div>
             <div class="col-12 mt-4">
-                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7"><a href="https://webdock.io" class="text-black" style="" target="_blank"><strong>Hosted by Webdock.io</strong></a><br>© Copyright 2022 Swivro - All Rights Reserved<br>
+                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7"><a href="https://webdock.io" class="text-black" style="" target="_blank"><strong>Hosted by Webdock.io</strong></a><br>© Copyright <text id="footeryear"></text> Swivro - All Rights Reserved<br>
                 </p>
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        document.getElementById("footeryear").innerHTML = new Date().getFullYear();
+    </script>
 </section>
 
 

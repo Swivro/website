@@ -430,11 +430,21 @@ opacity: 0.9;
                 
             </div>
             <div class="col-12 mt-4">
-                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7"><a href="https://webdock.io" class="text-black" style="" target="_blank"><strong>Hosted by Webdock.io</strong></a><br>© Copyright 2022 Swivro - All Rights Reserved<br>
+                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7"><a href="https://webdock.io" class="text-black" style="" target="_blank"><strong>Hosted by Webdock.io</strong></a><br>© Copyright <text id="footeryear"></text> Swivro - All Rights Reserved<br>
                 </p>
             </div>
         </div>
     </div>
+    <script>
+        window.onload = function() {
+    var buttons = document.getElementsByClassName("btn"),
+        len = buttons !== null ? buttons.length : 0,
+        i = 0;
+    for(i; i < len; i++) {
+        buttons[i].className += " shadow-none"; 
+    }
+}
+    </script>
 </section>
 
 

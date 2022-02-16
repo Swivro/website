@@ -71,15 +71,20 @@ opacity: 0.9;
   -moz-text-fill-color: transparent;
   font-weight: bold;
 }
+@media screen and (max-width: 1400px) {
+  .break1 {
+    display: block;
+  }
+}
 
-  .glitch {
-  // font-size: 5rem;
-  // font-weight: bold;
-  // text-transform: uppercase;
-  position: relative;
-  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+.glitch {
+// font-size: 5rem;
+// font-weight: bold;
+text-transform: uppercase;
+position: relative;
+text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
     0.025em 0.04em 0 #fffc00;
-  animation: glitch 725ms infinite;
+animation: glitch 725ms infinite;
 }
 
 .glitch span {

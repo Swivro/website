@@ -1066,7 +1066,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .cid-sVVlmQ7klF .main-desc {
-    line-height: 1.5;
+    font-size: large !important;
   }
 }
 @media screen and (max-width: 1400px) {

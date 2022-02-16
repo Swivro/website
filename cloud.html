@@ -30,7 +30,7 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu2 cid-sWCtdOwtbm" once="menu" id="menu2-sx">
+  <section data-bs-version="5.1" class="menu menu2 cid-sXEaDZbUma" once="menu" id="menu2-ts">
 <!-- extra custom styling that applies to all pages -->
 <style>
 .badge {
@@ -275,7 +275,78 @@ animation: glitch 725ms infinite;
     </div>
 </section>
 
+<section class="mbr-section" id="witsec-modal-window-block-sp" data-rv-view="5739">
 
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="unavailable" tabindex="-1" role="dialog" aria-labelledby="unavailableLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="unavailableLabel">This product is currently unavailable</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="unavailable_body">Currently, we lack sufficient funding to provide this product to the public for free. Please consider donating if you would like to see us provide this product for free to the public in the near future.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#unavailable").on("hidden.bs.modal", function () { 
+      var html = $( "#unavailable_body" ).html(); 
+      $( "#unavailable_body" ).empty(); 
+      $( "#unavailable_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#unavailable") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
 
 <section data-bs-version="5.1" class="footer1 cid-sXzkp5nqSS" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-th">
 
@@ -322,7 +393,16 @@ animation: glitch 725ms infinite;
         document.getElementById("year").innerHTML = new Date().getFullYear();
         document.getElementById("footeryear").innerHTML = new Date().getFullYear();
     </script>
-</section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section>
+
+
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/parallax/jarallax.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
   <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
   
 </body>

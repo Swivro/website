@@ -1061,6 +1061,19 @@ a {
 .cid-sVVlmQ7klF .mbr-section-btn {
   text-align: left;
 }
+.cid-sVVlmQ7klF .main-desc {
+  font-size: 25px;
+}
+@media screen and (max-width: 767px) {
+  .cid-sVVlmQ7klF .main-desc {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .cid-sVVlmQ7klF .break1 {
+    display: block;
+  }
+}
 .cid-sVVui6UyUk {
   padding-top: 0rem;
   padding-bottom: 3rem;

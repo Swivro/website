@@ -362,7 +362,7 @@ animation: glitch 725ms infinite;
     </div>
 </section>
 
-<section data-bs-version="5.1" class="footer1 cid-sWO66iwkiT" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-te">
+<section data-bs-version="5.1" class="footer1 cid-sXzkp5nqSS" once="footers" id="footer1-sOpMpnOYd4-sOR1GhUL5w-th">
 
     
     
@@ -404,14 +404,8 @@ animation: glitch 725ms infinite;
         </div>
     </div>
     <script>
-        window.onload = function() {
-    var buttons = document.getElementsByClassName("btn"),
-        len = buttons !== null ? buttons.length : 0,
-        i = 0;
-    for(i; i < len; i++) {
-        buttons[i].className += " shadow-none"; 
-    }
-}
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        document.getElementById("footeryear").innerHTML = new Date().getFullYear();
     </script>
 </section>
 

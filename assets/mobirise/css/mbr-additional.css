@@ -8755,98 +8755,10 @@ a {
 .cid-sWGMzbGUdL .x {
   font-size: 20px;
 }
-.cid-sWGNOb1vXv {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #dee4ea;
-}
-.cid-sWGNOb1vXv .mbr-text {
-  color: #767676;
-}
-.cid-sWGNOb1vXv .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-sWGNOb1vXv .title .num {
-  width: 100%;
-  display: block;
-}
-.cid-sWGNOb1vXv .title .card-title {
-  z-index: 1;
-}
-.cid-sWGNOb1vXv .num {
-  color: #2299aa;
-  text-align: left;
-}
-@media (max-width: 767px) {
-  .cid-sWGNOb1vXv * {
-    text-align: center !important;
-  }
-  .cid-sWGNOb1vXv .content-column {
-    margin-bottom: 2rem;
-  }
-}
-.cid-sWGNOb1vXv .mbr-text,
-.cid-sWGNOb1vXv .mbr-section-btn {
-  color: #353535;
-  text-align: left;
-}
-.cid-sWGNOb1vXv .card-title,
-.cid-sWGNOb1vXv .card-img {
-  text-align: left;
-}
-.cid-sWGNOb1vXv .card-text {
-  text-align: left;
-}
-.cid-sWGRhkkCQ4 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #fafafa;
-}
-.cid-sWGRhkkCQ4 img,
-.cid-sWGRhkkCQ4 .item-img {
-  width: 100%;
-}
-.cid-sWGRhkkCQ4 .item:focus,
-.cid-sWGRhkkCQ4 span:focus {
-  outline: none;
-}
-.cid-sWGRhkkCQ4 .item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-.cid-sWGRhkkCQ4 .item-wrapper {
-  position: relative;
-  border-radius: 4px;
-  background: #ecf0f3;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-}
-@media (min-width: 992px) {
-  .cid-sWGRhkkCQ4 .item-wrapper .item-content {
-    padding: 2rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-sWGRhkkCQ4 .item-wrapper .item-content {
-    padding: 1rem;
-  }
-}
-.cid-sWGRhkkCQ4 .mbr-section-btn {
-  margin-top: auto !important;
-}
-.cid-sWGRhkkCQ4 .mbr-section-title {
-  color: #232323;
-}
-.cid-sWGRhkkCQ4 .mbr-text,
-.cid-sWGRhkkCQ4 .mbr-section-btn {
-  text-align: left;
-}
-.cid-sWGRhkkCQ4 .item-title {
-  text-align: left;
-}
-.cid-sWGRhkkCQ4 .item-subtitle {
-  text-align: center;
+.cid-sXKsg2cReY {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
 .cid-sXzkp5nqSS {
   padding-top: 5rem;

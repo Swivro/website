@@ -3014,17 +3014,35 @@ a {
     padding: 2rem;
   }
 }
-.cid-t1DeXXkzzc {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.cid-t1DjxF22PK {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-t1DeXXkzzc .mbr-section-title {
-  text-align: center;
+.cid-t1DjxF22PK .mbr-iconfont {
+  font-size: 1.4rem !important;
+  font-family: 'Moririse2' !important;
+  color: #00518b;
+  margin-left: 1rem;
 }
-.cid-t1DeXXkzzc .mbr-text,
-.cid-t1DeXXkzzc .mbr-section-btn {
-  text-align: center;
+.cid-t1DjxF22PK .panel-group {
+  border: none;
+}
+.cid-t1DjxF22PK .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cid-t1DjxF22PK .panel-body,
+.cid-t1DjxF22PK .card-header {
+  padding: 1rem 0;
+}
+.cid-t1DjxF22PK .panel-title-edit {
+  color: #000000;
+}
+.cid-t1DjxF22PK .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
 }
 .cid-t1qVSMcuyi {
   padding-top: 2rem;

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-03-21_1907",
-    "currentPage": "anonymize.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -73,7 +73,7 @@
       "settings": {
         "main": true,
         "title": "Swivro - disruptive next-gen digital offerings",
-        "meta_descr": "",
+        "meta_descr": "Swivro is home to next-gen digital and physical products and services, focused on improving your daily life.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -1033,7 +1033,8 @@
     "phobos.html": {
       "settings": {
         "title": "Phobos - Swivro",
-        "order": 3
+        "order": 3,
+        "meta_descr": "Swivro is home to next-gen digital and physical products and services, focused on improving your daily life."
       },
       "components": [
         {
@@ -1720,7 +1721,8 @@
     "financedeck.html": {
       "settings": {
         "title": "FinanceDeck - Swivro",
-        "order": 1
+        "order": 1,
+        "meta_descr": "Swivro is home to next-gen digital and physical products and services, focused on improving your daily life."
       },
       "components": [
         {
@@ -2546,7 +2548,7 @@
       "settings": {
         "title": "Anonymize - Swivro",
         "order": 2,
-        "meta_descr": ""
+        "meta_descr": "Swivro is home to next-gen digital and physical products and services, focused on improving your daily life."
       },
       "components": [
         {

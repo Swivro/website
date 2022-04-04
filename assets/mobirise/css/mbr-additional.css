@@ -1443,6 +1443,7 @@ a {
   list-style: none;
   padding-left: 0;
   color: #bbbbbb;
+  text-align: left;
 }
 @media (max-width: 991px) {
   .cid-t1HyKdK1xP .list {
@@ -1456,11 +1457,15 @@ a {
 }
 .cid-t1HyKdK1xP .mbr-text {
   color: #d9d9d9;
+  text-align: left;
 }
 .cid-t1HyKdK1xP .mbr-iconfont {
   color: black;
 }
 .cid-t1HyKdK1xP .copyright {
+  text-align: left;
+}
+.cid-t1HyKdK1xP .mbr-section-subtitle {
   text-align: left;
 }
 .cid-t1jU0cEYpq {
@@ -1946,6 +1951,7 @@ a {
   list-style: none;
   padding-left: 0;
   color: #bbbbbb;
+  text-align: left;
 }
 @media (max-width: 991px) {
   .cid-t1HyKdK1xP .list {
@@ -1959,11 +1965,15 @@ a {
 }
 .cid-t1HyKdK1xP .mbr-text {
   color: #d9d9d9;
+  text-align: left;
 }
 .cid-t1HyKdK1xP .mbr-iconfont {
   color: black;
 }
 .cid-t1HyKdK1xP .copyright {
+  text-align: left;
+}
+.cid-t1HyKdK1xP .mbr-section-subtitle {
   text-align: left;
 }
 .cid-t0LcUphfCV {
@@ -2523,6 +2533,7 @@ a {
   list-style: none;
   padding-left: 0;
   color: #bbbbbb;
+  text-align: left;
 }
 @media (max-width: 991px) {
   .cid-t1HyKdK1xP .list {
@@ -2536,11 +2547,15 @@ a {
 }
 .cid-t1HyKdK1xP .mbr-text {
   color: #d9d9d9;
+  text-align: left;
 }
 .cid-t1HyKdK1xP .mbr-iconfont {
   color: black;
 }
 .cid-t1HyKdK1xP .copyright {
+  text-align: left;
+}
+.cid-t1HyKdK1xP .mbr-section-subtitle {
   text-align: left;
 }
 .cid-t1l0tXb0Mv {
@@ -3054,6 +3069,7 @@ a {
   list-style: none;
   padding-left: 0;
   color: #bbbbbb;
+  text-align: left;
 }
 @media (max-width: 991px) {
   .cid-t1HyKdK1xP .list {
@@ -3067,11 +3083,15 @@ a {
 }
 .cid-t1HyKdK1xP .mbr-text {
   color: #d9d9d9;
+  text-align: left;
 }
 .cid-t1HyKdK1xP .mbr-iconfont {
   color: black;
 }
 .cid-t1HyKdK1xP .copyright {
+  text-align: left;
+}
+.cid-t1HyKdK1xP .mbr-section-subtitle {
   text-align: left;
 }
 .cid-t0LcUphfCV {
@@ -3545,6 +3565,7 @@ a {
   list-style: none;
   padding-left: 0;
   color: #bbbbbb;
+  text-align: left;
 }
 @media (max-width: 991px) {
   .cid-t1HyKdK1xP .list {
@@ -3558,11 +3579,15 @@ a {
 }
 .cid-t1HyKdK1xP .mbr-text {
   color: #d9d9d9;
+  text-align: left;
 }
 .cid-t1HyKdK1xP .mbr-iconfont {
   color: black;
 }
 .cid-t1HyKdK1xP .copyright {
+  text-align: left;
+}
+.cid-t1HyKdK1xP .mbr-section-subtitle {
   text-align: left;
 }
 .cid-t1Io2e1EHb {
@@ -4117,6 +4142,7 @@ a {
   list-style: none;
   padding-left: 0;
   color: #bbbbbb;
+  text-align: left;
 }
 @media (max-width: 991px) {
   .cid-t1Io2hAvB6 .list {
@@ -4130,10 +4156,14 @@ a {
 }
 .cid-t1Io2hAvB6 .mbr-text {
   color: #d9d9d9;
+  text-align: left;
 }
 .cid-t1Io2hAvB6 .mbr-iconfont {
   color: black;
 }
 .cid-t1Io2hAvB6 .copyright {
+  text-align: left;
+}
+.cid-t1Io2hAvB6 .mbr-section-subtitle {
   text-align: left;
 }

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-03-21_1907",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -987,15 +987,20 @@
               "@media (min-width: 992px)": {
                 "margin-bottom": "0rem"
               },
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "left"
             },
             ".mbr-text": {
-              "color": "#d9d9d9"
+              "color": "#d9d9d9",
+              "text-align": "left"
             },
             ".mbr-iconfont": {
               "color": "black"
             },
             ".copyright": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
               "text-align": "left"
             }
           },
@@ -1650,15 +1655,20 @@
               "@media (min-width: 992px)": {
                 "margin-bottom": "0rem"
               },
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "left"
             },
             ".mbr-text": {
-              "color": "#d9d9d9"
+              "color": "#d9d9d9",
+              "text-align": "left"
             },
             ".mbr-iconfont": {
               "color": "black"
             },
             ".copyright": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
               "text-align": "left"
             }
           },
@@ -2488,15 +2498,20 @@
               "@media (min-width: 992px)": {
                 "margin-bottom": "0rem"
               },
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "left"
             },
             ".mbr-text": {
-              "color": "#d9d9d9"
+              "color": "#d9d9d9",
+              "text-align": "left"
             },
             ".mbr-iconfont": {
               "color": "black"
             },
             ".copyright": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
               "text-align": "left"
             }
           },
@@ -3199,15 +3214,20 @@
               "@media (min-width: 992px)": {
                 "margin-bottom": "0rem"
               },
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "left"
             },
             ".mbr-text": {
-              "color": "#d9d9d9"
+              "color": "#d9d9d9",
+              "text-align": "left"
             },
             ".mbr-iconfont": {
               "color": "black"
             },
             ".copyright": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
               "text-align": "left"
             }
           },
@@ -3873,15 +3893,20 @@
               "@media (min-width: 992px)": {
                 "margin-bottom": "0rem"
               },
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "left"
             },
             ".mbr-text": {
-              "color": "#d9d9d9"
+              "color": "#d9d9d9",
+              "text-align": "left"
             },
             ".mbr-iconfont": {
               "color": "black"
             },
             ".copyright": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
               "text-align": "left"
             }
           },
@@ -4656,15 +4681,20 @@
               "@media (min-width: 992px)": {
                 "margin-bottom": "0rem"
               },
-              "color": "#bbbbbb"
+              "color": "#bbbbbb",
+              "text-align": "left"
             },
             ".mbr-text": {
-              "color": "#d9d9d9"
+              "color": "#d9d9d9",
+              "text-align": "left"
             },
             ".mbr-iconfont": {
               "color": "black"
             },
             ".copyright": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
               "text-align": "left"
             }
           },

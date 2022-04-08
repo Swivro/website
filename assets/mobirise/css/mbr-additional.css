@@ -2,7 +2,7 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4.6rem;
   line-height: 1.1;
 }
@@ -10,7 +10,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.1;
 }
@@ -18,15 +18,15 @@ body {
   font-size: 3.75rem;
 }
 .display-4 {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 .display-5 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -34,12 +34,12 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -63,9 +63,9 @@ body {
     line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.88rem;
-    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.6rem;
@@ -73,9 +73,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.88rem;
+    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -595,13 +595,13 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -609,13 +609,13 @@ a:hover {
   border-color: #00518b !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 blockquote {
   border-color: #00518b;
@@ -1326,6 +1326,12 @@ a {
 }
 .cid-t2h9yLmaur H6 {
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .cid-t2h9yLmaur img {
+    max-width: 370px !important;
+    margin: 0 auto !important;
+  }
 }
 .cid-t13BFD1y2Y {
   padding-top: 5rem;
@@ -2080,8 +2086,15 @@ a {
     padding: 2rem;
   }
 }
-.cid-t1ITWmZQ6q {
+.cid-t2mTpvS8JC {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-image: url("../../../assets/images/pexels-pixabay-53621.jpg");
+}
+.cid-t2mTpvS8JC h1,
+.cid-t2mTpvS8JC h3,
+.cid-t2mTpvS8JC p {
+  visibility: hidden;
 }
 .cid-t1gmVkQtNH {
   padding-top: 6rem;
@@ -3095,9 +3108,9 @@ a {
   }
 }
 .cid-t1HTmhoU92 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-  background-image: url("../../../assets/images/mbr-26.jpg");
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  background-image: url("../../../assets/images/pexels-tima-miroshnichenko-6694568.jpg");
 }
 .cid-t1HTmhoU92 .mbr-section-title {
   text-align: left;
@@ -3171,6 +3184,74 @@ a {
   .cid-t1I40NHVOU .text-wrapper {
     padding: 2rem;
   }
+}
+.cid-t2n96MGTKw {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #e5f3fe;
+}
+.cid-t2n96MGTKw .socicon-bg-facebook {
+  background: #1778f2;
+  color: #ffffff;
+}
+.cid-t2n96MGTKw .socicon-bg-facebook:hover {
+  background: #0b60cb;
+}
+.cid-t2n96MGTKw .socicon-bg-twitter {
+  background: #1da1f2;
+  color: #ffffff;
+}
+.cid-t2n96MGTKw .socicon-bg-twitter:hover {
+  background: #0c85d0;
+}
+.cid-t2n96MGTKw .socicon-bg-vkontakte {
+  background: #4680C2;
+  color: #ffffff;
+}
+.cid-t2n96MGTKw .socicon-bg-vkontakte:hover {
+  background: #3567a0;
+}
+.cid-t2n96MGTKw .socicon-bg-odnoklassniki {
+  background: #ee8208;
+  color: #ffffff;
+}
+.cid-t2n96MGTKw .socicon-bg-odnoklassniki:hover {
+  background: #bd6706;
+}
+.cid-t2n96MGTKw .socicon-bg-pinterest {
+  background: #e60023;
+  color: #ffffff;
+}
+.cid-t2n96MGTKw .socicon-bg-pinterest:hover {
+  background: #b3001b;
+}
+.cid-t2n96MGTKw .socicon-bg-mail {
+  background: #005ff9;
+  color: #ffffff;
+}
+.cid-t2n96MGTKw .socicon-bg-mail:hover {
+  background: #004cc6;
+}
+.cid-t2n96MGTKw .btn-social {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none !important;
+}
+.cid-t2n96MGTKw .btn-social i {
+  top: 0;
+  line-height: 55px;
+  width: 55px;
+}
+.cid-t2n96MGTKw [class^="socicon-"]:before,
+.cid-t2n96MGTKw [class*=" socicon-"]:before {
+  line-height: 55px;
 }
 .cid-t1HyKdK1xP {
   padding-top: 5rem;
@@ -3591,9 +3672,9 @@ a {
   }
 }
 .cid-t1IqKmnnNS {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-  background-image: url("../../../assets/images/mbr-22.jpg");
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  background-image: url("../../../assets/images/pexels-vitaly-vlasov-1323717.jpg");
 }
 .cid-t1IqKmnnNS .mbr-section-title {
   color: #fafafa;
@@ -3619,7 +3700,7 @@ a {
 }
 .cid-t1Iw9SCxy8 {
   padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
 @media (min-width: 1500px) {
@@ -3639,30 +3720,18 @@ a {
 .cid-t1Iw9SCxy8 .row {
   justify-content: center;
 }
-.cid-t1IGp9NrpE {
-  padding-top: 0rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+.cid-t1Iw9SCxy8 .card-text {
+  color: #232323;
 }
-@media (min-width: 1500px) {
-  .cid-t1IGp9NrpE .container {
-    max-width: 1400px;
-  }
+.cid-t2mTRkdW1Z {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url("../../../assets/images/pexels-cadeau-maestro-1170412.jpg");
 }
-.cid-t1IGp9NrpE .mbr-iconfont {
-  display: block;
-  font-size: 5rem;
-  color: #005d9f;
-  margin-bottom: 2rem;
-}
-.cid-t1IGp9NrpE .card-wrapper {
-  margin-top: 3rem;
-}
-.cid-t1IGp9NrpE .row {
-  justify-content: center;
-}
-.cid-t1ICWUhTka {
-  background-image: url("../../../assets/images/mbr-23.jpg");
+.cid-t2mTRkdW1Z h1,
+.cid-t2mTRkdW1Z h3,
+.cid-t2mTRkdW1Z p {
+  visibility: hidden;
 }
 .cid-t1IEVtYSZj {
   padding-top: 6rem;

@@ -71,9 +71,9 @@
     "uniqCompNum": 201,
     "versionPublish": "5.6.3",
     "screenshot": "screenshot.png",
-    "global_header_custom": "\n<style>\n.modal-content {\nfont-family: Inter;\n}\nbody, html { overflow-x:hidden; }\n</style>",
+    "global_header_custom": "<style>\n.modal-content {\nfont-family: Inter;\n}\nbody, html { overflow-x:hidden; }\n</style>",
     "favicon": "@PROJECT_PATH@/assets/images/new-project-2022-04-17t152343.184.png",
-    "mbrsiteDomain": "br4f7drqga",
+    "mbrsiteDomain": "5jslfuc6e6",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -464,7 +464,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -1710,7 +1709,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -2515,7 +2513,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -3232,7 +3229,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -4002,7 +3998,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -4723,7 +4718,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }
@@ -5220,7 +5214,6 @@
               }
             },
             ".navbar-dropdown": {
-              "padding": "0 1rem",
               "& when (@sticky)": {
                 "position": "fixed"
               }

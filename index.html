@@ -91,7 +91,7 @@ body, html { overflow-x:hidden; }
                 <h2 class="mbr-section-subtitle mbr-fonts-style mb-3 display-2"><strong>Fruitful solutions &amp; products helping you</strong></h2>
                 <p class="mbr-text mbr-fonts-style display-7">
                     Swivro is helping to build the technology of tomorrow's world, with a goal of making humanity a multi-planetary species.</p>
-                <div class="mbr-section-btn mt-3"><a class="btn shadow-none btn-white-bl btn-white-outline display-4" href="financedeck.html"><span class="fas fa-fw fa-cash-register mbr-iconfont mbr-iconfont-btn"></span>FinanceDeck</a> <a class="btn shadow-none btn-white-bl btn-white-outline phobosbtn display-4" href="phobos.html"><span class="fas fa-fw fa-rocket mbr-iconfont mbr-iconfont-btn"></span>Phobos</a> <a class="btn shadow-none btn-white-bl btn-white-outline display-4" href="anonymize.html"><span class="fas fa-fw fa-user-secret mbr-iconfont mbr-iconfont-btn"></span>Anonymize</a></div>
+                <div class="mbr-section-btn mt-3"><a class="btn shadow-none btn-white-bl btn-white-outline display-4" href="financedeck.html"><span class="fas fa-fw fa-cash-register mbr-iconfont mbr-iconfont-btn"></span>FinanceDeck</a> <a class="btn shadow-none btn-white-bl btn-white-outline phobosbtn display-4" href="phobos.html"><span class="fas fa-fw fa-rocket mbr-iconfont mbr-iconfont-btn"></span>Phobos</a> <a class="btn shadow-none btn-white-bl btn-white-outline anonymize display-4" href="anonymize.html"><span class="fas fa-fw fa-user-secret mbr-iconfont mbr-iconfont-btn"></span>Anonymize</a></div>
             </div>
             </div>
         </div>
@@ -489,6 +489,11 @@ window.onload = function() {
     for(i; i < len; i++) {
         buttons[i].className += " shadow-none"; 
     }
+}
+
+function anonymize() {
+var anonymize = document.getElementsByClassName("anonymize")[0];
+anonymize.innerHTML = "<i class='fas fa-circle-notch fa-spin'></i>";
 }
 </script>
   

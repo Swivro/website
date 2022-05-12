@@ -350,21 +350,33 @@ body, html { overflow-x:hidden; }
     $.getJSON('https://ipinfo.io', function (response) {
         $("#address").html(response.country);
 
-        var address = (response.country);
+    var address = (response.country);
+        
 
-    function ukCheck() {
+    function UK() {
     if (window.location.hostname === "uk.swivro.net") {
     console.log("not in UK");
     } else {
-    window.location.href = "https://uk.swivro.net";
+    window.location.href = "https://uk.swivro.net" + window.location.pathname;
     }
     }
     
+		function UKcheck() {
+    if (window.location.hostname === "uk.swivro.net") {
+        // do nothing
+    } else {
+    	UK()
+		}
+    }
+    
+    
+    
     if (address === "GB") {
-        ukCheck()
+        UKcheck()
     } else {
     // do nothing
-}
+		}
+    
     });  
 </script>
 

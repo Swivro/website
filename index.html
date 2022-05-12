@@ -481,7 +481,57 @@ body, html { overflow-x:hidden; }
         </div>
     </div>
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  <script src="https://cdn.swivro.net/website-js.js"></script>
+  <script src="https://cdn.swivro.net/jquery-203.min.js"></script>
+
+<script type="text/javascript">
+    $.getJSON('https://ipinfo.io', function (response) {
+        $("#address").html(response.country);
+
+    var address = (response.country);
+        
+
+    function UK() {
+    if (window.location.hostname === "uk.swivro.net") {
+    console.log("not in UK");
+    } else {
+    window.location.href = "https://uk.swivro.net" + window.location.pathname;
+    }
+    }
+    
+		function UKcheck() {
+    if (window.location.hostname === "uk.swivro.net") {
+        // do nothing
+    } else {
+    	UK()
+		}
+    }
+    
+    
+    
+    if (address === "GB") {
+        UKcheck()
+    } else {
+    // do nothing
+		}
+    
+    });  
+</script>
+
+<script>
+window.onload = function() {
+    var buttons = document.getElementsByClassName("btn"),
+        len = buttons !== null ? buttons.length : 0,
+        i = 0;
+    for(i; i < len; i++) {
+        buttons[i].className += " shadow-none"; 
+    }
+}
+
+function anonymize() {
+var anonymize = document.getElementsByClassName("anonymize")[0];
+anonymize.innerHTML = "<i class='fas fa-circle-notch fa-spin'></i>";
+}
+</script>
   
 </body>
 </html>

@@ -270,7 +270,31 @@ body, html { overflow-x:hidden; }
         </div>
     </div>
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  <script>
+  <script src="https://cdn.swivro.net/jquery-203.min.js"></script>
+
+<script type="text/javascript">
+    $.getJSON('https://ipinfo.io', function (response) {
+        $("#address").html(response.country);
+
+        var address = (response.country);
+    });  
+    
+    function ukCheck() {
+    if (window.location.hostname === "uk.swivro.net") {
+  
+    } else {
+    window.location.href = "https://uk.swivro.net";
+    }
+    }
+    
+    if (address === "UK") {
+        ukCheck()
+    } else {
+    // do nothing
+}
+</script>
+
+<script>
 window.onload = function() {
     var buttons = document.getElementsByClassName("btn"),
         len = buttons !== null ? buttons.length : 0,

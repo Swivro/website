@@ -279,13 +279,24 @@ body, html { overflow-x:hidden; }
     var address = (response.country);
     
     // if user is in US, return to main site
+    
+    function checkifUS2() {
+    if (window.location.hostname === "swivro.net") {
+    	 // do nothing
+    } else {
+    	window.location.href = "https://swivro.net" + window.location.pathname;
+    }
+    }
+    
     function checkifUS() {
-    if (address === "US" && window.location.hostname !== "swivro.net") {
-    	 window.location.href = "https://swivro.net" + window.location.pathname;
+    if (address === "US") {
+    	 checkifUS2()
     } else {
 			// do nothing
     }
     }
+    
+    // end if user US
         
 
     function UKcheck() {

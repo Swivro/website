@@ -49,7 +49,7 @@ body, html { overflow-x:hidden; }
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="index.html">
-                        <img src="assets/images/new-project-2022-03-21t123243.774-9.png" alt="Mobirise Website Builder" style="height: 3rem;">
+                        <img id="brandLogo" src="assets/images/new-project-2022-03-21t123243.774-9.png" alt="Mobirise Website Builder" style="height: 3rem;">
                     </a>
                 </span>
                 
@@ -248,42 +248,16 @@ body, html { overflow-x:hidden; }
         $("#address").html(response.country);
 
     var address = (response.country);
+   
     
-    // if user is in US, return to main site
-    
-    function checkifUS2() {
-    if (window.location.hostname === "swivro.net") {
-    	 // do nothing
-    } else {
-    	window.location.href = "https://swivro.net" + window.location.pathname;
-    }
-    }
-    
-    function checkifUS() {
-    if (address === "US") {
-    	 checkifUS2()
-    } else {
-			// do nothing
-    }
-    }
-    
-    // end if user US
-        
-
-    function UKcheck() {
-    if (window.location.hostname === "uk.swivro.net") {
-    	 checkifUS()
-    } else {
-    window.location.href = "https://uk.swivro.net" + window.location.pathname;
-    }
-    }
-    
-    
+    // if in UK/GB
     if (address === "GB") {
-        UKcheck()
+        document.getElementById("brandLogo").src="https://cdn.swivro.net/website-images/logo-uk.png";
     } else {
     // do nothing
 		}
+    
+    
     
     });  
 </script>

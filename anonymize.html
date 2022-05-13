@@ -358,24 +358,24 @@ body, html { overflow-x:hidden; }
         $("#address").html(response.country);
 
     var address = (response.country);
+    
+    // if user is in US, return to main site
+    function checkifUS() {
+    if (address === "US" && window.location.hostname !== "swivro.net") {
+    	 window.location.href = "https://swivro.net" + window.location.pathname;
+    } else {
+			// do nothing
+    }
+    }
         
 
-    function UK() {
+    function UKcheck() {
     if (window.location.hostname === "uk.swivro.net") {
-    console.log("not in UK");
+    	 checkifUS()
     } else {
     window.location.href = "https://uk.swivro.net" + window.location.pathname;
     }
     }
-    
-		function UKcheck() {
-    if (window.location.hostname === "uk.swivro.net") {
-        // do nothing
-    } else {
-    	UK()
-		}
-    }
-    
     
     
     if (address === "GB") {

@@ -68,19 +68,19 @@
         "url": "https://fonts.googleapis.com/css?family=Nunito:200,300,400,500,600,700,800,900,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 207,
+    "uniqCompNum": 208,
     "versionPublish": "5.6.3",
     "screenshot": "screenshot.png",
     "global_header_custom": "<style>\n.modal-content {\nfont-family: Inter;\n}\nbody, html { overflow-x:hidden; }\n</style>",
     "favicon": "@PROJECT_PATH@/assets/images/new-project-2022-04-17t152343.184.png",
-    "mbrsiteDomain": "zpgrz6zh7c",
+    "mbrsiteDomain": "lrztlxrfna",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "witsec-white-label": true,
-    "global_footer_custom": "<script src=\"https://cdn.swivro.net/jquery-203.min.js\"></script>\n\n<script type=\"text/javascript\">\n    $.getJSON('https://ipinfo.io', function (response) {\n        $(\"#address\").html(response.country);\n\n    var address = (response.country);\n   \n    \n    // if in UK/GB\n    if (address === \"GB\") {\n        document.getElementById(\"brandLogo\").src=\"https://cdn.swivro.net/website-images/logo-uk.png\";\n    } else {\n    // do nothing\n\t\t}\n    \n    \n    \n    });  \n</script>\n\n<script>\nwindow.onload = function() {\n    var buttons = document.getElementsByClassName(\"btn\"),\n        len = buttons !== null ? buttons.length : 0,\n        i = 0;\n    for(i; i < len; i++) {\n        buttons[i].className += \" shadow-none\"; \n    }\n}\n\nfunction anonymize() {\nvar anonymize = document.getElementsByClassName(\"anonymize\")[0];\nanonymize.innerHTML = \"<i class='fas fa-circle-notch fa-spin'></i>\";\n}\n</script>",
+    "global_footer_custom": "<script src=\"https://cdn.swivro.net/jquery-203.min.js\"></script>\n\n<script type=\"text/javascript\">\n    $.getJSON('https://ipinfo.io', function (response) {\n        $(\"#address\").html(response.country);\n\n    var address = (response.country);\n   \n    \n    // if in UK/GB\n    if (address === \"GB\") {\n        document.getElementById(\"brandLogo\").src=\"https://cdn.swivro.net/website-images/logo-uk.png\";\n    } else {\n    // do nothing\n\t\t}\n    \n    // if in CN\n    if (address === \"CN\") {\n        document.getElementById(\"brandLogo\").src=\"https://cdn.swivro.net/website-images/logo-cn.png\";\n    } else {\n    // do nothing\n\t\t}\n    \n    \n    \n    });  \n</script>\n\n<script>\nwindow.onload = function() {\n    var buttons = document.getElementsByClassName(\"btn\"),\n        len = buttons !== null ? buttons.length : 0,\n        i = 0;\n    for(i; i < len; i++) {\n        buttons[i].className += \" shadow-none\"; \n    }\n}\n\nfunction anonymize() {\nvar anonymize = document.getElementsByClassName(\"anonymize\")[0];\nanonymize.innerHTML = \"<i class='fas fa-circle-notch fa-spin'></i>\";\n}\n</script>",
     "cookiesAlert": false,
     "gdpr": false
   },

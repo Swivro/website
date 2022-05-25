@@ -1064,9 +1064,9 @@ a {
   }
 }
 .cid-t3hGKz5iG6 {
-  padding-top: 0rem;
-  padding-bottom: 4rem;
-  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  background-image: url("../../../assets/images/background4.jpg");
 }
 .cid-t3hGKz5iG6 .row {
   flex-direction: row-reverse;
@@ -1091,37 +1091,17 @@ a {
   }
 }
 .cid-t3hGKz5iG6 .mbr-section-title {
-  color: #f82e5e;
+  color: #fafafa;
 }
 .cid-t3hGKz5iG6 .sto {
   max-width: 680px !important;
 }
-.cid-t3hGKz5iG6 .btn-white-bl {
-  color: black !important;
-  background: #fffff !important;
-  box-shadow: 0px 0px 13px #f82e5e !important;
-}
-.cid-t3hGKz5iG6 .btn-white-bl:hover {
-  color: black !important;
-  background: #fffff !important;
-  box-shadow: 0px 0px 22px #f82e5e !important;
-}
-.cid-t3hGKz5iG6 .btn-white-bl:active {
-  color: black !important;
-  background: #fffff !important;
-  box-shadow: 0px 0px 22px #f82e5e !important;
-}
-.cid-t3hGKz5iG6 .btn-white-bl:focus {
-  color: black !important;
-  background: #fffff !important;
-  box-shadow: 0px 0px 22px #f82e5e !important;
-}
 .cid-t3hGKz5iG6 .mbr-section-subtitle {
-  color: #403349;
+  color: #fafafa;
 }
 .cid-t3hGKz5iG6 .mbr-text,
 .cid-t3hGKz5iG6 .mbr-section-btn {
-  color: #403349;
+  color: #fafafa;
 }
 @media screen and (max-width: 1200px) {
   .cid-t3hGKz5iG6 .phobosbtn {
@@ -1129,9 +1109,9 @@ a {
   }
 }
 .cid-t61JpuCOnB {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #f9f4fd;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
 .cid-t61JpuCOnB .card-box {
   z-index: 10;
@@ -1165,7 +1145,7 @@ a {
 .cid-t3k0vggz0k {
   padding-top: 6rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #f9f4fd;
 }
 @media (max-width: 991px) {
   .cid-t3k0vggz0k .image-wrapper {
@@ -1189,7 +1169,7 @@ a {
 .cid-t3k257eHHk {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: #f9f4fd;
 }
 @media (max-width: 991px) {
   .cid-t3k257eHHk .image-wrapper {
@@ -1213,7 +1193,7 @@ a {
 .cid-t3k4xtYo3a {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #f9f4fd;
+  background-color: #ffffff;
 }
 .cid-t3k4xtYo3a .image-wrap img {
   width: 100%;
@@ -1231,7 +1211,7 @@ a {
 .cid-t3ksBM6dSY {
   padding-top: 6rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #f9f4fd;
 }
 @media (max-width: 991px) {
   .cid-t3ksBM6dSY .image-wrapper {
@@ -1255,7 +1235,7 @@ a {
 .cid-t3kBcqRSGa {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: #f9f4fd;
 }
 @media (max-width: 991px) {
   .cid-t3kBcqRSGa .image-wrapper {
@@ -1279,7 +1259,7 @@ a {
 .cid-t1eZ5DVReT {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #f9f4fd;
+  background-color: #ffffff;
 }
 .cid-t1eZ5DVReT .mbr-iconfont {
   font-size: 1.4rem !important;
@@ -1308,58 +1288,6 @@ a {
 }
 .cid-t1eZ5DVReT H3 {
   color: #403349;
-}
-.cid-t3nEBenH7m {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-t3nEBenH7m img,
-.cid-t3nEBenH7m .item-img {
-  width: 100%;
-}
-.cid-t3nEBenH7m .item:focus,
-.cid-t3nEBenH7m span:focus {
-  outline: none;
-}
-.cid-t3nEBenH7m .item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-  position: relative;
-}
-.cid-t3nEBenH7m .item-wrapper {
-  position: unset;
-  border-radius: 4px;
-  background: #eee5f5;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-}
-@media (min-width: 992px) {
-  .cid-t3nEBenH7m .item-wrapper .item-content {
-    padding: 2rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-t3nEBenH7m .item-wrapper .item-content {
-    padding: 1rem;
-  }
-}
-.cid-t3nEBenH7m .mbr-section-btn {
-  margin-top: auto !important;
-}
-.cid-t3nEBenH7m .mbr-section-title {
-  color: #403349;
-}
-.cid-t3nEBenH7m .mbr-text,
-.cid-t3nEBenH7m .mbr-section-btn {
-  text-align: center;
-}
-.cid-t3nEBenH7m .item-title {
-  text-align: center;
-}
-.cid-t3nEBenH7m .item-subtitle {
-  text-align: left;
 }
 .cid-t2nu8ZayvL {
   padding-top: 5rem;
@@ -4504,7 +4432,7 @@ a {
   background-color: #ffffff;
 }
 .cid-t4aufi4Nv8 .card-wrapper {
-  background: #e01d4b;
+  background: #f82e5e;
   border-radius: 4px;
 }
 @media (max-width: 767px) {

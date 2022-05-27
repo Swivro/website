@@ -1108,6 +1108,11 @@ a {
     display: none !important;
   }
 }
+@media screen and (min-width: 767px) {
+  .cid-t3hGKz5iG6 .btn2 {
+    margin-left: -1px !important;
+  }
+}
 .cid-t61JpuCOnB {
   padding-top: 5rem;
   padding-bottom: 5rem;

@@ -3,11 +3,11 @@ body {
 }
 .display-1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 4.6rem;
+  font-size: 4rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.75rem;
+  font-size: 5rem;
 }
 .display-2 {
   font-family: 'Montserrat', sans-serif;
@@ -48,14 +48,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.68rem;
+    font-size: 3.2rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.22rem;
-    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.8rem;
+    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.72rem;
@@ -1063,53 +1063,53 @@ a {
     left: -1rem;
   }
 }
-.cid-t3hGKz5iG6 {
+.cid-t7rYCgwzfs {
   padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   background-image: url("../../../assets/images/bg16.png");
 }
-.cid-t3hGKz5iG6 .row {
+.cid-t7rYCgwzfs .row {
   flex-direction: row-reverse;
 }
 @media (max-width: 991px) {
-  .cid-t3hGKz5iG6 .image-wrapper {
+  .cid-t7rYCgwzfs .image-wrapper {
     margin-bottom: 2rem;
   }
 }
-.cid-t3hGKz5iG6 .image-wrapper img {
+.cid-t7rYCgwzfs .image-wrapper img {
   width: 100%;
   object-fit: cover;
 }
 @media (min-width: 992px) {
-  .cid-t3hGKz5iG6 .text-wrapper {
+  .cid-t7rYCgwzfs .text-wrapper {
     padding: 0 2rem;
   }
 }
 @media (max-width: 768px) {
-  .cid-t3hGKz5iG6 .text-wrapper {
+  .cid-t7rYCgwzfs .text-wrapper {
     margin-bottom: 2rem;
   }
 }
-.cid-t3hGKz5iG6 .mbr-section-title {
+.cid-t7rYCgwzfs .mbr-section-title {
   color: #fafafa;
 }
-.cid-t3hGKz5iG6 .sto {
+.cid-t7rYCgwzfs .sto {
   max-width: 680px !important;
 }
-.cid-t3hGKz5iG6 .mbr-section-subtitle {
+.cid-t7rYCgwzfs .mbr-section-subtitle {
   color: #fafafa;
 }
-.cid-t3hGKz5iG6 .mbr-text,
-.cid-t3hGKz5iG6 .mbr-section-btn {
+.cid-t7rYCgwzfs .mbr-text,
+.cid-t7rYCgwzfs .mbr-section-btn {
   color: #fafafa;
 }
 @media screen and (max-width: 1200px) {
-  .cid-t3hGKz5iG6 .phobosbtn {
+  .cid-t7rYCgwzfs .phobosbtn {
     display: none !important;
   }
 }
 @media screen and (min-width: 767px) {
-  .cid-t3hGKz5iG6 .btn2 {
+  .cid-t7rYCgwzfs .btn2 {
     margin-left: -0.1px !important;
   }
 }
